@@ -1,4 +1,4 @@
-const kenyaAdministrativeData = {
+{
   counties: [
     {
       "county_id": "1",
@@ -10335,4 +10335,4 @@ const kenyaAdministrativeData = {
   ]
 };
 
-export default kenyaAdministrativeData;
+
