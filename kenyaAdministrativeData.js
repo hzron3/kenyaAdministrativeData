@@ -1,0 +1,10338 @@
+const kenyaAdministrativeData = {
+  counties: [
+    {
+      "county_id": "1",
+      "county_name": "MOMBASA"
+    },
+    {
+      "county_id": "2",
+      "county_name": "KWALE"
+    },
+    {
+      "county_id": "3",
+      "county_name": "KILIFI"
+    },
+    {
+      "county_id": "4",
+      "county_name": "TANA RIVER"
+    },
+    {
+      "county_id": "5",
+      "county_name": "LAMU"
+    },
+    {
+      "county_id": "6",
+      "county_name": "TAITA TAVETA"
+    },
+    {
+      "county_id": "7",
+      "county_name": "GARISSA"
+    },
+    {
+      "county_id": "8",
+      "county_name": "WAJIR"
+    },
+    {
+      "county_id": "9",
+      "county_name": "MANDERA"
+    },
+    {
+      "county_id": "10",
+      "county_name": "MARSABIT"
+    },
+    {
+      "county_id": "11",
+      "county_name": "ISIOLO"
+    },
+    {
+      "county_id": "12",
+      "county_name": "MERU"
+    },
+    {
+      "county_id": "13",
+      "county_name": "THARAKA-NITHI"
+    },
+    {
+      "county_id": "14",
+      "county_name": "EMBU"
+    },
+    {
+      "county_id": "15",
+      "county_name": "KITUI"
+    },
+    {
+      "county_id": "16",
+      "county_name": "MACHAKOS"
+    },
+    {
+      "county_id": "17",
+      "county_name": "MAKUENI"
+    },
+    {
+      "county_id": "18",
+      "county_name": "NYANDARUA"
+    },
+    {
+      "county_id": "19",
+      "county_name": "NYERI"
+    },
+    {
+      "county_id": "20",
+      "county_name": "KIRINYAGA"
+    },
+    {
+      "county_id": "21",
+      "county_name": "MURANG'A"
+    },
+    {
+      "county_id": "22",
+      "county_name": "KIAMBU"
+    },
+    {
+      "county_id": "23",
+      "county_name": "TURKANA"
+    },
+    {
+      "county_id": "24",
+      "county_name": "WEST POKOT"
+    },
+    {
+      "county_id": "25",
+      "county_name": "SAMBURU"
+    },
+    {
+      "county_id": "26",
+      "county_name": "TRANS NZOIA"
+    },
+    {
+      "county_id": "27",
+      "county_name": "UASIN GISHU"
+    },
+    {
+      "county_id": "28",
+      "county_name": "ELGEYO\/MARAKWET"
+    },
+    {
+      "county_id": "29",
+      "county_name": "NANDI"
+    },
+    {
+      "county_id": "30",
+      "county_name": "BARINGO"
+    },
+    {
+      "county_id": "31",
+      "county_name": "LAIKIPIA"
+    },
+    {
+      "county_id": "32",
+      "county_name": "NAKURU"
+    },
+    {
+      "county_id": "33",
+      "county_name": "NAROK"
+    },
+    {
+      "county_id": "34",
+      "county_name": "KAJIADO"
+    },
+    {
+      "county_id": "35",
+      "county_name": "KERICHO"
+    },
+    {
+      "county_id": "36",
+      "county_name": "BOMET"
+    },
+    {
+      "county_id": "37",
+      "county_name": "KAKAMEGA"
+    },
+    {
+      "county_id": "38",
+      "county_name": "VIHIGA"
+    },
+    {
+      "county_id": "39",
+      "county_name": "BUNGOMA"
+    },
+    {
+      "county_id": "40",
+      "county_name": "BUSIA"
+    },
+    {
+      "county_id": "41",
+      "county_name": "SIAYA"
+    },
+    {
+      "county_id": "42",
+      "county_name": "KISUMU"
+    },
+    {
+      "county_id": "43",
+      "county_name": "HOMA BAY"
+    },
+    {
+      "county_id": "44",
+      "county_name": "MIGORI"
+    },
+    {
+      "county_id": "45",
+      "county_name": "KISII"
+    },
+    {
+      "county_id": "46",
+      "county_name": "NYAMIRA"
+    },
+    {
+      "county_id": "47",
+      "county_name": "NAIROBI"
+    }
+  ],
+  subcounties: [
+    {
+      "subcounty_id": "1",
+      "county_id": "1",
+      "constituency_name": "changamwe"
+    },
+    {
+      "subcounty_id": "2",
+      "county_id": "1",
+      "constituency_name": "jomvu"
+    },
+    {
+      "subcounty_id": "3",
+      "county_id": "1",
+      "constituency_name": "kisauni"
+    },
+    {
+      "subcounty_id": "4",
+      "county_id": "1",
+      "constituency_name": "nyali"
+    },
+    {
+      "subcounty_id": "5",
+      "county_id": "1",
+      "constituency_name": "likoni"
+    },
+    {
+      "subcounty_id": "6",
+      "county_id": "1",
+      "constituency_name": "mvita"
+    },
+    {
+      "subcounty_id": "7",
+      "county_id": "2",
+      "constituency_name": "msambweni"
+    },
+    {
+      "subcounty_id": "8",
+      "county_id": "2",
+      "constituency_name": "lungalunga"
+    },
+    {
+      "subcounty_id": "9",
+      "county_id": "2",
+      "constituency_name": "matuga"
+    },
+    {
+      "subcounty_id": "10",
+      "county_id": "2",
+      "constituency_name": "kinango"
+    },
+    {
+      "subcounty_id": "11",
+      "county_id": "3",
+      "constituency_name": "kilifi north"
+    },
+    {
+      "subcounty_id": "12",
+      "county_id": "3",
+      "constituency_name": "kilifi south"
+    },
+    {
+      "subcounty_id": "13",
+      "county_id": "3",
+      "constituency_name": "kaloleni"
+    },
+    {
+      "subcounty_id": "14",
+      "county_id": "3",
+      "constituency_name": "rabai"
+    },
+    {
+      "subcounty_id": "15",
+      "county_id": "3",
+      "constituency_name": "ganze"
+    },
+    {
+      "subcounty_id": "16",
+      "county_id": "3",
+      "constituency_name": "malindi"
+    },
+    {
+      "subcounty_id": "17",
+      "county_id": "3",
+      "constituency_name": "magarini"
+    },
+    {
+      "subcounty_id": "18",
+      "county_id": "4",
+      "constituency_name": "garsen"
+    },
+    {
+      "subcounty_id": "19",
+      "county_id": "4",
+      "constituency_name": "galole"
+    },
+    {
+      "subcounty_id": "20",
+      "county_id": "4",
+      "constituency_name": "bura"
+    },
+    {
+      "subcounty_id": "21",
+      "county_id": "5",
+      "constituency_name": "lamu east"
+    },
+    {
+      "subcounty_id": "22",
+      "county_id": "5",
+      "constituency_name": "lamu west"
+    },
+    {
+      "subcounty_id": "23",
+      "county_id": "6",
+      "constituency_name": "taveta"
+    },
+    {
+      "subcounty_id": "24",
+      "county_id": "6",
+      "constituency_name": "wundanyi"
+    },
+    {
+      "subcounty_id": "25",
+      "county_id": "6",
+      "constituency_name": "mwatate"
+    },
+    {
+      "subcounty_id": "26",
+      "county_id": "6",
+      "constituency_name": "voi"
+    },
+    {
+      "subcounty_id": "27",
+      "county_id": "7",
+      "constituency_name": "garissa township"
+    },
+    {
+      "subcounty_id": "28",
+      "county_id": "7",
+      "constituency_name": "balambala"
+    },
+    {
+      "subcounty_id": "29",
+      "county_id": "7",
+      "constituency_name": "lagdera"
+    },
+    {
+      "subcounty_id": "30",
+      "county_id": "7",
+      "constituency_name": "dadaab"
+    },
+    {
+      "subcounty_id": "31",
+      "county_id": "7",
+      "constituency_name": "fafi"
+    },
+    {
+      "subcounty_id": "32",
+      "county_id": "7",
+      "constituency_name": "ijara"
+    },
+    {
+      "subcounty_id": "33",
+      "county_id": "8",
+      "constituency_name": "wajir north"
+    },
+    {
+      "subcounty_id": "34",
+      "county_id": "8",
+      "constituency_name": "wajir east"
+    },
+    {
+      "subcounty_id": "35",
+      "county_id": "8",
+      "constituency_name": "tarbaj"
+    },
+    {
+      "subcounty_id": "36",
+      "county_id": "8",
+      "constituency_name": "wajir west"
+    },
+    {
+      "subcounty_id": "37",
+      "county_id": "8",
+      "constituency_name": "eldas"
+    },
+    {
+      "subcounty_id": "38",
+      "county_id": "8",
+      "constituency_name": "wajir south"
+    },
+    {
+      "subcounty_id": "39",
+      "county_id": "9",
+      "constituency_name": "mandera west"
+    },
+    {
+      "subcounty_id": "40",
+      "county_id": "9",
+      "constituency_name": "banissa"
+    },
+    {
+      "subcounty_id": "41",
+      "county_id": "9",
+      "constituency_name": "mandera north"
+    },
+    {
+      "subcounty_id": "42",
+      "county_id": "9",
+      "constituency_name": "mandera south"
+    },
+    {
+      "subcounty_id": "43",
+      "county_id": "9",
+      "constituency_name": "mandera east"
+    },
+    {
+      "subcounty_id": "44",
+      "county_id": "9",
+      "constituency_name": "lafey"
+    },
+    {
+      "subcounty_id": "45",
+      "county_id": "10",
+      "constituency_name": "moyale"
+    },
+    {
+      "subcounty_id": "46",
+      "county_id": "10",
+      "constituency_name": "north horr"
+    },
+    {
+      "subcounty_id": "47",
+      "county_id": "10",
+      "constituency_name": "saku"
+    },
+    {
+      "subcounty_id": "48",
+      "county_id": "10",
+      "constituency_name": "laisamis"
+    },
+    {
+      "subcounty_id": "49",
+      "county_id": "11",
+      "constituency_name": "isiolo north"
+    },
+    {
+      "subcounty_id": "50",
+      "county_id": "11",
+      "constituency_name": "isiolo south"
+    },
+    {
+      "subcounty_id": "51",
+      "county_id": "12",
+      "constituency_name": "igembe south"
+    },
+    {
+      "subcounty_id": "52",
+      "county_id": "12",
+      "constituency_name": "igembe central"
+    },
+    {
+      "subcounty_id": "53",
+      "county_id": "12",
+      "constituency_name": "igembe north"
+    },
+    {
+      "subcounty_id": "54",
+      "county_id": "12",
+      "constituency_name": "tigania west"
+    },
+    {
+      "subcounty_id": "55",
+      "county_id": "12",
+      "constituency_name": "tigania east"
+    },
+    {
+      "subcounty_id": "56",
+      "county_id": "12",
+      "constituency_name": "north imenti"
+    },
+    {
+      "subcounty_id": "57",
+      "county_id": "12",
+      "constituency_name": "buuri"
+    },
+    {
+      "subcounty_id": "58",
+      "county_id": "12",
+      "constituency_name": "central imenti"
+    },
+    {
+      "subcounty_id": "59",
+      "county_id": "12",
+      "constituency_name": "south imenti"
+    },
+    {
+      "subcounty_id": "60",
+      "county_id": "13",
+      "constituency_name": "maara"
+    },
+    {
+      "subcounty_id": "61",
+      "county_id": "13",
+      "constituency_name": "chuka\/igambang'om"
+    },
+    {
+      "subcounty_id": "62",
+      "county_id": "13",
+      "constituency_name": "tharaka"
+    },
+    {
+      "subcounty_id": "63",
+      "county_id": "14",
+      "constituency_name": "manyatta"
+    },
+    {
+      "subcounty_id": "64",
+      "county_id": "14",
+      "constituency_name": "runyenjes"
+    },
+    {
+      "subcounty_id": "65",
+      "county_id": "14",
+      "constituency_name": "mbeere south"
+    },
+    {
+      "subcounty_id": "66",
+      "county_id": "14",
+      "constituency_name": "mbeere north"
+    },
+    {
+      "subcounty_id": "67",
+      "county_id": "15",
+      "constituency_name": "mwingi north"
+    },
+    {
+      "subcounty_id": "68",
+      "county_id": "15",
+      "constituency_name": "mwingi west"
+    },
+    {
+      "subcounty_id": "69",
+      "county_id": "15",
+      "constituency_name": "mwingi central"
+    },
+    {
+      "subcounty_id": "70",
+      "county_id": "15",
+      "constituency_name": "kitui rural"
+    },
+    {
+      "subcounty_id": "71",
+      "county_id": "15",
+      "constituency_name": "kitui central"
+    },
+    {
+      "subcounty_id": "72",
+      "county_id": "15",
+      "constituency_name": "kitui east"
+    },
+    {
+      "subcounty_id": "73",
+      "county_id": "15",
+      "constituency_name": "kitui south"
+    },
+    {
+      "subcounty_id": "74",
+      "county_id": "16",
+      "constituency_name": "masinga"
+    },
+    {
+      "subcounty_id": "75",
+      "county_id": "16",
+      "constituency_name": "yatta"
+    },
+    {
+      "subcounty_id": "76",
+      "county_id": "16",
+      "constituency_name": "kangundo"
+    },
+    {
+      "subcounty_id": "77",
+      "county_id": "16",
+      "constituency_name": "matungulu"
+    },
+    {
+      "subcounty_id": "78",
+      "county_id": "16",
+      "constituency_name": "kathiani"
+    },
+    {
+      "subcounty_id": "79",
+      "county_id": "16",
+      "constituency_name": "mavoko"
+    },
+    {
+      "subcounty_id": "80",
+      "county_id": "16",
+      "constituency_name": "machakos town"
+    },
+    {
+      "subcounty_id": "81",
+      "county_id": "16",
+      "constituency_name": "mwala"
+    },
+    {
+      "subcounty_id": "82",
+      "county_id": "17",
+      "constituency_name": "mbooni"
+    },
+    {
+      "subcounty_id": "83",
+      "county_id": "17",
+      "constituency_name": "kilome"
+    },
+    {
+      "subcounty_id": "84",
+      "county_id": "17",
+      "constituency_name": "kaiti"
+    },
+    {
+      "subcounty_id": "85",
+      "county_id": "17",
+      "constituency_name": "makueni"
+    },
+    {
+      "subcounty_id": "86",
+      "county_id": "17",
+      "constituency_name": "kibwezi west"
+    },
+    {
+      "subcounty_id": "87",
+      "county_id": "17",
+      "constituency_name": "kibwezi east"
+    },
+    {
+      "subcounty_id": "88",
+      "county_id": "18",
+      "constituency_name": "kinangop"
+    },
+    {
+      "subcounty_id": "89",
+      "county_id": "18",
+      "constituency_name": "kipipiri"
+    },
+    {
+      "subcounty_id": "90",
+      "county_id": "18",
+      "constituency_name": "ol kalou"
+    },
+    {
+      "subcounty_id": "91",
+      "county_id": "18",
+      "constituency_name": "ol jorok"
+    },
+    {
+      "subcounty_id": "92",
+      "county_id": "18",
+      "constituency_name": "ndaragwa"
+    },
+    {
+      "subcounty_id": "93",
+      "county_id": "19",
+      "constituency_name": "tetu"
+    },
+    {
+      "subcounty_id": "94",
+      "county_id": "19",
+      "constituency_name": "kieni"
+    },
+    {
+      "subcounty_id": "95",
+      "county_id": "19",
+      "constituency_name": "mathira"
+    },
+    {
+      "subcounty_id": "96",
+      "county_id": "19",
+      "constituency_name": "othaya"
+    },
+    {
+      "subcounty_id": "97",
+      "county_id": "19",
+      "constituency_name": "mukurweini"
+    },
+    {
+      "subcounty_id": "98",
+      "county_id": "19",
+      "constituency_name": "nyeri town"
+    },
+    {
+      "subcounty_id": "99",
+      "county_id": "20",
+      "constituency_name": "mwea"
+    },
+    {
+      "subcounty_id": "100",
+      "county_id": "20",
+      "constituency_name": "gichugu"
+    },
+    {
+      "subcounty_id": "101",
+      "county_id": "20",
+      "constituency_name": "ndia"
+    },
+    {
+      "subcounty_id": "102",
+      "county_id": "20",
+      "constituency_name": "kirinyaga central"
+    },
+    {
+      "subcounty_id": "103",
+      "county_id": "21",
+      "constituency_name": "kangema"
+    },
+    {
+      "subcounty_id": "104",
+      "county_id": "21",
+      "constituency_name": "mathioya"
+    },
+    {
+      "subcounty_id": "105",
+      "county_id": "21",
+      "constituency_name": "kiharu"
+    },
+    {
+      "subcounty_id": "106",
+      "county_id": "21",
+      "constituency_name": "kigumo"
+    },
+    {
+      "subcounty_id": "107",
+      "county_id": "21",
+      "constituency_name": "maragwa"
+    },
+    {
+      "subcounty_id": "108",
+      "county_id": "21",
+      "constituency_name": "kandara"
+    },
+    {
+      "subcounty_id": "109",
+      "county_id": "21",
+      "constituency_name": "gatanga"
+    },
+    {
+      "subcounty_id": "110",
+      "county_id": "22",
+      "constituency_name": "gatundu south"
+    },
+    {
+      "subcounty_id": "111",
+      "county_id": "22",
+      "constituency_name": "gatundu north"
+    },
+    {
+      "subcounty_id": "112",
+      "county_id": "22",
+      "constituency_name": "juja"
+    },
+    {
+      "subcounty_id": "113",
+      "county_id": "22",
+      "constituency_name": "thika town"
+    },
+    {
+      "subcounty_id": "114",
+      "county_id": "22",
+      "constituency_name": "ruiru"
+    },
+    {
+      "subcounty_id": "115",
+      "county_id": "22",
+      "constituency_name": "githunguri"
+    },
+    {
+      "subcounty_id": "116",
+      "county_id": "22",
+      "constituency_name": "kiambu"
+    },
+    {
+      "subcounty_id": "117",
+      "county_id": "22",
+      "constituency_name": "kiambaa"
+    },
+    {
+      "subcounty_id": "118",
+      "county_id": "22",
+      "constituency_name": "kabete"
+    },
+    {
+      "subcounty_id": "119",
+      "county_id": "22",
+      "constituency_name": "kikuyu"
+    },
+    {
+      "subcounty_id": "120",
+      "county_id": "22",
+      "constituency_name": "limuru"
+    },
+    {
+      "subcounty_id": "121",
+      "county_id": "22",
+      "constituency_name": "lari"
+    },
+    {
+      "subcounty_id": "122",
+      "county_id": "23",
+      "constituency_name": "turkana north"
+    },
+    {
+      "subcounty_id": "123",
+      "county_id": "23",
+      "constituency_name": "turkana west"
+    },
+    {
+      "subcounty_id": "124",
+      "county_id": "23",
+      "constituency_name": "turkana central"
+    },
+    {
+      "subcounty_id": "125",
+      "county_id": "23",
+      "constituency_name": "loima"
+    },
+    {
+      "subcounty_id": "126",
+      "county_id": "23",
+      "constituency_name": "turkana south"
+    },
+    {
+      "subcounty_id": "127",
+      "county_id": "23",
+      "constituency_name": "turkana east"
+    },
+    {
+      "subcounty_id": "128",
+      "county_id": "24",
+      "constituency_name": "kapenguria"
+    },
+    {
+      "subcounty_id": "129",
+      "county_id": "24",
+      "constituency_name": "sigor"
+    },
+    {
+      "subcounty_id": "130",
+      "county_id": "24",
+      "constituency_name": "kacheliba"
+    },
+    {
+      "subcounty_id": "131",
+      "county_id": "24",
+      "constituency_name": "pokot south"
+    },
+    {
+      "subcounty_id": "132",
+      "county_id": "25",
+      "constituency_name": "samburu west"
+    },
+    {
+      "subcounty_id": "133",
+      "county_id": "25",
+      "constituency_name": "samburu north"
+    },
+    {
+      "subcounty_id": "134",
+      "county_id": "25",
+      "constituency_name": "samburu east"
+    },
+    {
+      "subcounty_id": "135",
+      "county_id": "26",
+      "constituency_name": "kwanza"
+    },
+    {
+      "subcounty_id": "136",
+      "county_id": "26",
+      "constituency_name": "endebess"
+    },
+    {
+      "subcounty_id": "137",
+      "county_id": "26",
+      "constituency_name": "saboti"
+    },
+    {
+      "subcounty_id": "138",
+      "county_id": "26",
+      "constituency_name": "kiminini"
+    },
+    {
+      "subcounty_id": "139",
+      "county_id": "26",
+      "constituency_name": "cherangany"
+    },
+    {
+      "subcounty_id": "140",
+      "county_id": "27",
+      "constituency_name": "soy"
+    },
+    {
+      "subcounty_id": "141",
+      "county_id": "27",
+      "constituency_name": "turbo"
+    },
+    {
+      "subcounty_id": "142",
+      "county_id": "27",
+      "constituency_name": "moiben"
+    },
+    {
+      "subcounty_id": "143",
+      "county_id": "27",
+      "constituency_name": "ainabkoi"
+    },
+    {
+      "subcounty_id": "144",
+      "county_id": "27",
+      "constituency_name": "kapseret"
+    },
+    {
+      "subcounty_id": "145",
+      "county_id": "27",
+      "constituency_name": "kesses"
+    },
+    {
+      "subcounty_id": "146",
+      "county_id": "28",
+      "constituency_name": "marakwet east"
+    },
+    {
+      "subcounty_id": "147",
+      "county_id": "28",
+      "constituency_name": "marakwet west"
+    },
+    {
+      "subcounty_id": "148",
+      "county_id": "28",
+      "constituency_name": "keiyo north"
+    },
+    {
+      "subcounty_id": "149",
+      "county_id": "28",
+      "constituency_name": "keiyo south"
+    },
+    {
+      "subcounty_id": "150",
+      "county_id": "29",
+      "constituency_name": "tinderet"
+    },
+    {
+      "subcounty_id": "151",
+      "county_id": "29",
+      "constituency_name": "aldai"
+    },
+    {
+      "subcounty_id": "152",
+      "county_id": "29",
+      "constituency_name": "nandi hills"
+    },
+    {
+      "subcounty_id": "153",
+      "county_id": "29",
+      "constituency_name": "chesumei"
+    },
+    {
+      "subcounty_id": "154",
+      "county_id": "29",
+      "constituency_name": "emgwen"
+    },
+    {
+      "subcounty_id": "155",
+      "county_id": "29",
+      "constituency_name": "mosop"
+    },
+    {
+      "subcounty_id": "156",
+      "county_id": "30",
+      "constituency_name": "tiaty"
+    },
+    {
+      "subcounty_id": "157",
+      "county_id": "30",
+      "constituency_name": "baringo  north"
+    },
+    {
+      "subcounty_id": "158",
+      "county_id": "30",
+      "constituency_name": "baringo central"
+    },
+    {
+      "subcounty_id": "159",
+      "county_id": "30",
+      "constituency_name": "baringo south"
+    },
+    {
+      "subcounty_id": "160",
+      "county_id": "30",
+      "constituency_name": "mogotio"
+    },
+    {
+      "subcounty_id": "161",
+      "county_id": "30",
+      "constituency_name": "eldama ravine"
+    },
+    {
+      "subcounty_id": "162",
+      "county_id": "31",
+      "constituency_name": "laikipia west"
+    },
+    {
+      "subcounty_id": "163",
+      "county_id": "31",
+      "constituency_name": "laikipia east"
+    },
+    {
+      "subcounty_id": "164",
+      "county_id": "31",
+      "constituency_name": "laikipia north"
+    },
+    {
+      "subcounty_id": "165",
+      "county_id": "32",
+      "constituency_name": "molo"
+    },
+    {
+      "subcounty_id": "166",
+      "county_id": "32",
+      "constituency_name": "njoro"
+    },
+    {
+      "subcounty_id": "167",
+      "county_id": "32",
+      "constituency_name": "naivasha"
+    },
+    {
+      "subcounty_id": "168",
+      "county_id": "32",
+      "constituency_name": "gilgil"
+    },
+    {
+      "subcounty_id": "169",
+      "county_id": "32",
+      "constituency_name": "kuresoi south"
+    },
+    {
+      "subcounty_id": "170",
+      "county_id": "32",
+      "constituency_name": "kuresoi north"
+    },
+    {
+      "subcounty_id": "171",
+      "county_id": "32",
+      "constituency_name": "subukia"
+    },
+    {
+      "subcounty_id": "172",
+      "county_id": "32",
+      "constituency_name": "rongai"
+    },
+    {
+      "subcounty_id": "173",
+      "county_id": "32",
+      "constituency_name": "bahati"
+    },
+    {
+      "subcounty_id": "174",
+      "county_id": "32",
+      "constituency_name": "nakuru town west"
+    },
+    {
+      "subcounty_id": "175",
+      "county_id": "32",
+      "constituency_name": "nakuru town east"
+    },
+    {
+      "subcounty_id": "176",
+      "county_id": "33",
+      "constituency_name": "kilgoris"
+    },
+    {
+      "subcounty_id": "177",
+      "county_id": "33",
+      "constituency_name": "emurua dikirr"
+    },
+    {
+      "subcounty_id": "178",
+      "county_id": "33",
+      "constituency_name": "narok north"
+    },
+    {
+      "subcounty_id": "179",
+      "county_id": "33",
+      "constituency_name": "narok east"
+    },
+    {
+      "subcounty_id": "180",
+      "county_id": "33",
+      "constituency_name": "narok south"
+    },
+    {
+      "subcounty_id": "181",
+      "county_id": "33",
+      "constituency_name": "narok west"
+    },
+    {
+      "subcounty_id": "182",
+      "county_id": "34",
+      "constituency_name": "kajiado north"
+    },
+    {
+      "subcounty_id": "183",
+      "county_id": "34",
+      "constituency_name": "kajiado central"
+    },
+    {
+      "subcounty_id": "184",
+      "county_id": "34",
+      "constituency_name": "kajiado east"
+    },
+    {
+      "subcounty_id": "185",
+      "county_id": "34",
+      "constituency_name": "kajiado west"
+    },
+    {
+      "subcounty_id": "186",
+      "county_id": "34",
+      "constituency_name": "kajiado south"
+    },
+    {
+      "subcounty_id": "187",
+      "county_id": "35",
+      "constituency_name": "kipkelion east"
+    },
+    {
+      "subcounty_id": "188",
+      "county_id": "35",
+      "constituency_name": "kipkelion west"
+    },
+    {
+      "subcounty_id": "189",
+      "county_id": "35",
+      "constituency_name": "ainamoi"
+    },
+    {
+      "subcounty_id": "190",
+      "county_id": "35",
+      "constituency_name": "bureti"
+    },
+    {
+      "subcounty_id": "191",
+      "county_id": "35",
+      "constituency_name": "belgut"
+    },
+    {
+      "subcounty_id": "192",
+      "county_id": "35",
+      "constituency_name": "sigowet\/soin"
+    },
+    {
+      "subcounty_id": "193",
+      "county_id": "36",
+      "constituency_name": "sotik"
+    },
+    {
+      "subcounty_id": "194",
+      "county_id": "36",
+      "constituency_name": "chepalungu"
+    },
+    {
+      "subcounty_id": "195",
+      "county_id": "36",
+      "constituency_name": "bomet east"
+    },
+    {
+      "subcounty_id": "196",
+      "county_id": "36",
+      "constituency_name": "bomet central"
+    },
+    {
+      "subcounty_id": "197",
+      "county_id": "36",
+      "constituency_name": "konoin"
+    },
+    {
+      "subcounty_id": "198",
+      "county_id": "37",
+      "constituency_name": "lugari"
+    },
+    {
+      "subcounty_id": "199",
+      "county_id": "37",
+      "constituency_name": "likuyani"
+    },
+    {
+      "subcounty_id": "200",
+      "county_id": "37",
+      "constituency_name": "malava"
+    },
+    {
+      "subcounty_id": "201",
+      "county_id": "37",
+      "constituency_name": "lurambi"
+    },
+    {
+      "subcounty_id": "202",
+      "county_id": "37",
+      "constituency_name": "navakholo"
+    },
+    {
+      "subcounty_id": "203",
+      "county_id": "37",
+      "constituency_name": "mumias west"
+    },
+    {
+      "subcounty_id": "204",
+      "county_id": "37",
+      "constituency_name": "mumias east"
+    },
+    {
+      "subcounty_id": "205",
+      "county_id": "37",
+      "constituency_name": "matungu"
+    },
+    {
+      "subcounty_id": "206",
+      "county_id": "37",
+      "constituency_name": "butere"
+    },
+    {
+      "subcounty_id": "207",
+      "county_id": "37",
+      "constituency_name": "khwisero"
+    },
+    {
+      "subcounty_id": "208",
+      "county_id": "37",
+      "constituency_name": "shinyalu"
+    },
+    {
+      "subcounty_id": "209",
+      "county_id": "37",
+      "constituency_name": "ikolomani"
+    },
+    {
+      "subcounty_id": "210",
+      "county_id": "38",
+      "constituency_name": "vihiga"
+    },
+    {
+      "subcounty_id": "211",
+      "county_id": "38",
+      "constituency_name": "sabatia"
+    },
+    {
+      "subcounty_id": "212",
+      "county_id": "38",
+      "constituency_name": "hamisi"
+    },
+    {
+      "subcounty_id": "213",
+      "county_id": "38",
+      "constituency_name": "luanda"
+    },
+    {
+      "subcounty_id": "214",
+      "county_id": "38",
+      "constituency_name": "emuhaya"
+    },
+    {
+      "subcounty_id": "215",
+      "county_id": "39",
+      "constituency_name": "mt.elgon"
+    },
+    {
+      "subcounty_id": "216",
+      "county_id": "39",
+      "constituency_name": "sirisia"
+    },
+    {
+      "subcounty_id": "217",
+      "county_id": "39",
+      "constituency_name": "kabuchai"
+    },
+    {
+      "subcounty_id": "218",
+      "county_id": "39",
+      "constituency_name": "bumula"
+    },
+    {
+      "subcounty_id": "219",
+      "county_id": "39",
+      "constituency_name": "kanduyi"
+    },
+    {
+      "subcounty_id": "220",
+      "county_id": "39",
+      "constituency_name": "webuye east"
+    },
+    {
+      "subcounty_id": "221",
+      "county_id": "39",
+      "constituency_name": "webuye west"
+    },
+    {
+      "subcounty_id": "222",
+      "county_id": "39",
+      "constituency_name": "kimilili"
+    },
+    {
+      "subcounty_id": "223",
+      "county_id": "39",
+      "constituency_name": "tongaren"
+    },
+    {
+      "subcounty_id": "224",
+      "county_id": "40",
+      "constituency_name": "teso north"
+    },
+    {
+      "subcounty_id": "225",
+      "county_id": "40",
+      "constituency_name": "teso south"
+    },
+    {
+      "subcounty_id": "226",
+      "county_id": "40",
+      "constituency_name": "nambale"
+    },
+    {
+      "subcounty_id": "227",
+      "county_id": "40",
+      "constituency_name": "matayos"
+    },
+    {
+      "subcounty_id": "228",
+      "county_id": "40",
+      "constituency_name": "butula"
+    },
+    {
+      "subcounty_id": "229",
+      "county_id": "40",
+      "constituency_name": "funyula"
+    },
+    {
+      "subcounty_id": "230",
+      "county_id": "40",
+      "constituency_name": "budalangi"
+    },
+    {
+      "subcounty_id": "231",
+      "county_id": "41",
+      "constituency_name": "ugenya"
+    },
+    {
+      "subcounty_id": "232",
+      "county_id": "41",
+      "constituency_name": "alego usonga"
+    },
+    {
+      "subcounty_id": "233",
+      "county_id": "41",
+      "constituency_name": "gem"
+    },
+    {
+      "subcounty_id": "234",
+      "county_id": "41",
+      "constituency_name": "bondo"
+    },
+    {
+      "subcounty_id": "235",
+      "county_id": "41",
+      "constituency_name": "rarieda"
+    },
+    {
+      "subcounty_id": "236",
+      "county_id": "42",
+      "constituency_name": "kisumu east"
+    },
+    {
+      "subcounty_id": "237",
+      "county_id": "42",
+      "constituency_name": "kisumu west"
+    },
+    {
+      "subcounty_id": "238",
+      "county_id": "42",
+      "constituency_name": "kisumu central"
+    },
+    {
+      "subcounty_id": "239",
+      "county_id": "42",
+      "constituency_name": "seme"
+    },
+    {
+      "subcounty_id": "240",
+      "county_id": "42",
+      "constituency_name": "nyando"
+    },
+    {
+      "subcounty_id": "241",
+      "county_id": "42",
+      "constituency_name": "muhoroni"
+    },
+    {
+      "subcounty_id": "242",
+      "county_id": "42",
+      "constituency_name": "nyakach"
+    },
+    {
+      "subcounty_id": "243",
+      "county_id": "43",
+      "constituency_name": "kasipul"
+    },
+    {
+      "subcounty_id": "244",
+      "county_id": "43",
+      "constituency_name": "kabondo kasipul"
+    },
+    {
+      "subcounty_id": "245",
+      "county_id": "43",
+      "constituency_name": "karachuonyo"
+    },
+    {
+      "subcounty_id": "246",
+      "county_id": "43",
+      "constituency_name": "rangwe"
+    },
+    {
+      "subcounty_id": "247",
+      "county_id": "43",
+      "constituency_name": "homa bay town"
+    },
+    {
+      "subcounty_id": "248",
+      "county_id": "43",
+      "constituency_name": "ndhiwa"
+    },
+    {
+      "subcounty_id": "249",
+      "county_id": "43",
+      "constituency_name": "mbita"
+    },
+    {
+      "subcounty_id": "250",
+      "county_id": "43",
+      "constituency_name": "suba"
+    },
+    {
+      "subcounty_id": "251",
+      "county_id": "44",
+      "constituency_name": "rongo"
+    },
+    {
+      "subcounty_id": "252",
+      "county_id": "44",
+      "constituency_name": "awendo"
+    },
+    {
+      "subcounty_id": "253",
+      "county_id": "44",
+      "constituency_name": "suna east"
+    },
+    {
+      "subcounty_id": "254",
+      "county_id": "44",
+      "constituency_name": "suna west"
+    },
+    {
+      "subcounty_id": "255",
+      "county_id": "44",
+      "constituency_name": "uriri"
+    },
+    {
+      "subcounty_id": "256",
+      "county_id": "44",
+      "constituency_name": "nyatike"
+    },
+    {
+      "subcounty_id": "257",
+      "county_id": "44",
+      "constituency_name": "kuria west"
+    },
+    {
+      "subcounty_id": "258",
+      "county_id": "44",
+      "constituency_name": "kuria east"
+    },
+    {
+      "subcounty_id": "259",
+      "county_id": "45",
+      "constituency_name": "bonchari"
+    },
+    {
+      "subcounty_id": "260",
+      "county_id": "45",
+      "constituency_name": "south mugirango"
+    },
+    {
+      "subcounty_id": "261",
+      "county_id": "45",
+      "constituency_name": "bomachoge borabu"
+    },
+    {
+      "subcounty_id": "262",
+      "county_id": "45",
+      "constituency_name": "bobasi"
+    },
+    {
+      "subcounty_id": "263",
+      "county_id": "45",
+      "constituency_name": "bomachoge chache"
+    },
+    {
+      "subcounty_id": "264",
+      "county_id": "45",
+      "constituency_name": "nyaribari masaba"
+    },
+    {
+      "subcounty_id": "265",
+      "county_id": "45",
+      "constituency_name": "nyaribari chache"
+    },
+    {
+      "subcounty_id": "266",
+      "county_id": "45",
+      "constituency_name": "kitutu chache north"
+    },
+    {
+      "subcounty_id": "267",
+      "county_id": "45",
+      "constituency_name": "kitutu chache south"
+    },
+    {
+      "subcounty_id": "268",
+      "county_id": "46",
+      "constituency_name": "kitutu masaba"
+    },
+    {
+      "subcounty_id": "269",
+      "county_id": "46",
+      "constituency_name": "west mugirango"
+    },
+    {
+      "subcounty_id": "270",
+      "county_id": "46",
+      "constituency_name": "north mugirango"
+    },
+    {
+      "subcounty_id": "271",
+      "county_id": "46",
+      "constituency_name": "borabu"
+    },
+    {
+      "subcounty_id": "272",
+      "county_id": "47",
+      "constituency_name": "westlands"
+    },
+    {
+      "subcounty_id": "273",
+      "county_id": "47",
+      "constituency_name": "dagoretti north"
+    },
+    {
+      "subcounty_id": "274",
+      "county_id": "47",
+      "constituency_name": "dagoretti south"
+    },
+    {
+      "subcounty_id": "275",
+      "county_id": "47",
+      "constituency_name": "langata"
+    },
+    {
+      "subcounty_id": "276",
+      "county_id": "47",
+      "constituency_name": "kibra"
+    },
+    {
+      "subcounty_id": "277",
+      "county_id": "47",
+      "constituency_name": "roysambu"
+    },
+    {
+      "subcounty_id": "278",
+      "county_id": "47",
+      "constituency_name": "kasarani"
+    },
+    {
+      "subcounty_id": "279",
+      "county_id": "47",
+      "constituency_name": "ruaraka"
+    },
+    {
+      "subcounty_id": "280",
+      "county_id": "47",
+      "constituency_name": "embakasi south"
+    },
+    {
+      "subcounty_id": "281",
+      "county_id": "47",
+      "constituency_name": "embakasi north"
+    },
+    {
+      "subcounty_id": "282",
+      "county_id": "47",
+      "constituency_name": "embakasi central"
+    },
+    {
+      "subcounty_id": "283",
+      "county_id": "47",
+      "constituency_name": "embakasi east"
+    },
+    {
+      "subcounty_id": "284",
+      "county_id": "47",
+      "constituency_name": "embakasi west"
+    },
+    {
+      "subcounty_id": "285",
+      "county_id": "47",
+      "constituency_name": "makadara"
+    },
+    {
+      "subcounty_id": "286",
+      "county_id": "47",
+      "constituency_name": "kamukunji"
+    },
+    {
+      "subcounty_id": "287",
+      "county_id": "47",
+      "constituency_name": "starehe"
+    },
+    {
+      "subcounty_id": "288",
+      "county_id": "47",
+      "constituency_name": "mathare"
+    }
+  ],
+  wards: [
+    {
+      "ward_id": "1",
+      "subcounty_id": "1",
+      "constituency_name": "changamwe",
+      "ward_name": "port reitz"
+    },
+    {
+      "ward_id": "2",
+      "subcounty_id": "1",
+      "constituency_name": "changamwe",
+      "ward_name": "kipevu"
+    },
+    {
+      "ward_id": "3",
+      "subcounty_id": "1",
+      "constituency_name": "changamwe",
+      "ward_name": "airport"
+    },
+    {
+      "ward_id": "4",
+      "subcounty_id": "1",
+      "constituency_name": "changamwe",
+      "ward_name": "changamwe"
+    },
+    {
+      "ward_id": "5",
+      "subcounty_id": "1",
+      "constituency_name": "changamwe",
+      "ward_name": "chaani"
+    },
+    {
+      "ward_id": "6",
+      "subcounty_id": "2",
+      "constituency_name": "jomvu",
+      "ward_name": "jomvu kuu"
+    },
+    {
+      "ward_id": "7",
+      "subcounty_id": "2",
+      "constituency_name": "jomvu",
+      "ward_name": "miritini"
+    },
+    {
+      "ward_id": "8",
+      "subcounty_id": "2",
+      "constituency_name": "jomvu",
+      "ward_name": "mikindani"
+    },
+    {
+      "ward_id": "9",
+      "subcounty_id": "3",
+      "constituency_name": "kisauni",
+      "ward_name": "mjambere"
+    },
+    {
+      "ward_id": "10",
+      "subcounty_id": "3",
+      "constituency_name": "kisauni",
+      "ward_name": "junda"
+    },
+    {
+      "ward_id": "11",
+      "subcounty_id": "3",
+      "constituency_name": "kisauni",
+      "ward_name": "bamburi"
+    },
+    {
+      "ward_id": "12",
+      "subcounty_id": "3",
+      "constituency_name": "kisauni",
+      "ward_name": "mwakirunge"
+    },
+    {
+      "ward_id": "13",
+      "subcounty_id": "3",
+      "constituency_name": "kisauni",
+      "ward_name": "mtopanga"
+    },
+    {
+      "ward_id": "14",
+      "subcounty_id": "3",
+      "constituency_name": "kisauni",
+      "ward_name": "magogoni"
+    },
+    {
+      "ward_id": "15",
+      "subcounty_id": "3",
+      "constituency_name": "kisauni",
+      "ward_name": "shanzu"
+    },
+    {
+      "ward_id": "16",
+      "subcounty_id": "4",
+      "constituency_name": "nyali",
+      "ward_name": "frere town"
+    },
+    {
+      "ward_id": "17",
+      "subcounty_id": "4",
+      "constituency_name": "nyali",
+      "ward_name": "ziwa la ng'ombe"
+    },
+    {
+      "ward_id": "18",
+      "subcounty_id": "4",
+      "constituency_name": "nyali",
+      "ward_name": "mkomani"
+    },
+    {
+      "ward_id": "19",
+      "subcounty_id": "4",
+      "constituency_name": "nyali",
+      "ward_name": "kongowea"
+    },
+    {
+      "ward_id": "20",
+      "subcounty_id": "4",
+      "constituency_name": "nyali",
+      "ward_name": "kadzandani"
+    },
+    {
+      "ward_id": "21",
+      "subcounty_id": "5",
+      "constituency_name": "likoni",
+      "ward_name": "mtongwe"
+    },
+    {
+      "ward_id": "22",
+      "subcounty_id": "5",
+      "constituency_name": "likoni",
+      "ward_name": "shika adabu"
+    },
+    {
+      "ward_id": "23",
+      "subcounty_id": "5",
+      "constituency_name": "likoni",
+      "ward_name": "bofu"
+    },
+    {
+      "ward_id": "24",
+      "subcounty_id": "5",
+      "constituency_name": "likoni",
+      "ward_name": "likoni"
+    },
+    {
+      "ward_id": "25",
+      "subcounty_id": "5",
+      "constituency_name": "likoni",
+      "ward_name": "timbwani"
+    },
+    {
+      "ward_id": "26",
+      "subcounty_id": "6",
+      "constituency_name": "mvita",
+      "ward_name": "mji wa kale\/makadara"
+    },
+    {
+      "ward_id": "27",
+      "subcounty_id": "6",
+      "constituency_name": "mvita",
+      "ward_name": "tudor"
+    },
+    {
+      "ward_id": "28",
+      "subcounty_id": "6",
+      "constituency_name": "mvita",
+      "ward_name": "tononoka"
+    },
+    {
+      "ward_id": "29",
+      "subcounty_id": "6",
+      "constituency_name": "mvita",
+      "ward_name": ""
+    },
+    {
+      "ward_id": "30",
+      "subcounty_id": "6",
+      "constituency_name": "mvita",
+      "ward_name": "majengo"
+    },
+    {
+      "ward_id": "31",
+      "subcounty_id": "7",
+      "constituency_name": "msambweni",
+      "ward_name": "gombatobongwe"
+    },
+    {
+      "ward_id": "32",
+      "subcounty_id": "7",
+      "constituency_name": "msambweni",
+      "ward_name": "ukunda"
+    },
+    {
+      "ward_id": "33",
+      "subcounty_id": "7",
+      "constituency_name": "msambweni",
+      "ward_name": "kinondo"
+    },
+    {
+      "ward_id": "34",
+      "subcounty_id": "7",
+      "constituency_name": "msambweni",
+      "ward_name": "ramisi"
+    },
+    {
+      "ward_id": "35",
+      "subcounty_id": "8",
+      "constituency_name": "lungalunga",
+      "ward_name": "pongwekikoneni"
+    },
+    {
+      "ward_id": "36",
+      "subcounty_id": "8",
+      "constituency_name": "lungalunga",
+      "ward_name": "dzombo"
+    },
+    {
+      "ward_id": "37",
+      "subcounty_id": "8",
+      "constituency_name": "lungalunga",
+      "ward_name": "mwereni"
+    },
+    {
+      "ward_id": "38",
+      "subcounty_id": "8",
+      "constituency_name": "lungalunga",
+      "ward_name": "vanga"
+    },
+    {
+      "ward_id": "39",
+      "subcounty_id": "9",
+      "constituency_name": "matuga",
+      "ward_name": "tsimba golini"
+    },
+    {
+      "ward_id": "40",
+      "subcounty_id": "9",
+      "constituency_name": "matuga",
+      "ward_name": "waa"
+    },
+    {
+      "ward_id": "41",
+      "subcounty_id": "9",
+      "constituency_name": "matuga",
+      "ward_name": "tiwi"
+    },
+    {
+      "ward_id": "42",
+      "subcounty_id": "9",
+      "constituency_name": "matuga",
+      "ward_name": "kubo south"
+    },
+    {
+      "ward_id": "43",
+      "subcounty_id": "9",
+      "constituency_name": "matuga",
+      "ward_name": "mkongani"
+    },
+    {
+      "ward_id": "44",
+      "subcounty_id": "0",
+      "constituency_name": "kinango",
+      "ward_name": "nadavaya"
+    },
+    {
+      "ward_id": "45",
+      "subcounty_id": "0",
+      "constituency_name": "kinango",
+      "ward_name": "puma"
+    },
+    {
+      "ward_id": "46",
+      "subcounty_id": "0",
+      "constituency_name": "kinango",
+      "ward_name": "kinango"
+    },
+    {
+      "ward_id": "47",
+      "subcounty_id": "0",
+      "constituency_name": "kinango",
+      "ward_name": "mackinnon-road"
+    },
+    {
+      "ward_id": "48",
+      "subcounty_id": "0",
+      "constituency_name": "kinango",
+      "ward_name": "chengoni\/samburu"
+    },
+    {
+      "ward_id": "49",
+      "subcounty_id": "0",
+      "constituency_name": "kinango",
+      "ward_name": "mwavumbo"
+    },
+    {
+      "ward_id": "50",
+      "subcounty_id": "0",
+      "constituency_name": "kinango",
+      "ward_name": "kasemeni"
+    },
+    {
+      "ward_id": "51",
+      "subcounty_id": "11",
+      "constituency_name": "kilifi north",
+      "ward_name": "tezo"
+    },
+    {
+      "ward_id": "52",
+      "subcounty_id": "11",
+      "constituency_name": "kilifi north",
+      "ward_name": "sokoni"
+    },
+    {
+      "ward_id": "53",
+      "subcounty_id": "11",
+      "constituency_name": "kilifi north",
+      "ward_name": "kibarani"
+    },
+    {
+      "ward_id": "54",
+      "subcounty_id": "11",
+      "constituency_name": "kilifi north",
+      "ward_name": "dabaso"
+    },
+    {
+      "ward_id": "55",
+      "subcounty_id": "11",
+      "constituency_name": "kilifi north",
+      "ward_name": "matsangoni"
+    },
+    {
+      "ward_id": "56",
+      "subcounty_id": "11",
+      "constituency_name": "kilifi north",
+      "ward_name": "watamu"
+    },
+    {
+      "ward_id": "57",
+      "subcounty_id": "11",
+      "constituency_name": "kilifi north",
+      "ward_name": "mnarani"
+    },
+    {
+      "ward_id": "58",
+      "subcounty_id": "12",
+      "constituency_name": "kilifi south",
+      "ward_name": "junju"
+    },
+    {
+      "ward_id": "59",
+      "subcounty_id": "12",
+      "constituency_name": "kilifi south",
+      "ward_name": "mwarakaya"
+    },
+    {
+      "ward_id": "60",
+      "subcounty_id": "12",
+      "constituency_name": "kilifi south",
+      "ward_name": "shimo la tewa"
+    },
+    {
+      "ward_id": "61",
+      "subcounty_id": "12",
+      "constituency_name": "kilifi south",
+      "ward_name": "chasimba"
+    },
+    {
+      "ward_id": "62",
+      "subcounty_id": "12",
+      "constituency_name": "kilifi south",
+      "ward_name": "mtepeni"
+    },
+    {
+      "ward_id": "63",
+      "subcounty_id": "13",
+      "constituency_name": "kaloleni",
+      "ward_name": "mariakani"
+    },
+    {
+      "ward_id": "64",
+      "subcounty_id": "13",
+      "constituency_name": "kaloleni",
+      "ward_name": "kayafungo"
+    },
+    {
+      "ward_id": "65",
+      "subcounty_id": "13",
+      "constituency_name": "kaloleni",
+      "ward_name": "kaloleni"
+    },
+    {
+      "ward_id": "66",
+      "subcounty_id": "13",
+      "constituency_name": "kaloleni",
+      "ward_name": "mwanamwinga"
+    },
+    {
+      "ward_id": "67",
+      "subcounty_id": "14",
+      "constituency_name": "rabai",
+      "ward_name": "mwawesa"
+    },
+    {
+      "ward_id": "68",
+      "subcounty_id": "14",
+      "constituency_name": "rabai",
+      "ward_name": "ruruma"
+    },
+    {
+      "ward_id": "69",
+      "subcounty_id": "14",
+      "constituency_name": "rabai",
+      "ward_name": "kambe\/ribe"
+    },
+    {
+      "ward_id": "70",
+      "subcounty_id": "14",
+      "constituency_name": "rabai",
+      "ward_name": "rabai\/kisurutini"
+    },
+    {
+      "ward_id": "71",
+      "subcounty_id": "15",
+      "constituency_name": "ganze",
+      "ward_name": "ganze"
+    },
+    {
+      "ward_id": "72",
+      "subcounty_id": "15",
+      "constituency_name": "ganze",
+      "ward_name": "bamba"
+    },
+    {
+      "ward_id": "73",
+      "subcounty_id": "15",
+      "constituency_name": "ganze",
+      "ward_name": "jaribuni"
+    },
+    {
+      "ward_id": "74",
+      "subcounty_id": "15",
+      "constituency_name": "ganze",
+      "ward_name": "sokoke"
+    },
+    {
+      "ward_id": "75",
+      "subcounty_id": "16",
+      "constituency_name": "malindi",
+      "ward_name": "jilore"
+    },
+    {
+      "ward_id": "76",
+      "subcounty_id": "16",
+      "constituency_name": "malindi",
+      "ward_name": "kakuyuni"
+    },
+    {
+      "ward_id": "77",
+      "subcounty_id": "16",
+      "constituency_name": "malindi",
+      "ward_name": "ganda"
+    },
+    {
+      "ward_id": "78",
+      "subcounty_id": "16",
+      "constituency_name": "malindi",
+      "ward_name": "malindi town"
+    },
+    {
+      "ward_id": "79",
+      "subcounty_id": "16",
+      "constituency_name": "malindi",
+      "ward_name": "shella"
+    },
+    {
+      "ward_id": "80",
+      "subcounty_id": "17",
+      "constituency_name": "magarini",
+      "ward_name": "marafa"
+    },
+    {
+      "ward_id": "81",
+      "subcounty_id": "17",
+      "constituency_name": "magarini",
+      "ward_name": "magarini"
+    },
+    {
+      "ward_id": "82",
+      "subcounty_id": "17",
+      "constituency_name": "magarini",
+      "ward_name": "gongoni"
+    },
+    {
+      "ward_id": "83",
+      "subcounty_id": "17",
+      "constituency_name": "magarini",
+      "ward_name": "adu"
+    },
+    {
+      "ward_id": "84",
+      "subcounty_id": "17",
+      "constituency_name": "magarini",
+      "ward_name": "garashi"
+    },
+    {
+      "ward_id": "85",
+      "subcounty_id": "17",
+      "constituency_name": "magarini",
+      "ward_name": "sabaki"
+    },
+    {
+      "ward_id": "86",
+      "subcounty_id": "18",
+      "constituency_name": "garsen",
+      "ward_name": "kipini east"
+    },
+    {
+      "ward_id": "87",
+      "subcounty_id": "18",
+      "constituency_name": "garsen",
+      "ward_name": "garsen south"
+    },
+    {
+      "ward_id": "88",
+      "subcounty_id": "18",
+      "constituency_name": "garsen",
+      "ward_name": "kipini west"
+    },
+    {
+      "ward_id": "89",
+      "subcounty_id": "18",
+      "constituency_name": "garsen",
+      "ward_name": "garsen central"
+    },
+    {
+      "ward_id": "90",
+      "subcounty_id": "18",
+      "constituency_name": "garsen",
+      "ward_name": "garsen west"
+    },
+    {
+      "ward_id": "91",
+      "subcounty_id": "18",
+      "constituency_name": "garsen",
+      "ward_name": "garsen north"
+    },
+    {
+      "ward_id": "92",
+      "subcounty_id": "19",
+      "constituency_name": "galole",
+      "ward_name": "kinakomba"
+    },
+    {
+      "ward_id": "93",
+      "subcounty_id": "19",
+      "constituency_name": "galole",
+      "ward_name": "mikinduni"
+    },
+    {
+      "ward_id": "94",
+      "subcounty_id": "19",
+      "constituency_name": "galole",
+      "ward_name": "chewani"
+    },
+    {
+      "ward_id": "95",
+      "subcounty_id": "19",
+      "constituency_name": "galole",
+      "ward_name": "wayu"
+    },
+    {
+      "ward_id": "96",
+      "subcounty_id": "20",
+      "constituency_name": "bura",
+      "ward_name": "chewele"
+    },
+    {
+      "ward_id": "97",
+      "subcounty_id": "20",
+      "constituency_name": "bura",
+      "ward_name": "bura"
+    },
+    {
+      "ward_id": "98",
+      "subcounty_id": "20",
+      "constituency_name": "bura",
+      "ward_name": "bangale"
+    },
+    {
+      "ward_id": "99",
+      "subcounty_id": "20",
+      "constituency_name": "bura",
+      "ward_name": "sala"
+    },
+    {
+      "ward_id": "100",
+      "subcounty_id": "20",
+      "constituency_name": "bura",
+      "ward_name": "madogo"
+    },
+    {
+      "ward_id": "101",
+      "subcounty_id": "21",
+      "constituency_name": "lamu east",
+      "ward_name": "faza"
+    },
+    {
+      "ward_id": "102",
+      "subcounty_id": "21",
+      "constituency_name": "lamu east",
+      "ward_name": "kiunga"
+    },
+    {
+      "ward_id": "103",
+      "subcounty_id": "21",
+      "constituency_name": "lamu east",
+      "ward_name": "basuba"
+    },
+    {
+      "ward_id": "104",
+      "subcounty_id": "22",
+      "constituency_name": "lamu west",
+      "ward_name": "shella"
+    },
+    {
+      "ward_id": "105",
+      "subcounty_id": "22",
+      "constituency_name": "lamu west",
+      "ward_name": "mkomani"
+    },
+    {
+      "ward_id": "106",
+      "subcounty_id": "22",
+      "constituency_name": "lamu west",
+      "ward_name": "hindi"
+    },
+    {
+      "ward_id": "107",
+      "subcounty_id": "22",
+      "constituency_name": "lamu west",
+      "ward_name": "mkunumbi"
+    },
+    {
+      "ward_id": "108",
+      "subcounty_id": "22",
+      "constituency_name": "lamu west",
+      "ward_name": "hongwe"
+    },
+    {
+      "ward_id": "109",
+      "subcounty_id": "22",
+      "constituency_name": "lamu west",
+      "ward_name": "witu"
+    },
+    {
+      "ward_id": "110",
+      "subcounty_id": "22",
+      "constituency_name": "lamu west",
+      "ward_name": "bahari"
+    },
+    {
+      "ward_id": "111",
+      "subcounty_id": "23",
+      "constituency_name": "taveta",
+      "ward_name": "chala"
+    },
+    {
+      "ward_id": "112",
+      "subcounty_id": "23",
+      "constituency_name": "taveta",
+      "ward_name": "mahoo"
+    },
+    {
+      "ward_id": "113",
+      "subcounty_id": "23",
+      "constituency_name": "taveta",
+      "ward_name": "bomeni"
+    },
+    {
+      "ward_id": "114",
+      "subcounty_id": "23",
+      "constituency_name": "taveta",
+      "ward_name": "mboghoni"
+    },
+    {
+      "ward_id": "115",
+      "subcounty_id": "23",
+      "constituency_name": "taveta",
+      "ward_name": "mata"
+    },
+    {
+      "ward_id": "116",
+      "subcounty_id": "24",
+      "constituency_name": "wundanyi",
+      "ward_name": "wundanyi\/mbale"
+    },
+    {
+      "ward_id": "117",
+      "subcounty_id": "24",
+      "constituency_name": "wundanyi",
+      "ward_name": "werugha"
+    },
+    {
+      "ward_id": "118",
+      "subcounty_id": "24",
+      "constituency_name": "wundanyi",
+      "ward_name": "wumingu\/kishushe"
+    },
+    {
+      "ward_id": "119",
+      "subcounty_id": "24",
+      "constituency_name": "wundanyi",
+      "ward_name": "mwanda\/mgange"
+    },
+    {
+      "ward_id": "120",
+      "subcounty_id": "25",
+      "constituency_name": "mwatate",
+      "ward_name": "rong'e"
+    },
+    {
+      "ward_id": "121",
+      "subcounty_id": "25",
+      "constituency_name": "mwatate",
+      "ward_name": "mwatate"
+    },
+    {
+      "ward_id": "122",
+      "subcounty_id": "25",
+      "constituency_name": "mwatate",
+      "ward_name": "bura"
+    },
+    {
+      "ward_id": "123",
+      "subcounty_id": "25",
+      "constituency_name": "mwatate",
+      "ward_name": "chawia"
+    },
+    {
+      "ward_id": "124",
+      "subcounty_id": "25",
+      "constituency_name": "mwatate",
+      "ward_name": "wusi\/kishamba"
+    },
+    {
+      "ward_id": "125",
+      "subcounty_id": "26",
+      "constituency_name": "voi",
+      "ward_name": "mbololo"
+    },
+    {
+      "ward_id": "126",
+      "subcounty_id": "26",
+      "constituency_name": "voi",
+      "ward_name": "sagalla"
+    },
+    {
+      "ward_id": "127",
+      "subcounty_id": "26",
+      "constituency_name": "voi",
+      "ward_name": "kaloleni"
+    },
+    {
+      "ward_id": "128",
+      "subcounty_id": "26",
+      "constituency_name": "voi",
+      "ward_name": "marungu"
+    },
+    {
+      "ward_id": "129",
+      "subcounty_id": "26",
+      "constituency_name": "voi",
+      "ward_name": "kasigau"
+    },
+    {
+      "ward_id": "130",
+      "subcounty_id": "26",
+      "constituency_name": "voi",
+      "ward_name": "ngolia"
+    },
+    {
+      "ward_id": "131",
+      "subcounty_id": "27",
+      "constituency_name": "garissa township",
+      "ward_name": "waberi"
+    },
+    {
+      "ward_id": "132",
+      "subcounty_id": "27",
+      "constituency_name": "garissa township",
+      "ward_name": "galbet"
+    },
+    {
+      "ward_id": "133",
+      "subcounty_id": "27",
+      "constituency_name": "garissa township",
+      "ward_name": "township"
+    },
+    {
+      "ward_id": "134",
+      "subcounty_id": "27",
+      "constituency_name": "garissa township",
+      "ward_name": "iftin"
+    },
+    {
+      "ward_id": "135",
+      "subcounty_id": "28",
+      "constituency_name": "balambala",
+      "ward_name": "balambala"
+    },
+    {
+      "ward_id": "136",
+      "subcounty_id": "28",
+      "constituency_name": "balambala",
+      "ward_name": "danyere"
+    },
+    {
+      "ward_id": "137",
+      "subcounty_id": "28",
+      "constituency_name": "balambala",
+      "ward_name": "jara jara"
+    },
+    {
+      "ward_id": "138",
+      "subcounty_id": "28",
+      "constituency_name": "balambala",
+      "ward_name": "saka"
+    },
+    {
+      "ward_id": "139",
+      "subcounty_id": "28",
+      "constituency_name": "balambala",
+      "ward_name": "sankuri"
+    },
+    {
+      "ward_id": "140",
+      "subcounty_id": "29",
+      "constituency_name": "lagdera",
+      "ward_name": "modogashe"
+    },
+    {
+      "ward_id": "141",
+      "subcounty_id": "29",
+      "constituency_name": "lagdera",
+      "ward_name": "benane"
+    },
+    {
+      "ward_id": "142",
+      "subcounty_id": "29",
+      "constituency_name": "lagdera",
+      "ward_name": "goreale"
+    },
+    {
+      "ward_id": "143",
+      "subcounty_id": "29",
+      "constituency_name": "lagdera",
+      "ward_name": "maalimin"
+    },
+    {
+      "ward_id": "144",
+      "subcounty_id": "29",
+      "constituency_name": "lagdera",
+      "ward_name": "sabena"
+    },
+    {
+      "ward_id": "145",
+      "subcounty_id": "29",
+      "constituency_name": "lagdera",
+      "ward_name": "baraki"
+    },
+    {
+      "ward_id": "146",
+      "subcounty_id": "30",
+      "constituency_name": "dadaab",
+      "ward_name": "dertu"
+    },
+    {
+      "ward_id": "147",
+      "subcounty_id": "30",
+      "constituency_name": "dadaab",
+      "ward_name": "dadaab"
+    },
+    {
+      "ward_id": "148",
+      "subcounty_id": "30",
+      "constituency_name": "dadaab",
+      "ward_name": "labasigale"
+    },
+    {
+      "ward_id": "149",
+      "subcounty_id": "30",
+      "constituency_name": "dadaab",
+      "ward_name": "damajale"
+    },
+    {
+      "ward_id": "150",
+      "subcounty_id": "30",
+      "constituency_name": "dadaab",
+      "ward_name": "liboi"
+    },
+    {
+      "ward_id": "151",
+      "subcounty_id": "30",
+      "constituency_name": "dadaab",
+      "ward_name": "abakaile"
+    },
+    {
+      "ward_id": "152",
+      "subcounty_id": "31",
+      "constituency_name": "fafi",
+      "ward_name": "bura"
+    },
+    {
+      "ward_id": "153",
+      "subcounty_id": "31",
+      "constituency_name": "fafi",
+      "ward_name": "dekaharia"
+    },
+    {
+      "ward_id": "154",
+      "subcounty_id": "31",
+      "constituency_name": "fafi",
+      "ward_name": "jarajila"
+    },
+    {
+      "ward_id": "155",
+      "subcounty_id": "31",
+      "constituency_name": "fafi",
+      "ward_name": "fafi"
+    },
+    {
+      "ward_id": "156",
+      "subcounty_id": "31",
+      "constituency_name": "fafi",
+      "ward_name": "nanighi"
+    },
+    {
+      "ward_id": "157",
+      "subcounty_id": "32",
+      "constituency_name": "ijara",
+      "ward_name": "hulugho"
+    },
+    {
+      "ward_id": "158",
+      "subcounty_id": "32",
+      "constituency_name": "ijara",
+      "ward_name": "sangailu"
+    },
+    {
+      "ward_id": "159",
+      "subcounty_id": "32",
+      "constituency_name": "ijara",
+      "ward_name": "ijara"
+    },
+    {
+      "ward_id": "160",
+      "subcounty_id": "32",
+      "constituency_name": "ijara",
+      "ward_name": "masalani"
+    },
+    {
+      "ward_id": "161",
+      "subcounty_id": "33",
+      "constituency_name": "wajir north",
+      "ward_name": "gurar"
+    },
+    {
+      "ward_id": "162",
+      "subcounty_id": "33",
+      "constituency_name": "wajir north",
+      "ward_name": "bute"
+    },
+    {
+      "ward_id": "163",
+      "subcounty_id": "33",
+      "constituency_name": "wajir north",
+      "ward_name": "korondile"
+    },
+    {
+      "ward_id": "164",
+      "subcounty_id": "33",
+      "constituency_name": "wajir north",
+      "ward_name": "malkagufu"
+    },
+    {
+      "ward_id": "165",
+      "subcounty_id": "33",
+      "constituency_name": "wajir north",
+      "ward_name": "batalu"
+    },
+    {
+      "ward_id": "166",
+      "subcounty_id": "33",
+      "constituency_name": "wajir north",
+      "ward_name": "danaba"
+    },
+    {
+      "ward_id": "167",
+      "subcounty_id": "33",
+      "constituency_name": "wajir north",
+      "ward_name": "godoma"
+    },
+    {
+      "ward_id": "168",
+      "subcounty_id": "34",
+      "constituency_name": "wajir east",
+      "ward_name": "wagberi"
+    },
+    {
+      "ward_id": "169",
+      "subcounty_id": "34",
+      "constituency_name": "wajir east",
+      "ward_name": "township"
+    },
+    {
+      "ward_id": "170",
+      "subcounty_id": "34",
+      "constituency_name": "wajir east",
+      "ward_name": "barwago"
+    },
+    {
+      "ward_id": "171",
+      "subcounty_id": "34",
+      "constituency_name": "wajir east",
+      "ward_name": "khorof\/harar"
+    },
+    {
+      "ward_id": "172",
+      "subcounty_id": "35",
+      "constituency_name": "tarbaj",
+      "ward_name": "elben"
+    },
+    {
+      "ward_id": "173",
+      "subcounty_id": "35",
+      "constituency_name": "tarbaj",
+      "ward_name": "sarman"
+    },
+    {
+      "ward_id": "174",
+      "subcounty_id": "35",
+      "constituency_name": "tarbaj",
+      "ward_name": "tarbaj"
+    },
+    {
+      "ward_id": "175",
+      "subcounty_id": "35",
+      "constituency_name": "tarbaj",
+      "ward_name": "wargadud"
+    },
+    {
+      "ward_id": "176",
+      "subcounty_id": "36",
+      "constituency_name": "wajir west",
+      "ward_name": "arbajahan"
+    },
+    {
+      "ward_id": "177",
+      "subcounty_id": "36",
+      "constituency_name": "wajir west",
+      "ward_name": "hadado\/athibohol"
+    },
+    {
+      "ward_id": "178",
+      "subcounty_id": "36",
+      "constituency_name": "wajir west",
+      "ward_name": "ademasajide"
+    },
+    {
+      "ward_id": "179",
+      "subcounty_id": "36",
+      "constituency_name": "wajir west",
+      "ward_name": "wagalla\/ganyure"
+    },
+    {
+      "ward_id": "180",
+      "subcounty_id": "37",
+      "constituency_name": "eldas",
+      "ward_name": "eldas"
+    },
+    {
+      "ward_id": "181",
+      "subcounty_id": "37",
+      "constituency_name": "eldas",
+      "ward_name": "della"
+    },
+    {
+      "ward_id": "182",
+      "subcounty_id": "37",
+      "constituency_name": "eldas",
+      "ward_name": "lakoley south\/basir"
+    },
+    {
+      "ward_id": "183",
+      "subcounty_id": "37",
+      "constituency_name": "eldas",
+      "ward_name": "elnur\/tula tula"
+    },
+    {
+      "ward_id": "184",
+      "subcounty_id": "38",
+      "constituency_name": "wajir south",
+      "ward_name": "benane"
+    },
+    {
+      "ward_id": "185",
+      "subcounty_id": "38",
+      "constituency_name": "wajir south",
+      "ward_name": "burder"
+    },
+    {
+      "ward_id": "186",
+      "subcounty_id": "38",
+      "constituency_name": "wajir south",
+      "ward_name": "dadaja bulla"
+    },
+    {
+      "ward_id": "187",
+      "subcounty_id": "38",
+      "constituency_name": "wajir south",
+      "ward_name": "habasswein"
+    },
+    {
+      "ward_id": "188",
+      "subcounty_id": "38",
+      "constituency_name": "wajir south",
+      "ward_name": "lagboghol south"
+    },
+    {
+      "ward_id": "189",
+      "subcounty_id": "38",
+      "constituency_name": "wajir south",
+      "ward_name": "ibrahim ure"
+    },
+    {
+      "ward_id": "190",
+      "subcounty_id": "38",
+      "constituency_name": "wajir south",
+      "ward_name": "diif"
+    },
+    {
+      "ward_id": "191",
+      "subcounty_id": "39",
+      "constituency_name": "mandera west",
+      "ward_name": "takaba south"
+    },
+    {
+      "ward_id": "192",
+      "subcounty_id": "39",
+      "constituency_name": "mandera west",
+      "ward_name": "takaba"
+    },
+    {
+      "ward_id": "193",
+      "subcounty_id": "39",
+      "constituency_name": "mandera west",
+      "ward_name": "lag sure"
+    },
+    {
+      "ward_id": "194",
+      "subcounty_id": "39",
+      "constituency_name": "mandera west",
+      "ward_name": "dandu"
+    },
+    {
+      "ward_id": "195",
+      "subcounty_id": "39",
+      "constituency_name": "mandera west",
+      "ward_name": "gither"
+    },
+    {
+      "ward_id": "196",
+      "subcounty_id": "40",
+      "constituency_name": "banissa",
+      "ward_name": "banissa"
+    },
+    {
+      "ward_id": "197",
+      "subcounty_id": "40",
+      "constituency_name": "banissa",
+      "ward_name": "derkhale"
+    },
+    {
+      "ward_id": "198",
+      "subcounty_id": "40",
+      "constituency_name": "banissa",
+      "ward_name": "guba"
+    },
+    {
+      "ward_id": "199",
+      "subcounty_id": "40",
+      "constituency_name": "banissa",
+      "ward_name": "malkamari"
+    },
+    {
+      "ward_id": "200",
+      "subcounty_id": "40",
+      "constituency_name": "banissa",
+      "ward_name": "kiliwehiri"
+    },
+    {
+      "ward_id": "201",
+      "subcounty_id": "41",
+      "constituency_name": "mandera north",
+      "ward_name": "ashabito"
+    },
+    {
+      "ward_id": "202",
+      "subcounty_id": "41",
+      "constituency_name": "mandera north",
+      "ward_name": "guticha"
+    },
+    {
+      "ward_id": "203",
+      "subcounty_id": "41",
+      "constituency_name": "mandera north",
+      "ward_name": "morothile"
+    },
+    {
+      "ward_id": "204",
+      "subcounty_id": "41",
+      "constituency_name": "mandera north",
+      "ward_name": "rhamu"
+    },
+    {
+      "ward_id": "205",
+      "subcounty_id": "41",
+      "constituency_name": "mandera north",
+      "ward_name": "rhamu-dimtu"
+    },
+    {
+      "ward_id": "206",
+      "subcounty_id": "42",
+      "constituency_name": "mandera south",
+      "ward_name": "wargudud"
+    },
+    {
+      "ward_id": "207",
+      "subcounty_id": "42",
+      "constituency_name": "mandera south",
+      "ward_name": "kutulo"
+    },
+    {
+      "ward_id": "208",
+      "subcounty_id": "42",
+      "constituency_name": "mandera south",
+      "ward_name": "elwak south"
+    },
+    {
+      "ward_id": "209",
+      "subcounty_id": "42",
+      "constituency_name": "mandera south",
+      "ward_name": "elwak north"
+    },
+    {
+      "ward_id": "210",
+      "subcounty_id": "42",
+      "constituency_name": "mandera south",
+      "ward_name": "shimbir fatuma"
+    },
+    {
+      "ward_id": "211",
+      "subcounty_id": "43",
+      "constituency_name": "mandera east",
+      "ward_name": "arabia"
+    },
+    {
+      "ward_id": "212",
+      "subcounty_id": "43",
+      "constituency_name": "mandera east",
+      "ward_name": "bulla mpya"
+    },
+    {
+      "ward_id": "213",
+      "subcounty_id": "43",
+      "constituency_name": "mandera east",
+      "ward_name": "khalalio"
+    },
+    {
+      "ward_id": "214",
+      "subcounty_id": "43",
+      "constituency_name": "mandera east",
+      "ward_name": "neboi"
+    },
+    {
+      "ward_id": "215",
+      "subcounty_id": "43",
+      "constituency_name": "mandera east",
+      "ward_name": "township"
+    },
+    {
+      "ward_id": "216",
+      "subcounty_id": "44",
+      "constituency_name": "lafey",
+      "ward_name": "libehia"
+    },
+    {
+      "ward_id": "217",
+      "subcounty_id": "44",
+      "constituency_name": "lafey",
+      "ward_name": "fino"
+    },
+    {
+      "ward_id": "218",
+      "subcounty_id": "44",
+      "constituency_name": "lafey",
+      "ward_name": "lafey"
+    },
+    {
+      "ward_id": "219",
+      "subcounty_id": "44",
+      "constituency_name": "lafey",
+      "ward_name": "warankara"
+    },
+    {
+      "ward_id": "220",
+      "subcounty_id": "44",
+      "constituency_name": "lafey",
+      "ward_name": "alungo gof"
+    },
+    {
+      "ward_id": "221",
+      "subcounty_id": "45",
+      "constituency_name": "moyale",
+      "ward_name": "butiye"
+    },
+    {
+      "ward_id": "222",
+      "subcounty_id": "45",
+      "constituency_name": "moyale",
+      "ward_name": "sololo"
+    },
+    {
+      "ward_id": "223",
+      "subcounty_id": "45",
+      "constituency_name": "moyale",
+      "ward_name": "heilu-manyatta"
+    },
+    {
+      "ward_id": "224",
+      "subcounty_id": "45",
+      "constituency_name": "moyale",
+      "ward_name": "golbo"
+    },
+    {
+      "ward_id": "225",
+      "subcounty_id": "45",
+      "constituency_name": "moyale",
+      "ward_name": "moyale township"
+    },
+    {
+      "ward_id": "226",
+      "subcounty_id": "45",
+      "constituency_name": "moyale",
+      "ward_name": "uran"
+    },
+    {
+      "ward_id": "227",
+      "subcounty_id": "45",
+      "constituency_name": "moyale",
+      "ward_name": "obbu"
+    },
+    {
+      "ward_id": "228",
+      "subcounty_id": "46",
+      "constituency_name": "north horr",
+      "ward_name": "illeret"
+    },
+    {
+      "ward_id": "229",
+      "subcounty_id": "46",
+      "constituency_name": "north horr",
+      "ward_name": "north horr"
+    },
+    {
+      "ward_id": "230",
+      "subcounty_id": "46",
+      "constituency_name": "north horr",
+      "ward_name": "dukana"
+    },
+    {
+      "ward_id": "231",
+      "subcounty_id": "46",
+      "constituency_name": "north horr",
+      "ward_name": "maikona"
+    },
+    {
+      "ward_id": "232",
+      "subcounty_id": "46",
+      "constituency_name": "north horr",
+      "ward_name": "turbi"
+    },
+    {
+      "ward_id": "233",
+      "subcounty_id": "47",
+      "constituency_name": "saku",
+      "ward_name": "sagante\/jaldesa"
+    },
+    {
+      "ward_id": "234",
+      "subcounty_id": "47",
+      "constituency_name": "saku",
+      "ward_name": "karare"
+    },
+    {
+      "ward_id": "235",
+      "subcounty_id": "47",
+      "constituency_name": "saku",
+      "ward_name": "marsabit central"
+    },
+    {
+      "ward_id": "236",
+      "subcounty_id": "48",
+      "constituency_name": "laisamis",
+      "ward_name": "loiyangalani"
+    },
+    {
+      "ward_id": "237",
+      "subcounty_id": "48",
+      "constituency_name": "laisamis",
+      "ward_name": "kargi\/south horr"
+    },
+    {
+      "ward_id": "238",
+      "subcounty_id": "48",
+      "constituency_name": "laisamis",
+      "ward_name": "korr\/ngurunit"
+    },
+    {
+      "ward_id": "239",
+      "subcounty_id": "48",
+      "constituency_name": "laisamis",
+      "ward_name": "log logo"
+    },
+    {
+      "ward_id": "240",
+      "subcounty_id": "48",
+      "constituency_name": "laisamis",
+      "ward_name": "laisamis"
+    },
+    {
+      "ward_id": "241",
+      "subcounty_id": "49",
+      "constituency_name": "isiolo north",
+      "ward_name": "wabera"
+    },
+    {
+      "ward_id": "242",
+      "subcounty_id": "49",
+      "constituency_name": "isiolo north",
+      "ward_name": "bulla pesa"
+    },
+    {
+      "ward_id": "243",
+      "subcounty_id": "49",
+      "constituency_name": "isiolo north",
+      "ward_name": "chari"
+    },
+    {
+      "ward_id": "244",
+      "subcounty_id": "49",
+      "constituency_name": "isiolo north",
+      "ward_name": "cherab"
+    },
+    {
+      "ward_id": "245",
+      "subcounty_id": "49",
+      "constituency_name": "isiolo north",
+      "ward_name": "ngare mara"
+    },
+    {
+      "ward_id": "246",
+      "subcounty_id": "49",
+      "constituency_name": "isiolo north",
+      "ward_name": "burat"
+    },
+    {
+      "ward_id": "247",
+      "subcounty_id": "49",
+      "constituency_name": "isiolo north",
+      "ward_name": "oldonyiro"
+    },
+    {
+      "ward_id": "248",
+      "subcounty_id": "50",
+      "constituency_name": "isiolo south",
+      "ward_name": "garbatulla"
+    },
+    {
+      "ward_id": "249",
+      "subcounty_id": "50",
+      "constituency_name": "isiolo south",
+      "ward_name": "kinna"
+    },
+    {
+      "ward_id": "250",
+      "subcounty_id": "50",
+      "constituency_name": "isiolo south",
+      "ward_name": "sericho"
+    },
+    {
+      "ward_id": "251",
+      "subcounty_id": "51",
+      "constituency_name": "igembe south",
+      "ward_name": "maua"
+    },
+    {
+      "ward_id": "252",
+      "subcounty_id": "51",
+      "constituency_name": "igembe south",
+      "ward_name": "kiegoi\/antubochiu"
+    },
+    {
+      "ward_id": "253",
+      "subcounty_id": "51",
+      "constituency_name": "igembe south",
+      "ward_name": "athiru gaiti"
+    },
+    {
+      "ward_id": "254",
+      "subcounty_id": "51",
+      "constituency_name": "igembe south",
+      "ward_name": "akachiu"
+    },
+    {
+      "ward_id": "255",
+      "subcounty_id": "51",
+      "constituency_name": "igembe south",
+      "ward_name": "kanuni"
+    },
+    {
+      "ward_id": "256",
+      "subcounty_id": "52",
+      "constituency_name": "igembe central",
+      "ward_name": "akirang'ondu"
+    },
+    {
+      "ward_id": "257",
+      "subcounty_id": "52",
+      "constituency_name": "igembe central",
+      "ward_name": "athiru ruujine"
+    },
+    {
+      "ward_id": "258",
+      "subcounty_id": "52",
+      "constituency_name": "igembe central",
+      "ward_name": "igembe east"
+    },
+    {
+      "ward_id": "259",
+      "subcounty_id": "52",
+      "constituency_name": "igembe central",
+      "ward_name": "njia"
+    },
+    {
+      "ward_id": "260",
+      "subcounty_id": "52",
+      "constituency_name": "igembe central",
+      "ward_name": "kangeta"
+    },
+    {
+      "ward_id": "261",
+      "subcounty_id": "53",
+      "constituency_name": "igembe north",
+      "ward_name": "antuambui"
+    },
+    {
+      "ward_id": "262",
+      "subcounty_id": "53",
+      "constituency_name": "igembe north",
+      "ward_name": "ntunene"
+    },
+    {
+      "ward_id": "263",
+      "subcounty_id": "53",
+      "constituency_name": "igembe north",
+      "ward_name": "antubetwe kiongo"
+    },
+    {
+      "ward_id": "264",
+      "subcounty_id": "53",
+      "constituency_name": "igembe north",
+      "ward_name": "naathu"
+    },
+    {
+      "ward_id": "265",
+      "subcounty_id": "53",
+      "constituency_name": "igembe north",
+      "ward_name": "amwathi"
+    },
+    {
+      "ward_id": "266",
+      "subcounty_id": "54",
+      "constituency_name": "tigania west",
+      "ward_name": "athwana"
+    },
+    {
+      "ward_id": "267",
+      "subcounty_id": "54",
+      "constituency_name": "tigania west",
+      "ward_name": "akithii"
+    },
+    {
+      "ward_id": "268",
+      "subcounty_id": "54",
+      "constituency_name": "tigania west",
+      "ward_name": "kianjai"
+    },
+    {
+      "ward_id": "269",
+      "subcounty_id": "54",
+      "constituency_name": "tigania west",
+      "ward_name": "nkomo"
+    },
+    {
+      "ward_id": "270",
+      "subcounty_id": "54",
+      "constituency_name": "tigania west",
+      "ward_name": "mbeu"
+    },
+    {
+      "ward_id": "271",
+      "subcounty_id": "55",
+      "constituency_name": "tigania east",
+      "ward_name": "thangatha"
+    },
+    {
+      "ward_id": "272",
+      "subcounty_id": "55",
+      "constituency_name": "tigania east",
+      "ward_name": "mikinduri"
+    },
+    {
+      "ward_id": "273",
+      "subcounty_id": "55",
+      "constituency_name": "tigania east",
+      "ward_name": "kiguchwa"
+    },
+    {
+      "ward_id": "274",
+      "subcounty_id": "55",
+      "constituency_name": "tigania east",
+      "ward_name": "muthara"
+    },
+    {
+      "ward_id": "275",
+      "subcounty_id": "55",
+      "constituency_name": "tigania east",
+      "ward_name": "karama"
+    },
+    {
+      "ward_id": "276",
+      "subcounty_id": "56",
+      "constituency_name": "north imenti",
+      "ward_name": "municipality"
+    },
+    {
+      "ward_id": "277",
+      "subcounty_id": "56",
+      "constituency_name": "north imenti",
+      "ward_name": "ntima east"
+    },
+    {
+      "ward_id": "278",
+      "subcounty_id": "56",
+      "constituency_name": "north imenti",
+      "ward_name": "ntima west"
+    },
+    {
+      "ward_id": "279",
+      "subcounty_id": "56",
+      "constituency_name": "north imenti",
+      "ward_name": "nyaki west"
+    },
+    {
+      "ward_id": "280",
+      "subcounty_id": "56",
+      "constituency_name": "north imenti",
+      "ward_name": "nyaki east"
+    },
+    {
+      "ward_id": "281",
+      "subcounty_id": "57",
+      "constituency_name": "buuri",
+      "ward_name": "timau"
+    },
+    {
+      "ward_id": "282",
+      "subcounty_id": "57",
+      "constituency_name": "buuri",
+      "ward_name": "kisima"
+    },
+    {
+      "ward_id": "283",
+      "subcounty_id": "57",
+      "constituency_name": "buuri",
+      "ward_name": "kiirua\/naari"
+    },
+    {
+      "ward_id": "284",
+      "subcounty_id": "57",
+      "constituency_name": "buuri",
+      "ward_name": "ruiri\/rwarera"
+    },
+    {
+      "ward_id": "285",
+      "subcounty_id": "57",
+      "constituency_name": "buuri",
+      "ward_name": "kibirichia"
+    },
+    {
+      "ward_id": "286",
+      "subcounty_id": "58",
+      "constituency_name": "central imenti",
+      "ward_name": "mwanganthia"
+    },
+    {
+      "ward_id": "287",
+      "subcounty_id": "58",
+      "constituency_name": "central imenti",
+      "ward_name": "abothuguchi central"
+    },
+    {
+      "ward_id": "288",
+      "subcounty_id": "58",
+      "constituency_name": "central imenti",
+      "ward_name": "abothuguchi west"
+    },
+    {
+      "ward_id": "289",
+      "subcounty_id": "58",
+      "constituency_name": "central imenti",
+      "ward_name": "kiagu"
+    },
+    {
+      "ward_id": "290",
+      "subcounty_id": "59",
+      "constituency_name": "south imenti",
+      "ward_name": "mitunguu"
+    },
+    {
+      "ward_id": "291",
+      "subcounty_id": "59",
+      "constituency_name": "south imenti",
+      "ward_name": "igoji east"
+    },
+    {
+      "ward_id": "292",
+      "subcounty_id": "59",
+      "constituency_name": "south imenti",
+      "ward_name": "igoji west"
+    },
+    {
+      "ward_id": "293",
+      "subcounty_id": "59",
+      "constituency_name": "south imenti",
+      "ward_name": "abogeta east"
+    },
+    {
+      "ward_id": "294",
+      "subcounty_id": "59",
+      "constituency_name": "south imenti",
+      "ward_name": "abogeta west"
+    },
+    {
+      "ward_id": "295",
+      "subcounty_id": "59",
+      "constituency_name": "south imenti",
+      "ward_name": "nkuene"
+    },
+    {
+      "ward_id": "296",
+      "subcounty_id": "60",
+      "constituency_name": "maara",
+      "ward_name": "mitheru"
+    },
+    {
+      "ward_id": "297",
+      "subcounty_id": "60",
+      "constituency_name": "maara",
+      "ward_name": "muthambi"
+    },
+    {
+      "ward_id": "298",
+      "subcounty_id": "60",
+      "constituency_name": "maara",
+      "ward_name": "mwimbi"
+    },
+    {
+      "ward_id": "299",
+      "subcounty_id": "60",
+      "constituency_name": "maara",
+      "ward_name": "ganga"
+    },
+    {
+      "ward_id": "300",
+      "subcounty_id": "60",
+      "constituency_name": "maara",
+      "ward_name": "chogoria"
+    },
+    {
+      "ward_id": "301",
+      "subcounty_id": "61",
+      "constituency_name": "chuka\/igambang'om",
+      "ward_name": "mariani"
+    },
+    {
+      "ward_id": "302",
+      "subcounty_id": "61",
+      "constituency_name": "chuka\/igambang'om",
+      "ward_name": "karingani"
+    },
+    {
+      "ward_id": "303",
+      "subcounty_id": "61",
+      "constituency_name": "chuka\/igambang'om",
+      "ward_name": "magumoni"
+    },
+    {
+      "ward_id": "304",
+      "subcounty_id": "61",
+      "constituency_name": "chuka\/igambang'om",
+      "ward_name": "mugwe"
+    },
+    {
+      "ward_id": "305",
+      "subcounty_id": "61",
+      "constituency_name": "chuka\/igambang'om",
+      "ward_name": "igambang'ombe"
+    },
+    {
+      "ward_id": "306",
+      "subcounty_id": "62",
+      "constituency_name": "tharaka",
+      "ward_name": "gatunga"
+    },
+    {
+      "ward_id": "307",
+      "subcounty_id": "62",
+      "constituency_name": "tharaka",
+      "ward_name": "mukothima"
+    },
+    {
+      "ward_id": "308",
+      "subcounty_id": "62",
+      "constituency_name": "tharaka",
+      "ward_name": "nkondi"
+    },
+    {
+      "ward_id": "309",
+      "subcounty_id": "62",
+      "constituency_name": "tharaka",
+      "ward_name": "chiakariga"
+    },
+    {
+      "ward_id": "310",
+      "subcounty_id": "62",
+      "constituency_name": "tharaka",
+      "ward_name": "marimanti"
+    },
+    {
+      "ward_id": "311",
+      "subcounty_id": "63",
+      "constituency_name": "manyatta",
+      "ward_name": "ruguru\/ngandori"
+    },
+    {
+      "ward_id": "312",
+      "subcounty_id": "63",
+      "constituency_name": "manyatta",
+      "ward_name": "kithimu"
+    },
+    {
+      "ward_id": "313",
+      "subcounty_id": "63",
+      "constituency_name": "manyatta",
+      "ward_name": "nginda"
+    },
+    {
+      "ward_id": "314",
+      "subcounty_id": "63",
+      "constituency_name": "manyatta",
+      "ward_name": "mbeti north"
+    },
+    {
+      "ward_id": "315",
+      "subcounty_id": "63",
+      "constituency_name": "manyatta",
+      "ward_name": "kirimari"
+    },
+    {
+      "ward_id": "316",
+      "subcounty_id": "63",
+      "constituency_name": "manyatta",
+      "ward_name": "gaturi south"
+    },
+    {
+      "ward_id": "317",
+      "subcounty_id": "64",
+      "constituency_name": "runyenjes",
+      "ward_name": "gaturi north"
+    },
+    {
+      "ward_id": "318",
+      "subcounty_id": "64",
+      "constituency_name": "runyenjes",
+      "ward_name": "kagaari south"
+    },
+    {
+      "ward_id": "319",
+      "subcounty_id": "64",
+      "constituency_name": "runyenjes",
+      "ward_name": "central  ward"
+    },
+    {
+      "ward_id": "320",
+      "subcounty_id": "64",
+      "constituency_name": "runyenjes",
+      "ward_name": "kagaari north"
+    },
+    {
+      "ward_id": "321",
+      "subcounty_id": "64",
+      "constituency_name": "runyenjes",
+      "ward_name": "kyeni north"
+    },
+    {
+      "ward_id": "322",
+      "subcounty_id": "64",
+      "constituency_name": "runyenjes",
+      "ward_name": "kyeni south"
+    },
+    {
+      "ward_id": "323",
+      "subcounty_id": "65",
+      "constituency_name": "mbeere south",
+      "ward_name": "mwea"
+    },
+    {
+      "ward_id": "324",
+      "subcounty_id": "65",
+      "constituency_name": "mbeere south",
+      "ward_name": "makima"
+    },
+    {
+      "ward_id": "325",
+      "subcounty_id": "65",
+      "constituency_name": "mbeere south",
+      "ward_name": "mbeti south"
+    },
+    {
+      "ward_id": "326",
+      "subcounty_id": "65",
+      "constituency_name": "mbeere south",
+      "ward_name": "mavuria"
+    },
+    {
+      "ward_id": "327",
+      "subcounty_id": "65",
+      "constituency_name": "mbeere south",
+      "ward_name": "kiambere"
+    },
+    {
+      "ward_id": "328",
+      "subcounty_id": "66",
+      "constituency_name": "mbeere north",
+      "ward_name": "nthawa"
+    },
+    {
+      "ward_id": "329",
+      "subcounty_id": "66",
+      "constituency_name": "mbeere north",
+      "ward_name": "muminji"
+    },
+    {
+      "ward_id": "330",
+      "subcounty_id": "66",
+      "constituency_name": "mbeere north",
+      "ward_name": "evurore"
+    },
+    {
+      "ward_id": "331",
+      "subcounty_id": "67",
+      "constituency_name": "mwingi north",
+      "ward_name": "ngomeni"
+    },
+    {
+      "ward_id": "332",
+      "subcounty_id": "67",
+      "constituency_name": "mwingi north",
+      "ward_name": "kyuso"
+    },
+    {
+      "ward_id": "333",
+      "subcounty_id": "67",
+      "constituency_name": "mwingi north",
+      "ward_name": "mumoni"
+    },
+    {
+      "ward_id": "334",
+      "subcounty_id": "67",
+      "constituency_name": "mwingi north",
+      "ward_name": "tseikuru"
+    },
+    {
+      "ward_id": "335",
+      "subcounty_id": "67",
+      "constituency_name": "mwingi north",
+      "ward_name": "tharaka"
+    },
+    {
+      "ward_id": "336",
+      "subcounty_id": "68",
+      "constituency_name": "mwingi west",
+      "ward_name": "kyome\/thaana"
+    },
+    {
+      "ward_id": "337",
+      "subcounty_id": "68",
+      "constituency_name": "mwingi west",
+      "ward_name": "nguutani"
+    },
+    {
+      "ward_id": "338",
+      "subcounty_id": "68",
+      "constituency_name": "mwingi west",
+      "ward_name": "migwani"
+    },
+    {
+      "ward_id": "339",
+      "subcounty_id": "68",
+      "constituency_name": "mwingi west",
+      "ward_name": "kiomo\/kyethani"
+    },
+    {
+      "ward_id": "340",
+      "subcounty_id": "69",
+      "constituency_name": "mwingi central",
+      "ward_name": "central"
+    },
+    {
+      "ward_id": "341",
+      "subcounty_id": "69",
+      "constituency_name": "mwingi central",
+      "ward_name": "kivou"
+    },
+    {
+      "ward_id": "342",
+      "subcounty_id": "69",
+      "constituency_name": "mwingi central",
+      "ward_name": "nguni"
+    },
+    {
+      "ward_id": "343",
+      "subcounty_id": "69",
+      "constituency_name": "mwingi central",
+      "ward_name": "nuu"
+    },
+    {
+      "ward_id": "344",
+      "subcounty_id": "69",
+      "constituency_name": "mwingi central",
+      "ward_name": "mui"
+    },
+    {
+      "ward_id": "345",
+      "subcounty_id": "69",
+      "constituency_name": "mwingi central",
+      "ward_name": "waita"
+    },
+    {
+      "ward_id": "346",
+      "subcounty_id": "0",
+      "constituency_name": "kitui west",
+      "ward_name": "mutonguni"
+    },
+    {
+      "ward_id": "347",
+      "subcounty_id": "0",
+      "constituency_name": "kitui west",
+      "ward_name": "kauwi"
+    },
+    {
+      "ward_id": "348",
+      "subcounty_id": "0",
+      "constituency_name": "kitui west",
+      "ward_name": "matinyani"
+    },
+    {
+      "ward_id": "349",
+      "subcounty_id": "0",
+      "constituency_name": "kitui west",
+      "ward_name": "kwa mutonga\/kithumula"
+    },
+    {
+      "ward_id": "350",
+      "subcounty_id": "70",
+      "constituency_name": "kitui rural",
+      "ward_name": "kisasi"
+    },
+    {
+      "ward_id": "351",
+      "subcounty_id": "70",
+      "constituency_name": "kitui rural",
+      "ward_name": "mbitini"
+    },
+    {
+      "ward_id": "352",
+      "subcounty_id": "70",
+      "constituency_name": "kitui rural",
+      "ward_name": "kwavonza\/yatta"
+    },
+    {
+      "ward_id": "353",
+      "subcounty_id": "70",
+      "constituency_name": "kitui rural",
+      "ward_name": "kanyangi"
+    },
+    {
+      "ward_id": "354",
+      "subcounty_id": "71",
+      "constituency_name": "kitui central",
+      "ward_name": "miambani"
+    },
+    {
+      "ward_id": "355",
+      "subcounty_id": "71",
+      "constituency_name": "kitui central",
+      "ward_name": "township"
+    },
+    {
+      "ward_id": "356",
+      "subcounty_id": "71",
+      "constituency_name": "kitui central",
+      "ward_name": "kyangwithya west"
+    },
+    {
+      "ward_id": "357",
+      "subcounty_id": "71",
+      "constituency_name": "kitui central",
+      "ward_name": "mulango"
+    },
+    {
+      "ward_id": "358",
+      "subcounty_id": "71",
+      "constituency_name": "kitui central",
+      "ward_name": "kyangwithya east"
+    },
+    {
+      "ward_id": "359",
+      "subcounty_id": "72",
+      "constituency_name": "kitui east",
+      "ward_name": "zombe\/mwitika"
+    },
+    {
+      "ward_id": "360",
+      "subcounty_id": "72",
+      "constituency_name": "kitui east",
+      "ward_name": "chuluni"
+    },
+    {
+      "ward_id": "361",
+      "subcounty_id": "72",
+      "constituency_name": "kitui east",
+      "ward_name": "nzambani"
+    },
+    {
+      "ward_id": "362",
+      "subcounty_id": "72",
+      "constituency_name": "kitui east",
+      "ward_name": "voo\/kyamatu"
+    },
+    {
+      "ward_id": "363",
+      "subcounty_id": "72",
+      "constituency_name": "kitui east",
+      "ward_name": "endau\/malalani"
+    },
+    {
+      "ward_id": "364",
+      "subcounty_id": "72",
+      "constituency_name": "kitui east",
+      "ward_name": "mutito\/kaliku"
+    },
+    {
+      "ward_id": "365",
+      "subcounty_id": "73",
+      "constituency_name": "kitui south",
+      "ward_name": "ikanga\/kyatune"
+    },
+    {
+      "ward_id": "366",
+      "subcounty_id": "73",
+      "constituency_name": "kitui south",
+      "ward_name": "mutomo"
+    },
+    {
+      "ward_id": "367",
+      "subcounty_id": "73",
+      "constituency_name": "kitui south",
+      "ward_name": "mutha"
+    },
+    {
+      "ward_id": "368",
+      "subcounty_id": "73",
+      "constituency_name": "kitui south",
+      "ward_name": "ikutha"
+    },
+    {
+      "ward_id": "369",
+      "subcounty_id": "73",
+      "constituency_name": "kitui south",
+      "ward_name": "kanziko"
+    },
+    {
+      "ward_id": "370",
+      "subcounty_id": "73",
+      "constituency_name": "kitui south",
+      "ward_name": "athi"
+    },
+    {
+      "ward_id": "371",
+      "subcounty_id": "74",
+      "constituency_name": "masinga",
+      "ward_name": "kivaa"
+    },
+    {
+      "ward_id": "372",
+      "subcounty_id": "74",
+      "constituency_name": "masinga",
+      "ward_name": "masinga central"
+    },
+    {
+      "ward_id": "373",
+      "subcounty_id": "74",
+      "constituency_name": "masinga",
+      "ward_name": "ekalakala"
+    },
+    {
+      "ward_id": "374",
+      "subcounty_id": "74",
+      "constituency_name": "masinga",
+      "ward_name": "muthesya"
+    },
+    {
+      "ward_id": "375",
+      "subcounty_id": "74",
+      "constituency_name": "masinga",
+      "ward_name": "ndithini"
+    },
+    {
+      "ward_id": "376",
+      "subcounty_id": "75",
+      "constituency_name": "yatta",
+      "ward_name": "ndalani"
+    },
+    {
+      "ward_id": "377",
+      "subcounty_id": "75",
+      "constituency_name": "yatta",
+      "ward_name": "matuu"
+    },
+    {
+      "ward_id": "378",
+      "subcounty_id": "75",
+      "constituency_name": "yatta",
+      "ward_name": "kithimani"
+    },
+    {
+      "ward_id": "379",
+      "subcounty_id": "75",
+      "constituency_name": "yatta",
+      "ward_name": "ikombe"
+    },
+    {
+      "ward_id": "380",
+      "subcounty_id": "75",
+      "constituency_name": "yatta",
+      "ward_name": "katangi"
+    },
+    {
+      "ward_id": "381",
+      "subcounty_id": "76",
+      "constituency_name": "kangundo",
+      "ward_name": "kangundo north"
+    },
+    {
+      "ward_id": "382",
+      "subcounty_id": "76",
+      "constituency_name": "kangundo",
+      "ward_name": "kangundo central"
+    },
+    {
+      "ward_id": "383",
+      "subcounty_id": "76",
+      "constituency_name": "kangundo",
+      "ward_name": "kangundo east"
+    },
+    {
+      "ward_id": "384",
+      "subcounty_id": "76",
+      "constituency_name": "kangundo",
+      "ward_name": "kangundo west"
+    },
+    {
+      "ward_id": "385",
+      "subcounty_id": "77",
+      "constituency_name": "matungulu",
+      "ward_name": "tala"
+    },
+    {
+      "ward_id": "386",
+      "subcounty_id": "77",
+      "constituency_name": "matungulu",
+      "ward_name": "matungulu north"
+    },
+    {
+      "ward_id": "387",
+      "subcounty_id": "77",
+      "constituency_name": "matungulu",
+      "ward_name": "matungulu east"
+    },
+    {
+      "ward_id": "388",
+      "subcounty_id": "77",
+      "constituency_name": "matungulu",
+      "ward_name": "matungulu west"
+    },
+    {
+      "ward_id": "389",
+      "subcounty_id": "77",
+      "constituency_name": "matungulu",
+      "ward_name": "kyeleni"
+    },
+    {
+      "ward_id": "390",
+      "subcounty_id": "78",
+      "constituency_name": "kathiani",
+      "ward_name": "mitaboni"
+    },
+    {
+      "ward_id": "391",
+      "subcounty_id": "78",
+      "constituency_name": "kathiani",
+      "ward_name": "kathiani central"
+    },
+    {
+      "ward_id": "392",
+      "subcounty_id": "78",
+      "constituency_name": "kathiani",
+      "ward_name": "upper kaewa\/iveti"
+    },
+    {
+      "ward_id": "393",
+      "subcounty_id": "78",
+      "constituency_name": "kathiani",
+      "ward_name": "lower kaewa\/kaani"
+    },
+    {
+      "ward_id": "394",
+      "subcounty_id": "79",
+      "constituency_name": "mavoko",
+      "ward_name": "athi river"
+    },
+    {
+      "ward_id": "395",
+      "subcounty_id": "79",
+      "constituency_name": "mavoko",
+      "ward_name": "kinanie"
+    },
+    {
+      "ward_id": "396",
+      "subcounty_id": "79",
+      "constituency_name": "mavoko",
+      "ward_name": "muthwani"
+    },
+    {
+      "ward_id": "397",
+      "subcounty_id": "79",
+      "constituency_name": "mavoko",
+      "ward_name": "syokimau\/mulolongo"
+    },
+    {
+      "ward_id": "398",
+      "subcounty_id": "80",
+      "constituency_name": "machakos town",
+      "ward_name": "kalama"
+    },
+    {
+      "ward_id": "399",
+      "subcounty_id": "80",
+      "constituency_name": "machakos town",
+      "ward_name": "mua"
+    },
+    {
+      "ward_id": "400",
+      "subcounty_id": "80",
+      "constituency_name": "machakos town",
+      "ward_name": "mutituni"
+    },
+    {
+      "ward_id": "401",
+      "subcounty_id": "80",
+      "constituency_name": "machakos town",
+      "ward_name": "machakos central"
+    },
+    {
+      "ward_id": "402",
+      "subcounty_id": "80",
+      "constituency_name": "machakos town",
+      "ward_name": "mumbuni north"
+    },
+    {
+      "ward_id": "403",
+      "subcounty_id": "80",
+      "constituency_name": "machakos town",
+      "ward_name": "muvuti\/kiima-kimwe"
+    },
+    {
+      "ward_id": "404",
+      "subcounty_id": "80",
+      "constituency_name": "machakos town",
+      "ward_name": "kola"
+    },
+    {
+      "ward_id": "405",
+      "subcounty_id": "81",
+      "constituency_name": "mwala",
+      "ward_name": "mbiuni"
+    },
+    {
+      "ward_id": "406",
+      "subcounty_id": "81",
+      "constituency_name": "mwala",
+      "ward_name": "makutano\/ mwala"
+    },
+    {
+      "ward_id": "407",
+      "subcounty_id": "81",
+      "constituency_name": "mwala",
+      "ward_name": "masii"
+    },
+    {
+      "ward_id": "408",
+      "subcounty_id": "81",
+      "constituency_name": "mwala",
+      "ward_name": "muthetheni"
+    },
+    {
+      "ward_id": "409",
+      "subcounty_id": "81",
+      "constituency_name": "mwala",
+      "ward_name": "wamunyu"
+    },
+    {
+      "ward_id": "410",
+      "subcounty_id": "81",
+      "constituency_name": "mwala",
+      "ward_name": "kibauni"
+    },
+    {
+      "ward_id": "411",
+      "subcounty_id": "82",
+      "constituency_name": "mbooni",
+      "ward_name": "tulimani"
+    },
+    {
+      "ward_id": "412",
+      "subcounty_id": "82",
+      "constituency_name": "mbooni",
+      "ward_name": "mbooni"
+    },
+    {
+      "ward_id": "413",
+      "subcounty_id": "82",
+      "constituency_name": "mbooni",
+      "ward_name": "kithungo\/kitundu"
+    },
+    {
+      "ward_id": "414",
+      "subcounty_id": "82",
+      "constituency_name": "mbooni",
+      "ward_name": "kisau\/kiteta"
+    },
+    {
+      "ward_id": "415",
+      "subcounty_id": "82",
+      "constituency_name": "mbooni",
+      "ward_name": "waia\/kako"
+    },
+    {
+      "ward_id": "416",
+      "subcounty_id": "82",
+      "constituency_name": "mbooni",
+      "ward_name": "kalawa"
+    },
+    {
+      "ward_id": "417",
+      "subcounty_id": "83",
+      "constituency_name": "kilome",
+      "ward_name": "kasikeu"
+    },
+    {
+      "ward_id": "418",
+      "subcounty_id": "83",
+      "constituency_name": "kilome",
+      "ward_name": "mukaa"
+    },
+    {
+      "ward_id": "419",
+      "subcounty_id": "83",
+      "constituency_name": "kilome",
+      "ward_name": "kiima kiu\/kalanzoni"
+    },
+    {
+      "ward_id": "420",
+      "subcounty_id": "84",
+      "constituency_name": "kaiti",
+      "ward_name": "ukia"
+    },
+    {
+      "ward_id": "421",
+      "subcounty_id": "84",
+      "constituency_name": "kaiti",
+      "ward_name": "kee"
+    },
+    {
+      "ward_id": "422",
+      "subcounty_id": "84",
+      "constituency_name": "kaiti",
+      "ward_name": "kilungu"
+    },
+    {
+      "ward_id": "423",
+      "subcounty_id": "84",
+      "constituency_name": "kaiti",
+      "ward_name": "ilima"
+    },
+    {
+      "ward_id": "424",
+      "subcounty_id": "85",
+      "constituency_name": "makueni",
+      "ward_name": "wote"
+    },
+    {
+      "ward_id": "425",
+      "subcounty_id": "85",
+      "constituency_name": "makueni",
+      "ward_name": "muvau\/kikuumini"
+    },
+    {
+      "ward_id": "426",
+      "subcounty_id": "85",
+      "constituency_name": "makueni",
+      "ward_name": "mavindini"
+    },
+    {
+      "ward_id": "427",
+      "subcounty_id": "85",
+      "constituency_name": "makueni",
+      "ward_name": "kitise\/kithuki"
+    },
+    {
+      "ward_id": "428",
+      "subcounty_id": "85",
+      "constituency_name": "makueni",
+      "ward_name": "kathonzweni"
+    },
+    {
+      "ward_id": "429",
+      "subcounty_id": "85",
+      "constituency_name": "makueni",
+      "ward_name": "nzaui\/kilili\/kalamba"
+    },
+    {
+      "ward_id": "430",
+      "subcounty_id": "85",
+      "constituency_name": "makueni",
+      "ward_name": "mbitini"
+    },
+    {
+      "ward_id": "431",
+      "subcounty_id": "86",
+      "constituency_name": "kibwezi west",
+      "ward_name": "makindu"
+    },
+    {
+      "ward_id": "432",
+      "subcounty_id": "86",
+      "constituency_name": "kibwezi west",
+      "ward_name": "nguumo"
+    },
+    {
+      "ward_id": "433",
+      "subcounty_id": "86",
+      "constituency_name": "kibwezi west",
+      "ward_name": "kikumbulyu north"
+    },
+    {
+      "ward_id": "434",
+      "subcounty_id": "86",
+      "constituency_name": "kibwezi west",
+      "ward_name": "kikumbulyu south"
+    },
+    {
+      "ward_id": "435",
+      "subcounty_id": "86",
+      "constituency_name": "kibwezi west",
+      "ward_name": "nguu\/masumba"
+    },
+    {
+      "ward_id": "436",
+      "subcounty_id": "86",
+      "constituency_name": "kibwezi west",
+      "ward_name": "emali\/mulala"
+    },
+    {
+      "ward_id": "437",
+      "subcounty_id": "87",
+      "constituency_name": "kibwezi east",
+      "ward_name": "masongaleni"
+    },
+    {
+      "ward_id": "438",
+      "subcounty_id": "87",
+      "constituency_name": "kibwezi east",
+      "ward_name": "mtito andei"
+    },
+    {
+      "ward_id": "439",
+      "subcounty_id": "87",
+      "constituency_name": "kibwezi east",
+      "ward_name": "thange"
+    },
+    {
+      "ward_id": "440",
+      "subcounty_id": "87",
+      "constituency_name": "kibwezi east",
+      "ward_name": "ivingoni\/nzambani"
+    },
+    {
+      "ward_id": "441",
+      "subcounty_id": "88",
+      "constituency_name": "kinangop",
+      "ward_name": "engineer"
+    },
+    {
+      "ward_id": "442",
+      "subcounty_id": "88",
+      "constituency_name": "kinangop",
+      "ward_name": "gathara"
+    },
+    {
+      "ward_id": "443",
+      "subcounty_id": "88",
+      "constituency_name": "kinangop",
+      "ward_name": "north kinangop"
+    },
+    {
+      "ward_id": "444",
+      "subcounty_id": "88",
+      "constituency_name": "kinangop",
+      "ward_name": "murungaru"
+    },
+    {
+      "ward_id": "445",
+      "subcounty_id": "88",
+      "constituency_name": "kinangop",
+      "ward_name": "njabini\\kiburu"
+    },
+    {
+      "ward_id": "446",
+      "subcounty_id": "88",
+      "constituency_name": "kinangop",
+      "ward_name": "nyakio"
+    },
+    {
+      "ward_id": "447",
+      "subcounty_id": "88",
+      "constituency_name": "kinangop",
+      "ward_name": "githabai"
+    },
+    {
+      "ward_id": "448",
+      "subcounty_id": "88",
+      "constituency_name": "kinangop",
+      "ward_name": "magumu"
+    },
+    {
+      "ward_id": "449",
+      "subcounty_id": "89",
+      "constituency_name": "kipipiri",
+      "ward_name": "wanjohi"
+    },
+    {
+      "ward_id": "450",
+      "subcounty_id": "89",
+      "constituency_name": "kipipiri",
+      "ward_name": "kipipiri"
+    },
+    {
+      "ward_id": "451",
+      "subcounty_id": "89",
+      "constituency_name": "kipipiri",
+      "ward_name": "geta"
+    },
+    {
+      "ward_id": "452",
+      "subcounty_id": "89",
+      "constituency_name": "kipipiri",
+      "ward_name": "githioro"
+    },
+    {
+      "ward_id": "453",
+      "subcounty_id": "90",
+      "constituency_name": "ol kalou",
+      "ward_name": "karau"
+    },
+    {
+      "ward_id": "454",
+      "subcounty_id": "90",
+      "constituency_name": "ol kalou",
+      "ward_name": "kanjuiri ridge"
+    },
+    {
+      "ward_id": "455",
+      "subcounty_id": "90",
+      "constituency_name": "ol kalou",
+      "ward_name": "mirangine"
+    },
+    {
+      "ward_id": "456",
+      "subcounty_id": "90",
+      "constituency_name": "ol kalou",
+      "ward_name": "kaimbaga"
+    },
+    {
+      "ward_id": "457",
+      "subcounty_id": "90",
+      "constituency_name": "ol kalou",
+      "ward_name": "rurii"
+    },
+    {
+      "ward_id": "458",
+      "subcounty_id": "91",
+      "constituency_name": "ol jorok",
+      "ward_name": "gathanji"
+    },
+    {
+      "ward_id": "459",
+      "subcounty_id": "91",
+      "constituency_name": "ol jorok",
+      "ward_name": "gatimu"
+    },
+    {
+      "ward_id": "460",
+      "subcounty_id": "91",
+      "constituency_name": "ol jorok",
+      "ward_name": "weru"
+    },
+    {
+      "ward_id": "461",
+      "subcounty_id": "91",
+      "constituency_name": "ol jorok",
+      "ward_name": "charagita"
+    },
+    {
+      "ward_id": "462",
+      "subcounty_id": "92",
+      "constituency_name": "ndaragwa",
+      "ward_name": "leshau pondo"
+    },
+    {
+      "ward_id": "463",
+      "subcounty_id": "92",
+      "constituency_name": "ndaragwa",
+      "ward_name": "kiriita"
+    },
+    {
+      "ward_id": "464",
+      "subcounty_id": "92",
+      "constituency_name": "ndaragwa",
+      "ward_name": "central"
+    },
+    {
+      "ward_id": "465",
+      "subcounty_id": "92",
+      "constituency_name": "ndaragwa",
+      "ward_name": "shamata"
+    },
+    {
+      "ward_id": "466",
+      "subcounty_id": "93",
+      "constituency_name": "tetu",
+      "ward_name": "dedan kimanthi"
+    },
+    {
+      "ward_id": "467",
+      "subcounty_id": "93",
+      "constituency_name": "tetu",
+      "ward_name": "wamagana"
+    },
+    {
+      "ward_id": "468",
+      "subcounty_id": "93",
+      "constituency_name": "tetu",
+      "ward_name": "aguthi\/gaaki"
+    },
+    {
+      "ward_id": "469",
+      "subcounty_id": "94",
+      "constituency_name": "kieni",
+      "ward_name": "mweiga"
+    },
+    {
+      "ward_id": "470",
+      "subcounty_id": "94",
+      "constituency_name": "kieni",
+      "ward_name": "naromoru kiamathaga"
+    },
+    {
+      "ward_id": "471",
+      "subcounty_id": "94",
+      "constituency_name": "kieni",
+      "ward_name": "mwiyogo\/endarasha"
+    },
+    {
+      "ward_id": "472",
+      "subcounty_id": "94",
+      "constituency_name": "kieni",
+      "ward_name": "mugunda"
+    },
+    {
+      "ward_id": "473",
+      "subcounty_id": "94",
+      "constituency_name": "kieni",
+      "ward_name": "gatarakwa"
+    },
+    {
+      "ward_id": "474",
+      "subcounty_id": "94",
+      "constituency_name": "kieni",
+      "ward_name": "thegu river"
+    },
+    {
+      "ward_id": "475",
+      "subcounty_id": "94",
+      "constituency_name": "kieni",
+      "ward_name": "kabaru"
+    },
+    {
+      "ward_id": "476",
+      "subcounty_id": "94",
+      "constituency_name": "kieni",
+      "ward_name": "gakawa"
+    },
+    {
+      "ward_id": "477",
+      "subcounty_id": "95",
+      "constituency_name": "mathira",
+      "ward_name": "ruguru"
+    },
+    {
+      "ward_id": "478",
+      "subcounty_id": "95",
+      "constituency_name": "mathira",
+      "ward_name": "magutu"
+    },
+    {
+      "ward_id": "479",
+      "subcounty_id": "95",
+      "constituency_name": "mathira",
+      "ward_name": "iriaini"
+    },
+    {
+      "ward_id": "480",
+      "subcounty_id": "95",
+      "constituency_name": "mathira",
+      "ward_name": "konyu"
+    },
+    {
+      "ward_id": "481",
+      "subcounty_id": "95",
+      "constituency_name": "mathira",
+      "ward_name": "kirimukuyu"
+    },
+    {
+      "ward_id": "482",
+      "subcounty_id": "95",
+      "constituency_name": "mathira",
+      "ward_name": "karatina town"
+    },
+    {
+      "ward_id": "483",
+      "subcounty_id": "96",
+      "constituency_name": "othaya",
+      "ward_name": "mahiga"
+    },
+    {
+      "ward_id": "484",
+      "subcounty_id": "96",
+      "constituency_name": "othaya",
+      "ward_name": "iria-ini"
+    },
+    {
+      "ward_id": "485",
+      "subcounty_id": "96",
+      "constituency_name": "othaya",
+      "ward_name": "chinga"
+    },
+    {
+      "ward_id": "486",
+      "subcounty_id": "96",
+      "constituency_name": "othaya",
+      "ward_name": "karima"
+    },
+    {
+      "ward_id": "487",
+      "subcounty_id": "97",
+      "constituency_name": "mukurweini",
+      "ward_name": "gikondi"
+    },
+    {
+      "ward_id": "488",
+      "subcounty_id": "97",
+      "constituency_name": "mukurweini",
+      "ward_name": "rugi"
+    },
+    {
+      "ward_id": "489",
+      "subcounty_id": "97",
+      "constituency_name": "mukurweini",
+      "ward_name": "mukurwe-ini west"
+    },
+    {
+      "ward_id": "490",
+      "subcounty_id": "97",
+      "constituency_name": "mukurweini",
+      "ward_name": "mukurwe-ini central"
+    },
+    {
+      "ward_id": "491",
+      "subcounty_id": "98",
+      "constituency_name": "nyeri town",
+      "ward_name": "kiganjo\/mathari"
+    },
+    {
+      "ward_id": "492",
+      "subcounty_id": "98",
+      "constituency_name": "nyeri town",
+      "ward_name": "rware"
+    },
+    {
+      "ward_id": "493",
+      "subcounty_id": "98",
+      "constituency_name": "nyeri town",
+      "ward_name": "gatitu\/muruguru"
+    },
+    {
+      "ward_id": "494",
+      "subcounty_id": "98",
+      "constituency_name": "nyeri town",
+      "ward_name": "ruring'u"
+    },
+    {
+      "ward_id": "495",
+      "subcounty_id": "98",
+      "constituency_name": "nyeri town",
+      "ward_name": "kamakwa\/mukaro"
+    },
+    {
+      "ward_id": "496",
+      "subcounty_id": "99",
+      "constituency_name": "mwea",
+      "ward_name": "mutithi"
+    },
+    {
+      "ward_id": "497",
+      "subcounty_id": "99",
+      "constituency_name": "mwea",
+      "ward_name": "kangai"
+    },
+    {
+      "ward_id": "498",
+      "subcounty_id": "99",
+      "constituency_name": "mwea",
+      "ward_name": "thiba"
+    },
+    {
+      "ward_id": "499",
+      "subcounty_id": "99",
+      "constituency_name": "mwea",
+      "ward_name": "wamumu"
+    },
+    {
+      "ward_id": "500",
+      "subcounty_id": "99",
+      "constituency_name": "mwea",
+      "ward_name": "nyangati"
+    },
+    {
+      "ward_id": "501",
+      "subcounty_id": "99",
+      "constituency_name": "mwea",
+      "ward_name": "murinduko"
+    },
+    {
+      "ward_id": "502",
+      "subcounty_id": "99",
+      "constituency_name": "mwea",
+      "ward_name": "gathigiriri"
+    },
+    {
+      "ward_id": "503",
+      "subcounty_id": "99",
+      "constituency_name": "mwea",
+      "ward_name": "tebere"
+    },
+    {
+      "ward_id": "504",
+      "subcounty_id": "100",
+      "constituency_name": "gichugu",
+      "ward_name": "kabare"
+    },
+    {
+      "ward_id": "505",
+      "subcounty_id": "100",
+      "constituency_name": "gichugu",
+      "ward_name": "baragwi"
+    },
+    {
+      "ward_id": "506",
+      "subcounty_id": "100",
+      "constituency_name": "gichugu",
+      "ward_name": "njukiini"
+    },
+    {
+      "ward_id": "507",
+      "subcounty_id": "100",
+      "constituency_name": "gichugu",
+      "ward_name": "ngariama"
+    },
+    {
+      "ward_id": "508",
+      "subcounty_id": "100",
+      "constituency_name": "gichugu",
+      "ward_name": "karumandi"
+    },
+    {
+      "ward_id": "509",
+      "subcounty_id": "101",
+      "constituency_name": "ndia",
+      "ward_name": "mukure"
+    },
+    {
+      "ward_id": "510",
+      "subcounty_id": "101",
+      "constituency_name": "ndia",
+      "ward_name": "kiine"
+    },
+    {
+      "ward_id": "511",
+      "subcounty_id": "101",
+      "constituency_name": "ndia",
+      "ward_name": "kariti"
+    },
+    {
+      "ward_id": "512",
+      "subcounty_id": "102",
+      "constituency_name": "kirinyaga central",
+      "ward_name": "mutira"
+    },
+    {
+      "ward_id": "513",
+      "subcounty_id": "102",
+      "constituency_name": "kirinyaga central",
+      "ward_name": "kanyeki-ini"
+    },
+    {
+      "ward_id": "514",
+      "subcounty_id": "102",
+      "constituency_name": "kirinyaga central",
+      "ward_name": "kerugoya"
+    },
+    {
+      "ward_id": "515",
+      "subcounty_id": "102",
+      "constituency_name": "kirinyaga central",
+      "ward_name": "inoi"
+    },
+    {
+      "ward_id": "516",
+      "subcounty_id": "103",
+      "constituency_name": "kangema",
+      "ward_name": "kanyenyaini"
+    },
+    {
+      "ward_id": "517",
+      "subcounty_id": "103",
+      "constituency_name": "kangema",
+      "ward_name": "muguru"
+    },
+    {
+      "ward_id": "518",
+      "subcounty_id": "103",
+      "constituency_name": "kangema",
+      "ward_name": "rwathia"
+    },
+    {
+      "ward_id": "519",
+      "subcounty_id": "104",
+      "constituency_name": "mathioya",
+      "ward_name": "gitugi"
+    },
+    {
+      "ward_id": "520",
+      "subcounty_id": "104",
+      "constituency_name": "mathioya",
+      "ward_name": "kiru"
+    },
+    {
+      "ward_id": "521",
+      "subcounty_id": "104",
+      "constituency_name": "mathioya",
+      "ward_name": "kamacharia"
+    },
+    {
+      "ward_id": "522",
+      "subcounty_id": "105",
+      "constituency_name": "kiharu",
+      "ward_name": "wangu"
+    },
+    {
+      "ward_id": "523",
+      "subcounty_id": "105",
+      "constituency_name": "kiharu",
+      "ward_name": "mugoiri"
+    },
+    {
+      "ward_id": "524",
+      "subcounty_id": "105",
+      "constituency_name": "kiharu",
+      "ward_name": "mbiri"
+    },
+    {
+      "ward_id": "525",
+      "subcounty_id": "105",
+      "constituency_name": "kiharu",
+      "ward_name": "township"
+    },
+    {
+      "ward_id": "526",
+      "subcounty_id": "105",
+      "constituency_name": "kiharu",
+      "ward_name": "murarandia"
+    },
+    {
+      "ward_id": "527",
+      "subcounty_id": "105",
+      "constituency_name": "kiharu",
+      "ward_name": "gaturi"
+    },
+    {
+      "ward_id": "528",
+      "subcounty_id": "106",
+      "constituency_name": "kigumo",
+      "ward_name": "kahumbu"
+    },
+    {
+      "ward_id": "529",
+      "subcounty_id": "106",
+      "constituency_name": "kigumo",
+      "ward_name": "muthithi"
+    },
+    {
+      "ward_id": "530",
+      "subcounty_id": "106",
+      "constituency_name": "kigumo",
+      "ward_name": "kigumo"
+    },
+    {
+      "ward_id": "531",
+      "subcounty_id": "106",
+      "constituency_name": "kigumo",
+      "ward_name": "kangari"
+    },
+    {
+      "ward_id": "532",
+      "subcounty_id": "106",
+      "constituency_name": "kigumo",
+      "ward_name": "kinyona"
+    },
+    {
+      "ward_id": "533",
+      "subcounty_id": "107",
+      "constituency_name": "maragwa",
+      "ward_name": "kimorori\/wempa"
+    },
+    {
+      "ward_id": "534",
+      "subcounty_id": "107",
+      "constituency_name": "maragwa",
+      "ward_name": "makuyu"
+    },
+    {
+      "ward_id": "535",
+      "subcounty_id": "107",
+      "constituency_name": "maragwa",
+      "ward_name": "kambiti"
+    },
+    {
+      "ward_id": "536",
+      "subcounty_id": "107",
+      "constituency_name": "maragwa",
+      "ward_name": "kamahuha"
+    },
+    {
+      "ward_id": "537",
+      "subcounty_id": "107",
+      "constituency_name": "maragwa",
+      "ward_name": "ichagaki"
+    },
+    {
+      "ward_id": "538",
+      "subcounty_id": "107",
+      "constituency_name": "maragwa",
+      "ward_name": "nginda"
+    },
+    {
+      "ward_id": "539",
+      "subcounty_id": "108",
+      "constituency_name": "kandara",
+      "ward_name": "ng'araria"
+    },
+    {
+      "ward_id": "540",
+      "subcounty_id": "108",
+      "constituency_name": "kandara",
+      "ward_name": "muruka"
+    },
+    {
+      "ward_id": "541",
+      "subcounty_id": "108",
+      "constituency_name": "kandara",
+      "ward_name": "kagundu-ini"
+    },
+    {
+      "ward_id": "542",
+      "subcounty_id": "108",
+      "constituency_name": "kandara",
+      "ward_name": "gaichanjiru"
+    },
+    {
+      "ward_id": "543",
+      "subcounty_id": "108",
+      "constituency_name": "kandara",
+      "ward_name": "ithiru"
+    },
+    {
+      "ward_id": "544",
+      "subcounty_id": "108",
+      "constituency_name": "kandara",
+      "ward_name": "ruchu"
+    },
+    {
+      "ward_id": "545",
+      "subcounty_id": "109",
+      "constituency_name": "gatanga",
+      "ward_name": "ithanga"
+    },
+    {
+      "ward_id": "546",
+      "subcounty_id": "109",
+      "constituency_name": "gatanga",
+      "ward_name": "kakuzi\/mitubiri"
+    },
+    {
+      "ward_id": "547",
+      "subcounty_id": "109",
+      "constituency_name": "gatanga",
+      "ward_name": "mugumo-ini"
+    },
+    {
+      "ward_id": "548",
+      "subcounty_id": "109",
+      "constituency_name": "gatanga",
+      "ward_name": "kihumbu-ini"
+    },
+    {
+      "ward_id": "549",
+      "subcounty_id": "109",
+      "constituency_name": "gatanga",
+      "ward_name": "gatanga"
+    },
+    {
+      "ward_id": "550",
+      "subcounty_id": "109",
+      "constituency_name": "gatanga",
+      "ward_name": "kariara"
+    },
+    {
+      "ward_id": "551",
+      "subcounty_id": "110",
+      "constituency_name": "gatundu south",
+      "ward_name": "kiamwangi"
+    },
+    {
+      "ward_id": "552",
+      "subcounty_id": "110",
+      "constituency_name": "gatundu south",
+      "ward_name": "kiganjo"
+    },
+    {
+      "ward_id": "553",
+      "subcounty_id": "110",
+      "constituency_name": "gatundu south",
+      "ward_name": "ndarugu"
+    },
+    {
+      "ward_id": "554",
+      "subcounty_id": "110",
+      "constituency_name": "gatundu south",
+      "ward_name": "ngenda"
+    },
+    {
+      "ward_id": "555",
+      "subcounty_id": "111",
+      "constituency_name": "gatundu north",
+      "ward_name": "gituamba"
+    },
+    {
+      "ward_id": "556",
+      "subcounty_id": "111",
+      "constituency_name": "gatundu north",
+      "ward_name": "githobokoni"
+    },
+    {
+      "ward_id": "557",
+      "subcounty_id": "111",
+      "constituency_name": "gatundu north",
+      "ward_name": "chania"
+    },
+    {
+      "ward_id": "558",
+      "subcounty_id": "111",
+      "constituency_name": "gatundu north",
+      "ward_name": "mang'u"
+    },
+    {
+      "ward_id": "559",
+      "subcounty_id": "112",
+      "constituency_name": "juja",
+      "ward_name": "murera"
+    },
+    {
+      "ward_id": "560",
+      "subcounty_id": "112",
+      "constituency_name": "juja",
+      "ward_name": "theta"
+    },
+    {
+      "ward_id": "561",
+      "subcounty_id": "112",
+      "constituency_name": "juja",
+      "ward_name": "juja"
+    },
+    {
+      "ward_id": "562",
+      "subcounty_id": "112",
+      "constituency_name": "juja",
+      "ward_name": "witeithie"
+    },
+    {
+      "ward_id": "563",
+      "subcounty_id": "112",
+      "constituency_name": "juja",
+      "ward_name": "kalimoni"
+    },
+    {
+      "ward_id": "564",
+      "subcounty_id": "113",
+      "constituency_name": "thika town",
+      "ward_name": "township"
+    },
+    {
+      "ward_id": "565",
+      "subcounty_id": "113",
+      "constituency_name": "thika town",
+      "ward_name": "kamenu"
+    },
+    {
+      "ward_id": "566",
+      "subcounty_id": "113",
+      "constituency_name": "thika town",
+      "ward_name": "hospital"
+    },
+    {
+      "ward_id": "567",
+      "subcounty_id": "113",
+      "constituency_name": "thika town",
+      "ward_name": "gatuanyaga"
+    },
+    {
+      "ward_id": "568",
+      "subcounty_id": "113",
+      "constituency_name": "thika town",
+      "ward_name": "ngoliba"
+    },
+    {
+      "ward_id": "569",
+      "subcounty_id": "114",
+      "constituency_name": "ruiru",
+      "ward_name": "gitothua"
+    },
+    {
+      "ward_id": "570",
+      "subcounty_id": "114",
+      "constituency_name": "ruiru",
+      "ward_name": "biashara"
+    },
+    {
+      "ward_id": "571",
+      "subcounty_id": "114",
+      "constituency_name": "ruiru",
+      "ward_name": "gatongora"
+    },
+    {
+      "ward_id": "572",
+      "subcounty_id": "114",
+      "constituency_name": "ruiru",
+      "ward_name": "kahawa sukari"
+    },
+    {
+      "ward_id": "573",
+      "subcounty_id": "114",
+      "constituency_name": "ruiru",
+      "ward_name": "kahawa wendani"
+    },
+    {
+      "ward_id": "574",
+      "subcounty_id": "114",
+      "constituency_name": "ruiru",
+      "ward_name": "kiuu"
+    },
+    {
+      "ward_id": "575",
+      "subcounty_id": "114",
+      "constituency_name": "ruiru",
+      "ward_name": "mwiki"
+    },
+    {
+      "ward_id": "576",
+      "subcounty_id": "114",
+      "constituency_name": "ruiru",
+      "ward_name": "mwihoko"
+    },
+    {
+      "ward_id": "577",
+      "subcounty_id": "115",
+      "constituency_name": "githunguri",
+      "ward_name": "githunguri"
+    },
+    {
+      "ward_id": "578",
+      "subcounty_id": "115",
+      "constituency_name": "githunguri",
+      "ward_name": "githiga"
+    },
+    {
+      "ward_id": "579",
+      "subcounty_id": "115",
+      "constituency_name": "githunguri",
+      "ward_name": "ikinu"
+    },
+    {
+      "ward_id": "580",
+      "subcounty_id": "115",
+      "constituency_name": "githunguri",
+      "ward_name": "ngewa"
+    },
+    {
+      "ward_id": "581",
+      "subcounty_id": "115",
+      "constituency_name": "githunguri",
+      "ward_name": "komothai"
+    },
+    {
+      "ward_id": "582",
+      "subcounty_id": "116",
+      "constituency_name": "kiambu",
+      "ward_name": "ting'ang'a"
+    },
+    {
+      "ward_id": "583",
+      "subcounty_id": "116",
+      "constituency_name": "kiambu",
+      "ward_name": "ndumberi"
+    },
+    {
+      "ward_id": "584",
+      "subcounty_id": "116",
+      "constituency_name": "kiambu",
+      "ward_name": "riabai"
+    },
+    {
+      "ward_id": "585",
+      "subcounty_id": "116",
+      "constituency_name": "kiambu",
+      "ward_name": "township"
+    },
+    {
+      "ward_id": "586",
+      "subcounty_id": "117",
+      "constituency_name": "kiambaa",
+      "ward_name": "cianda"
+    },
+    {
+      "ward_id": "587",
+      "subcounty_id": "117",
+      "constituency_name": "kiambaa",
+      "ward_name": "karuri"
+    },
+    {
+      "ward_id": "588",
+      "subcounty_id": "117",
+      "constituency_name": "kiambaa",
+      "ward_name": "ndenderu"
+    },
+    {
+      "ward_id": "589",
+      "subcounty_id": "117",
+      "constituency_name": "kiambaa",
+      "ward_name": "muchatha"
+    },
+    {
+      "ward_id": "590",
+      "subcounty_id": "117",
+      "constituency_name": "kiambaa",
+      "ward_name": "kihara"
+    },
+    {
+      "ward_id": "591",
+      "subcounty_id": "118",
+      "constituency_name": "kabete",
+      "ward_name": "gitaru"
+    },
+    {
+      "ward_id": "592",
+      "subcounty_id": "118",
+      "constituency_name": "kabete",
+      "ward_name": "muguga"
+    },
+    {
+      "ward_id": "593",
+      "subcounty_id": "118",
+      "constituency_name": "kabete",
+      "ward_name": "nyadhuna"
+    },
+    {
+      "ward_id": "594",
+      "subcounty_id": "118",
+      "constituency_name": "kabete",
+      "ward_name": "kabete"
+    },
+    {
+      "ward_id": "595",
+      "subcounty_id": "118",
+      "constituency_name": "kabete",
+      "ward_name": "uthiru"
+    },
+    {
+      "ward_id": "596",
+      "subcounty_id": "119",
+      "constituency_name": "kikuyu",
+      "ward_name": "karai"
+    },
+    {
+      "ward_id": "597",
+      "subcounty_id": "119",
+      "constituency_name": "kikuyu",
+      "ward_name": "nachu"
+    },
+    {
+      "ward_id": "598",
+      "subcounty_id": "119",
+      "constituency_name": "kikuyu",
+      "ward_name": "sigona"
+    },
+    {
+      "ward_id": "599",
+      "subcounty_id": "119",
+      "constituency_name": "kikuyu",
+      "ward_name": "kikuyu"
+    },
+    {
+      "ward_id": "600",
+      "subcounty_id": "119",
+      "constituency_name": "kikuyu",
+      "ward_name": "kinoo"
+    },
+    {
+      "ward_id": "601",
+      "subcounty_id": "120",
+      "constituency_name": "limuru",
+      "ward_name": "bibirioni"
+    },
+    {
+      "ward_id": "602",
+      "subcounty_id": "120",
+      "constituency_name": "limuru",
+      "ward_name": "limuru central"
+    },
+    {
+      "ward_id": "603",
+      "subcounty_id": "120",
+      "constituency_name": "limuru",
+      "ward_name": "ndeiya"
+    },
+    {
+      "ward_id": "604",
+      "subcounty_id": "120",
+      "constituency_name": "limuru",
+      "ward_name": "limuru east"
+    },
+    {
+      "ward_id": "605",
+      "subcounty_id": "120",
+      "constituency_name": "limuru",
+      "ward_name": "ngecha tigoni"
+    },
+    {
+      "ward_id": "606",
+      "subcounty_id": "121",
+      "constituency_name": "lari",
+      "ward_name": "kinale"
+    },
+    {
+      "ward_id": "607",
+      "subcounty_id": "121",
+      "constituency_name": "lari",
+      "ward_name": "kijabe"
+    },
+    {
+      "ward_id": "608",
+      "subcounty_id": "121",
+      "constituency_name": "lari",
+      "ward_name": "nyanduma"
+    },
+    {
+      "ward_id": "609",
+      "subcounty_id": "121",
+      "constituency_name": "lari",
+      "ward_name": "kamburu"
+    },
+    {
+      "ward_id": "610",
+      "subcounty_id": "121",
+      "constituency_name": "lari",
+      "ward_name": "lari\/kirenga"
+    },
+    {
+      "ward_id": "611",
+      "subcounty_id": "122",
+      "constituency_name": "turkana north",
+      "ward_name": "kaeris"
+    },
+    {
+      "ward_id": "612",
+      "subcounty_id": "122",
+      "constituency_name": "turkana north",
+      "ward_name": "lake zone"
+    },
+    {
+      "ward_id": "613",
+      "subcounty_id": "122",
+      "constituency_name": "turkana north",
+      "ward_name": "lapur"
+    },
+    {
+      "ward_id": "614",
+      "subcounty_id": "122",
+      "constituency_name": "turkana north",
+      "ward_name": "kaaleng\/kaikor"
+    },
+    {
+      "ward_id": "615",
+      "subcounty_id": "122",
+      "constituency_name": "turkana north",
+      "ward_name": "kibish"
+    },
+    {
+      "ward_id": "616",
+      "subcounty_id": "122",
+      "constituency_name": "turkana north",
+      "ward_name": "nakalale"
+    },
+    {
+      "ward_id": "617",
+      "subcounty_id": "123",
+      "constituency_name": "turkana west",
+      "ward_name": "kakuma"
+    },
+    {
+      "ward_id": "618",
+      "subcounty_id": "123",
+      "constituency_name": "turkana west",
+      "ward_name": "lopur"
+    },
+    {
+      "ward_id": "619",
+      "subcounty_id": "123",
+      "constituency_name": "turkana west",
+      "ward_name": "letea"
+    },
+    {
+      "ward_id": "620",
+      "subcounty_id": "123",
+      "constituency_name": "turkana west",
+      "ward_name": "songot"
+    },
+    {
+      "ward_id": "621",
+      "subcounty_id": "123",
+      "constituency_name": "turkana west",
+      "ward_name": "kalobeyei"
+    },
+    {
+      "ward_id": "622",
+      "subcounty_id": "123",
+      "constituency_name": "turkana west",
+      "ward_name": "lokichoggio"
+    },
+    {
+      "ward_id": "623",
+      "subcounty_id": "123",
+      "constituency_name": "turkana west",
+      "ward_name": "nanaam"
+    },
+    {
+      "ward_id": "624",
+      "subcounty_id": "124",
+      "constituency_name": "turkana central",
+      "ward_name": "kerio delta"
+    },
+    {
+      "ward_id": "625",
+      "subcounty_id": "124",
+      "constituency_name": "turkana central",
+      "ward_name": "kang'atotha"
+    },
+    {
+      "ward_id": "626",
+      "subcounty_id": "124",
+      "constituency_name": "turkana central",
+      "ward_name": "kalokol"
+    },
+    {
+      "ward_id": "627",
+      "subcounty_id": "124",
+      "constituency_name": "turkana central",
+      "ward_name": "lodwar township"
+    },
+    {
+      "ward_id": "628",
+      "subcounty_id": "124",
+      "constituency_name": "turkana central",
+      "ward_name": "kanamkemer"
+    },
+    {
+      "ward_id": "629",
+      "subcounty_id": "125",
+      "constituency_name": "loima",
+      "ward_name": "kotaruk\/lobei"
+    },
+    {
+      "ward_id": "630",
+      "subcounty_id": "125",
+      "constituency_name": "loima",
+      "ward_name": "turkwel"
+    },
+    {
+      "ward_id": "631",
+      "subcounty_id": "125",
+      "constituency_name": "loima",
+      "ward_name": "loima"
+    },
+    {
+      "ward_id": "632",
+      "subcounty_id": "125",
+      "constituency_name": "loima",
+      "ward_name": "lokiriama\/lorengippi"
+    },
+    {
+      "ward_id": "633",
+      "subcounty_id": "126",
+      "constituency_name": "turkana south",
+      "ward_name": "kaputir"
+    },
+    {
+      "ward_id": "634",
+      "subcounty_id": "126",
+      "constituency_name": "turkana south",
+      "ward_name": "katilu"
+    },
+    {
+      "ward_id": "635",
+      "subcounty_id": "126",
+      "constituency_name": "turkana south",
+      "ward_name": "lobokat"
+    },
+    {
+      "ward_id": "636",
+      "subcounty_id": "126",
+      "constituency_name": "turkana south",
+      "ward_name": "kalapata"
+    },
+    {
+      "ward_id": "637",
+      "subcounty_id": "126",
+      "constituency_name": "turkana south",
+      "ward_name": "lokichar"
+    },
+    {
+      "ward_id": "638",
+      "subcounty_id": "127",
+      "constituency_name": "turkana east",
+      "ward_name": "kapedo\/napeitom"
+    },
+    {
+      "ward_id": "639",
+      "subcounty_id": "127",
+      "constituency_name": "turkana east",
+      "ward_name": "katilia"
+    },
+    {
+      "ward_id": "640",
+      "subcounty_id": "127",
+      "constituency_name": "turkana east",
+      "ward_name": "lokori\/kochodin"
+    },
+    {
+      "ward_id": "641",
+      "subcounty_id": "128",
+      "constituency_name": "kapenguria",
+      "ward_name": "riwo"
+    },
+    {
+      "ward_id": "642",
+      "subcounty_id": "128",
+      "constituency_name": "kapenguria",
+      "ward_name": "kapenguria"
+    },
+    {
+      "ward_id": "643",
+      "subcounty_id": "128",
+      "constituency_name": "kapenguria",
+      "ward_name": "mnagei"
+    },
+    {
+      "ward_id": "644",
+      "subcounty_id": "128",
+      "constituency_name": "kapenguria",
+      "ward_name": "siyoi"
+    },
+    {
+      "ward_id": "645",
+      "subcounty_id": "128",
+      "constituency_name": "kapenguria",
+      "ward_name": "endugh"
+    },
+    {
+      "ward_id": "646",
+      "subcounty_id": "128",
+      "constituency_name": "kapenguria",
+      "ward_name": "sook"
+    },
+    {
+      "ward_id": "647",
+      "subcounty_id": "129",
+      "constituency_name": "sigor",
+      "ward_name": "sekerr"
+    },
+    {
+      "ward_id": "648",
+      "subcounty_id": "129",
+      "constituency_name": "sigor",
+      "ward_name": "masool"
+    },
+    {
+      "ward_id": "649",
+      "subcounty_id": "129",
+      "constituency_name": "sigor",
+      "ward_name": "lomut"
+    },
+    {
+      "ward_id": "650",
+      "subcounty_id": "129",
+      "constituency_name": "sigor",
+      "ward_name": "weiwei"
+    },
+    {
+      "ward_id": "651",
+      "subcounty_id": "130",
+      "constituency_name": "kacheliba",
+      "ward_name": "suam"
+    },
+    {
+      "ward_id": "652",
+      "subcounty_id": "130",
+      "constituency_name": "kacheliba",
+      "ward_name": "kodich"
+    },
+    {
+      "ward_id": "653",
+      "subcounty_id": "130",
+      "constituency_name": "kacheliba",
+      "ward_name": "kapckok"
+    },
+    {
+      "ward_id": "654",
+      "subcounty_id": "130",
+      "constituency_name": "kacheliba",
+      "ward_name": "kasei"
+    },
+    {
+      "ward_id": "655",
+      "subcounty_id": "130",
+      "constituency_name": "kacheliba",
+      "ward_name": "kiwawa"
+    },
+    {
+      "ward_id": "656",
+      "subcounty_id": "130",
+      "constituency_name": "kacheliba",
+      "ward_name": "alale"
+    },
+    {
+      "ward_id": "657",
+      "subcounty_id": "131",
+      "constituency_name": "pokot south",
+      "ward_name": "chepareria"
+    },
+    {
+      "ward_id": "658",
+      "subcounty_id": "131",
+      "constituency_name": "pokot south",
+      "ward_name": "batei"
+    },
+    {
+      "ward_id": "659",
+      "subcounty_id": "131",
+      "constituency_name": "pokot south",
+      "ward_name": "lelan"
+    },
+    {
+      "ward_id": "660",
+      "subcounty_id": "131",
+      "constituency_name": "pokot south",
+      "ward_name": "tapach"
+    },
+    {
+      "ward_id": "661",
+      "subcounty_id": "132",
+      "constituency_name": "samburu west",
+      "ward_name": "lodokejek"
+    },
+    {
+      "ward_id": "662",
+      "subcounty_id": "132",
+      "constituency_name": "samburu west",
+      "ward_name": "suguta marmar"
+    },
+    {
+      "ward_id": "663",
+      "subcounty_id": "132",
+      "constituency_name": "samburu west",
+      "ward_name": "maralal"
+    },
+    {
+      "ward_id": "664",
+      "subcounty_id": "132",
+      "constituency_name": "samburu west",
+      "ward_name": "loosuk"
+    },
+    {
+      "ward_id": "665",
+      "subcounty_id": "132",
+      "constituency_name": "samburu west",
+      "ward_name": "poro"
+    },
+    {
+      "ward_id": "666",
+      "subcounty_id": "133",
+      "constituency_name": "samburu north",
+      "ward_name": "el-barta"
+    },
+    {
+      "ward_id": "667",
+      "subcounty_id": "133",
+      "constituency_name": "samburu north",
+      "ward_name": "nachola"
+    },
+    {
+      "ward_id": "668",
+      "subcounty_id": "133",
+      "constituency_name": "samburu north",
+      "ward_name": "ndoto"
+    },
+    {
+      "ward_id": "669",
+      "subcounty_id": "133",
+      "constituency_name": "samburu north",
+      "ward_name": "nyiro"
+    },
+    {
+      "ward_id": "670",
+      "subcounty_id": "133",
+      "constituency_name": "samburu north",
+      "ward_name": "angata nanyokie"
+    },
+    {
+      "ward_id": "671",
+      "subcounty_id": "133",
+      "constituency_name": "samburu north",
+      "ward_name": "baawa"
+    },
+    {
+      "ward_id": "672",
+      "subcounty_id": "134",
+      "constituency_name": "samburu east",
+      "ward_name": "waso"
+    },
+    {
+      "ward_id": "673",
+      "subcounty_id": "134",
+      "constituency_name": "samburu east",
+      "ward_name": "wamba west"
+    },
+    {
+      "ward_id": "674",
+      "subcounty_id": "134",
+      "constituency_name": "samburu east",
+      "ward_name": "wamba east"
+    },
+    {
+      "ward_id": "675",
+      "subcounty_id": "134",
+      "constituency_name": "samburu east",
+      "ward_name": "wamba north"
+    },
+    {
+      "ward_id": "676",
+      "subcounty_id": "135",
+      "constituency_name": "kwanza",
+      "ward_name": "kapomboi"
+    },
+    {
+      "ward_id": "677",
+      "subcounty_id": "135",
+      "constituency_name": "kwanza",
+      "ward_name": "kwanza"
+    },
+    {
+      "ward_id": "678",
+      "subcounty_id": "135",
+      "constituency_name": "kwanza",
+      "ward_name": "keiyo"
+    },
+    {
+      "ward_id": "679",
+      "subcounty_id": "135",
+      "constituency_name": "kwanza",
+      "ward_name": "bidii"
+    },
+    {
+      "ward_id": "680",
+      "subcounty_id": "136",
+      "constituency_name": "endebess",
+      "ward_name": "chepchoina"
+    },
+    {
+      "ward_id": "681",
+      "subcounty_id": "136",
+      "constituency_name": "endebess",
+      "ward_name": "endebess"
+    },
+    {
+      "ward_id": "682",
+      "subcounty_id": "136",
+      "constituency_name": "endebess",
+      "ward_name": "matumbei"
+    },
+    {
+      "ward_id": "683",
+      "subcounty_id": "137",
+      "constituency_name": "saboti",
+      "ward_name": "kinyoro"
+    },
+    {
+      "ward_id": "684",
+      "subcounty_id": "137",
+      "constituency_name": "saboti",
+      "ward_name": "matisi"
+    },
+    {
+      "ward_id": "685",
+      "subcounty_id": "137",
+      "constituency_name": "saboti",
+      "ward_name": "tuwani"
+    },
+    {
+      "ward_id": "686",
+      "subcounty_id": "137",
+      "constituency_name": "saboti",
+      "ward_name": "saboti"
+    },
+    {
+      "ward_id": "687",
+      "subcounty_id": "137",
+      "constituency_name": "saboti",
+      "ward_name": "machewa"
+    },
+    {
+      "ward_id": "688",
+      "subcounty_id": "138",
+      "constituency_name": "kiminini",
+      "ward_name": "kiminini"
+    },
+    {
+      "ward_id": "689",
+      "subcounty_id": "138",
+      "constituency_name": "kiminini",
+      "ward_name": "waitaluk"
+    },
+    {
+      "ward_id": "690",
+      "subcounty_id": "138",
+      "constituency_name": "kiminini",
+      "ward_name": "sirende"
+    },
+    {
+      "ward_id": "691",
+      "subcounty_id": "138",
+      "constituency_name": "kiminini",
+      "ward_name": "hospital"
+    },
+    {
+      "ward_id": "692",
+      "subcounty_id": "138",
+      "constituency_name": "kiminini",
+      "ward_name": "sikhendu"
+    },
+    {
+      "ward_id": "693",
+      "subcounty_id": "138",
+      "constituency_name": "kiminini",
+      "ward_name": "nabiswa"
+    },
+    {
+      "ward_id": "694",
+      "subcounty_id": "139",
+      "constituency_name": "cherangany",
+      "ward_name": "sinyerere"
+    },
+    {
+      "ward_id": "695",
+      "subcounty_id": "139",
+      "constituency_name": "cherangany",
+      "ward_name": "makutano"
+    },
+    {
+      "ward_id": "696",
+      "subcounty_id": "139",
+      "constituency_name": "cherangany",
+      "ward_name": "kaplamai"
+    },
+    {
+      "ward_id": "697",
+      "subcounty_id": "139",
+      "constituency_name": "cherangany",
+      "ward_name": "motosiet"
+    },
+    {
+      "ward_id": "698",
+      "subcounty_id": "139",
+      "constituency_name": "cherangany",
+      "ward_name": "cherangany\/suwerwa"
+    },
+    {
+      "ward_id": "699",
+      "subcounty_id": "139",
+      "constituency_name": "cherangany",
+      "ward_name": "chepsiro\/kiptoror"
+    },
+    {
+      "ward_id": "700",
+      "subcounty_id": "139",
+      "constituency_name": "cherangany",
+      "ward_name": "sitatunga"
+    },
+    {
+      "ward_id": "701",
+      "subcounty_id": "140",
+      "constituency_name": "soy",
+      "ward_name": "moi's bridge"
+    },
+    {
+      "ward_id": "702",
+      "subcounty_id": "140",
+      "constituency_name": "soy",
+      "ward_name": "kapkures"
+    },
+    {
+      "ward_id": "703",
+      "subcounty_id": "140",
+      "constituency_name": "soy",
+      "ward_name": "ziwa"
+    },
+    {
+      "ward_id": "704",
+      "subcounty_id": "140",
+      "constituency_name": "soy",
+      "ward_name": "segero\/barsombe"
+    },
+    {
+      "ward_id": "705",
+      "subcounty_id": "140",
+      "constituency_name": "soy",
+      "ward_name": "kipsomba"
+    },
+    {
+      "ward_id": "706",
+      "subcounty_id": "140",
+      "constituency_name": "soy",
+      "ward_name": "soy"
+    },
+    {
+      "ward_id": "707",
+      "subcounty_id": "140",
+      "constituency_name": "soy",
+      "ward_name": "kuinet\/kapsuswa"
+    },
+    {
+      "ward_id": "708",
+      "subcounty_id": "141",
+      "constituency_name": "turbo",
+      "ward_name": "ngenyilel"
+    },
+    {
+      "ward_id": "709",
+      "subcounty_id": "141",
+      "constituency_name": "turbo",
+      "ward_name": "tapsagoi"
+    },
+    {
+      "ward_id": "710",
+      "subcounty_id": "141",
+      "constituency_name": "turbo",
+      "ward_name": "kamagut"
+    },
+    {
+      "ward_id": "711",
+      "subcounty_id": "141",
+      "constituency_name": "turbo",
+      "ward_name": "kiplombe"
+    },
+    {
+      "ward_id": "712",
+      "subcounty_id": "141",
+      "constituency_name": "turbo",
+      "ward_name": "kapsaos"
+    },
+    {
+      "ward_id": "713",
+      "subcounty_id": "141",
+      "constituency_name": "turbo",
+      "ward_name": "huruma"
+    },
+    {
+      "ward_id": "714",
+      "subcounty_id": "142",
+      "constituency_name": "moiben",
+      "ward_name": "tembelio"
+    },
+    {
+      "ward_id": "715",
+      "subcounty_id": "142",
+      "constituency_name": "moiben",
+      "ward_name": "sergoit"
+    },
+    {
+      "ward_id": "716",
+      "subcounty_id": "142",
+      "constituency_name": "moiben",
+      "ward_name": "karuna\/meibeki"
+    },
+    {
+      "ward_id": "717",
+      "subcounty_id": "142",
+      "constituency_name": "moiben",
+      "ward_name": "moiben"
+    },
+    {
+      "ward_id": "718",
+      "subcounty_id": "142",
+      "constituency_name": "moiben",
+      "ward_name": "kimumu"
+    },
+    {
+      "ward_id": "719",
+      "subcounty_id": "143",
+      "constituency_name": "ainabkoi",
+      "ward_name": "kapsoya"
+    },
+    {
+      "ward_id": "720",
+      "subcounty_id": "143",
+      "constituency_name": "ainabkoi",
+      "ward_name": "kaptagat"
+    },
+    {
+      "ward_id": "721",
+      "subcounty_id": "143",
+      "constituency_name": "ainabkoi",
+      "ward_name": "ainabkoi\/olare"
+    },
+    {
+      "ward_id": "722",
+      "subcounty_id": "144",
+      "constituency_name": "kapseret",
+      "ward_name": "simat\/kapseret"
+    },
+    {
+      "ward_id": "723",
+      "subcounty_id": "144",
+      "constituency_name": "kapseret",
+      "ward_name": "kipkenyo"
+    },
+    {
+      "ward_id": "724",
+      "subcounty_id": "144",
+      "constituency_name": "kapseret",
+      "ward_name": "ngeria"
+    },
+    {
+      "ward_id": "725",
+      "subcounty_id": "144",
+      "constituency_name": "kapseret",
+      "ward_name": "megun"
+    },
+    {
+      "ward_id": "726",
+      "subcounty_id": "144",
+      "constituency_name": "kapseret",
+      "ward_name": "langas"
+    },
+    {
+      "ward_id": "727",
+      "subcounty_id": "145",
+      "constituency_name": "kesses",
+      "ward_name": "racecourse"
+    },
+    {
+      "ward_id": "728",
+      "subcounty_id": "145",
+      "constituency_name": "kesses",
+      "ward_name": "cheptiret\/kipchamo"
+    },
+    {
+      "ward_id": "729",
+      "subcounty_id": "145",
+      "constituency_name": "kesses",
+      "ward_name": "tulwet\/chuiyat"
+    },
+    {
+      "ward_id": "730",
+      "subcounty_id": "145",
+      "constituency_name": "kesses",
+      "ward_name": "tarakwa"
+    },
+    {
+      "ward_id": "731",
+      "subcounty_id": "146",
+      "constituency_name": "marakwet east",
+      "ward_name": "kapyego"
+    },
+    {
+      "ward_id": "732",
+      "subcounty_id": "146",
+      "constituency_name": "marakwet east",
+      "ward_name": "sambirir"
+    },
+    {
+      "ward_id": "733",
+      "subcounty_id": "146",
+      "constituency_name": "marakwet east",
+      "ward_name": "endo"
+    },
+    {
+      "ward_id": "734",
+      "subcounty_id": "146",
+      "constituency_name": "marakwet east",
+      "ward_name": "embobut \/ embulot"
+    },
+    {
+      "ward_id": "735",
+      "subcounty_id": "147",
+      "constituency_name": "marakwet west",
+      "ward_name": "lelan"
+    },
+    {
+      "ward_id": "736",
+      "subcounty_id": "147",
+      "constituency_name": "marakwet west",
+      "ward_name": "sengwer"
+    },
+    {
+      "ward_id": "737",
+      "subcounty_id": "147",
+      "constituency_name": "marakwet west",
+      "ward_name": "cherang'any\/chebororwa"
+    },
+    {
+      "ward_id": "738",
+      "subcounty_id": "147",
+      "constituency_name": "marakwet west",
+      "ward_name": "moiben\/kuserwo"
+    },
+    {
+      "ward_id": "739",
+      "subcounty_id": "147",
+      "constituency_name": "marakwet west",
+      "ward_name": "kapsowar"
+    },
+    {
+      "ward_id": "740",
+      "subcounty_id": "147",
+      "constituency_name": "marakwet west",
+      "ward_name": "arror"
+    },
+    {
+      "ward_id": "741",
+      "subcounty_id": "148",
+      "constituency_name": "keiyo north",
+      "ward_name": "emsoo"
+    },
+    {
+      "ward_id": "742",
+      "subcounty_id": "148",
+      "constituency_name": "keiyo north",
+      "ward_name": "kamariny"
+    },
+    {
+      "ward_id": "743",
+      "subcounty_id": "148",
+      "constituency_name": "keiyo north",
+      "ward_name": "kapchemutwa"
+    },
+    {
+      "ward_id": "744",
+      "subcounty_id": "148",
+      "constituency_name": "keiyo north",
+      "ward_name": "tambach"
+    },
+    {
+      "ward_id": "745",
+      "subcounty_id": "149",
+      "constituency_name": "keiyo south",
+      "ward_name": "kaptarakwa"
+    },
+    {
+      "ward_id": "746",
+      "subcounty_id": "149",
+      "constituency_name": "keiyo south",
+      "ward_name": "chepkorio"
+    },
+    {
+      "ward_id": "747",
+      "subcounty_id": "149",
+      "constituency_name": "keiyo south",
+      "ward_name": "soy north"
+    },
+    {
+      "ward_id": "748",
+      "subcounty_id": "149",
+      "constituency_name": "keiyo south",
+      "ward_name": "soy south"
+    },
+    {
+      "ward_id": "749",
+      "subcounty_id": "149",
+      "constituency_name": "keiyo south",
+      "ward_name": "kabiemit"
+    },
+    {
+      "ward_id": "750",
+      "subcounty_id": "149",
+      "constituency_name": "keiyo south",
+      "ward_name": "metkei"
+    },
+    {
+      "ward_id": "751",
+      "subcounty_id": "150",
+      "constituency_name": "tinderet",
+      "ward_name": "songhor\/soba"
+    },
+    {
+      "ward_id": "752",
+      "subcounty_id": "150",
+      "constituency_name": "tinderet",
+      "ward_name": "tindiret"
+    },
+    {
+      "ward_id": "753",
+      "subcounty_id": "150",
+      "constituency_name": "tinderet",
+      "ward_name": "chemelil\/chemase"
+    },
+    {
+      "ward_id": "754",
+      "subcounty_id": "150",
+      "constituency_name": "tinderet",
+      "ward_name": "kapsimotwo"
+    },
+    {
+      "ward_id": "755",
+      "subcounty_id": "151",
+      "constituency_name": "aldai",
+      "ward_name": "kabwareng"
+    },
+    {
+      "ward_id": "756",
+      "subcounty_id": "151",
+      "constituency_name": "aldai",
+      "ward_name": "terik"
+    },
+    {
+      "ward_id": "757",
+      "subcounty_id": "151",
+      "constituency_name": "aldai",
+      "ward_name": "kemeloi-maraba"
+    },
+    {
+      "ward_id": "758",
+      "subcounty_id": "151",
+      "constituency_name": "aldai",
+      "ward_name": "kobujoi"
+    },
+    {
+      "ward_id": "759",
+      "subcounty_id": "151",
+      "constituency_name": "aldai",
+      "ward_name": "kaptumo-kaboi"
+    },
+    {
+      "ward_id": "760",
+      "subcounty_id": "151",
+      "constituency_name": "aldai",
+      "ward_name": "koyo-ndurio"
+    },
+    {
+      "ward_id": "761",
+      "subcounty_id": "152",
+      "constituency_name": "nandi hills",
+      "ward_name": "nandi hills"
+    },
+    {
+      "ward_id": "762",
+      "subcounty_id": "152",
+      "constituency_name": "nandi hills",
+      "ward_name": "chepkunyuk"
+    },
+    {
+      "ward_id": "763",
+      "subcounty_id": "152",
+      "constituency_name": "nandi hills",
+      "ward_name": "ol'lessos"
+    },
+    {
+      "ward_id": "764",
+      "subcounty_id": "152",
+      "constituency_name": "nandi hills",
+      "ward_name": "kapchorua"
+    },
+    {
+      "ward_id": "765",
+      "subcounty_id": "153",
+      "constituency_name": "chesumei",
+      "ward_name": "chemundu\/kapng'etuny"
+    },
+    {
+      "ward_id": "766",
+      "subcounty_id": "153",
+      "constituency_name": "chesumei",
+      "ward_name": "kosirai"
+    },
+    {
+      "ward_id": "767",
+      "subcounty_id": "153",
+      "constituency_name": "chesumei",
+      "ward_name": "lelmokwo\/ngechek"
+    },
+    {
+      "ward_id": "768",
+      "subcounty_id": "153",
+      "constituency_name": "chesumei",
+      "ward_name": "kaptel\/kamoiywo"
+    },
+    {
+      "ward_id": "769",
+      "subcounty_id": "153",
+      "constituency_name": "chesumei",
+      "ward_name": "kiptuya"
+    },
+    {
+      "ward_id": "770",
+      "subcounty_id": "154",
+      "constituency_name": "emgwen",
+      "ward_name": "chepkumia"
+    },
+    {
+      "ward_id": "771",
+      "subcounty_id": "154",
+      "constituency_name": "emgwen",
+      "ward_name": "kapkangani"
+    },
+    {
+      "ward_id": "772",
+      "subcounty_id": "154",
+      "constituency_name": "emgwen",
+      "ward_name": "kapsabet"
+    },
+    {
+      "ward_id": "773",
+      "subcounty_id": "154",
+      "constituency_name": "emgwen",
+      "ward_name": "kilibwoni"
+    },
+    {
+      "ward_id": "774",
+      "subcounty_id": "155",
+      "constituency_name": "mosop",
+      "ward_name": "chepterwai"
+    },
+    {
+      "ward_id": "775",
+      "subcounty_id": "155",
+      "constituency_name": "mosop",
+      "ward_name": "kipkaren"
+    },
+    {
+      "ward_id": "776",
+      "subcounty_id": "155",
+      "constituency_name": "mosop",
+      "ward_name": "kurgung\/surungai"
+    },
+    {
+      "ward_id": "777",
+      "subcounty_id": "155",
+      "constituency_name": "mosop",
+      "ward_name": "kabiyet"
+    },
+    {
+      "ward_id": "778",
+      "subcounty_id": "155",
+      "constituency_name": "mosop",
+      "ward_name": "ndalat"
+    },
+    {
+      "ward_id": "779",
+      "subcounty_id": "155",
+      "constituency_name": "mosop",
+      "ward_name": "kabisaga"
+    },
+    {
+      "ward_id": "780",
+      "subcounty_id": "155",
+      "constituency_name": "mosop",
+      "ward_name": "sangalo\/kebulonik"
+    },
+    {
+      "ward_id": "781",
+      "subcounty_id": "156",
+      "constituency_name": "tiaty",
+      "ward_name": "tirioko"
+    },
+    {
+      "ward_id": "782",
+      "subcounty_id": "156",
+      "constituency_name": "tiaty",
+      "ward_name": "kolowa"
+    },
+    {
+      "ward_id": "783",
+      "subcounty_id": "156",
+      "constituency_name": "tiaty",
+      "ward_name": "ribkwo"
+    },
+    {
+      "ward_id": "784",
+      "subcounty_id": "156",
+      "constituency_name": "tiaty",
+      "ward_name": "silale"
+    },
+    {
+      "ward_id": "785",
+      "subcounty_id": "156",
+      "constituency_name": "tiaty",
+      "ward_name": "loiyamorock"
+    },
+    {
+      "ward_id": "786",
+      "subcounty_id": "156",
+      "constituency_name": "tiaty",
+      "ward_name": "tangulbei\/korossi"
+    },
+    {
+      "ward_id": "787",
+      "subcounty_id": "156",
+      "constituency_name": "tiaty",
+      "ward_name": "churo\/amaya"
+    },
+    {
+      "ward_id": "788",
+      "subcounty_id": "0",
+      "constituency_name": "baringo  north",
+      "ward_name": "barwessa"
+    },
+    {
+      "ward_id": "789",
+      "subcounty_id": "0",
+      "constituency_name": "baringo  north",
+      "ward_name": "kabartonjo"
+    },
+    {
+      "ward_id": "790",
+      "subcounty_id": "0",
+      "constituency_name": "baringo  north",
+      "ward_name": "saimo\/kipsaraman"
+    },
+    {
+      "ward_id": "791",
+      "subcounty_id": "0",
+      "constituency_name": "baringo  north",
+      "ward_name": "saimo\/soi"
+    },
+    {
+      "ward_id": "792",
+      "subcounty_id": "0",
+      "constituency_name": "baringo  north",
+      "ward_name": "bartabwa"
+    },
+    {
+      "ward_id": "793",
+      "subcounty_id": "158",
+      "constituency_name": "baringo central",
+      "ward_name": "kabarnet"
+    },
+    {
+      "ward_id": "794",
+      "subcounty_id": "158",
+      "constituency_name": "baringo central",
+      "ward_name": "sacho"
+    },
+    {
+      "ward_id": "795",
+      "subcounty_id": "158",
+      "constituency_name": "baringo central",
+      "ward_name": "tenges"
+    },
+    {
+      "ward_id": "796",
+      "subcounty_id": "158",
+      "constituency_name": "baringo central",
+      "ward_name": "ewalel chapchap"
+    },
+    {
+      "ward_id": "797",
+      "subcounty_id": "158",
+      "constituency_name": "baringo central",
+      "ward_name": "kapropita"
+    },
+    {
+      "ward_id": "798",
+      "subcounty_id": "159",
+      "constituency_name": "baringo south",
+      "ward_name": "marigat"
+    },
+    {
+      "ward_id": "799",
+      "subcounty_id": "159",
+      "constituency_name": "baringo south",
+      "ward_name": "ilchamus"
+    },
+    {
+      "ward_id": "800",
+      "subcounty_id": "159",
+      "constituency_name": "baringo south",
+      "ward_name": "mochongoi"
+    },
+    {
+      "ward_id": "801",
+      "subcounty_id": "159",
+      "constituency_name": "baringo south",
+      "ward_name": "mukutani"
+    },
+    {
+      "ward_id": "802",
+      "subcounty_id": "160",
+      "constituency_name": "mogotio",
+      "ward_name": "mogotio"
+    },
+    {
+      "ward_id": "803",
+      "subcounty_id": "160",
+      "constituency_name": "mogotio",
+      "ward_name": "emining"
+    },
+    {
+      "ward_id": "804",
+      "subcounty_id": "160",
+      "constituency_name": "mogotio",
+      "ward_name": "kisanana"
+    },
+    {
+      "ward_id": "805",
+      "subcounty_id": "161",
+      "constituency_name": "eldama ravine",
+      "ward_name": "lembus"
+    },
+    {
+      "ward_id": "806",
+      "subcounty_id": "161",
+      "constituency_name": "eldama ravine",
+      "ward_name": "lembus kwen"
+    },
+    {
+      "ward_id": "807",
+      "subcounty_id": "161",
+      "constituency_name": "eldama ravine",
+      "ward_name": "ravine"
+    },
+    {
+      "ward_id": "808",
+      "subcounty_id": "161",
+      "constituency_name": "eldama ravine",
+      "ward_name": "mumberes\/maji mazuri"
+    },
+    {
+      "ward_id": "809",
+      "subcounty_id": "161",
+      "constituency_name": "eldama ravine",
+      "ward_name": "lembus\/perkerra"
+    },
+    {
+      "ward_id": "810",
+      "subcounty_id": "161",
+      "constituency_name": "eldama ravine",
+      "ward_name": "koibatek"
+    },
+    {
+      "ward_id": "811",
+      "subcounty_id": "162",
+      "constituency_name": "laikipia west",
+      "ward_name": "olmoran"
+    },
+    {
+      "ward_id": "812",
+      "subcounty_id": "162",
+      "constituency_name": "laikipia west",
+      "ward_name": "rumuruti township"
+    },
+    {
+      "ward_id": "813",
+      "subcounty_id": "162",
+      "constituency_name": "laikipia west",
+      "ward_name": "kinamba"
+    },
+    {
+      "ward_id": "814",
+      "subcounty_id": "162",
+      "constituency_name": "laikipia west",
+      "ward_name": "marmanet"
+    },
+    {
+      "ward_id": "815",
+      "subcounty_id": "162",
+      "constituency_name": "laikipia west",
+      "ward_name": "igwamiti"
+    },
+    {
+      "ward_id": "816",
+      "subcounty_id": "162",
+      "constituency_name": "laikipia west",
+      "ward_name": "salama"
+    },
+    {
+      "ward_id": "817",
+      "subcounty_id": "163",
+      "constituency_name": "laikipia east",
+      "ward_name": "ngobit"
+    },
+    {
+      "ward_id": "818",
+      "subcounty_id": "163",
+      "constituency_name": "laikipia east",
+      "ward_name": "tigithi"
+    },
+    {
+      "ward_id": "819",
+      "subcounty_id": "163",
+      "constituency_name": "laikipia east",
+      "ward_name": "thingithu"
+    },
+    {
+      "ward_id": "820",
+      "subcounty_id": "163",
+      "constituency_name": "laikipia east",
+      "ward_name": "nanyuki"
+    },
+    {
+      "ward_id": "821",
+      "subcounty_id": "163",
+      "constituency_name": "laikipia east",
+      "ward_name": "umande"
+    },
+    {
+      "ward_id": "822",
+      "subcounty_id": "164",
+      "constituency_name": "laikipia north",
+      "ward_name": "sosian"
+    },
+    {
+      "ward_id": "823",
+      "subcounty_id": "164",
+      "constituency_name": "laikipia north",
+      "ward_name": "segera"
+    },
+    {
+      "ward_id": "824",
+      "subcounty_id": "164",
+      "constituency_name": "laikipia north",
+      "ward_name": "mukogondo west"
+    },
+    {
+      "ward_id": "825",
+      "subcounty_id": "164",
+      "constituency_name": "laikipia north",
+      "ward_name": "mukogondo east"
+    },
+    {
+      "ward_id": "826",
+      "subcounty_id": "165",
+      "constituency_name": "molo",
+      "ward_name": "mariashoni"
+    },
+    {
+      "ward_id": "827",
+      "subcounty_id": "165",
+      "constituency_name": "molo",
+      "ward_name": "elburgon"
+    },
+    {
+      "ward_id": "828",
+      "subcounty_id": "165",
+      "constituency_name": "molo",
+      "ward_name": "turi"
+    },
+    {
+      "ward_id": "829",
+      "subcounty_id": "165",
+      "constituency_name": "molo",
+      "ward_name": "molo"
+    },
+    {
+      "ward_id": "830",
+      "subcounty_id": "166",
+      "constituency_name": "njoro",
+      "ward_name": "maunarok"
+    },
+    {
+      "ward_id": "831",
+      "subcounty_id": "166",
+      "constituency_name": "njoro",
+      "ward_name": "mauche"
+    },
+    {
+      "ward_id": "832",
+      "subcounty_id": "166",
+      "constituency_name": "njoro",
+      "ward_name": "kihingo"
+    },
+    {
+      "ward_id": "833",
+      "subcounty_id": "166",
+      "constituency_name": "njoro",
+      "ward_name": "nessuit"
+    },
+    {
+      "ward_id": "834",
+      "subcounty_id": "166",
+      "constituency_name": "njoro",
+      "ward_name": "lare"
+    },
+    {
+      "ward_id": "835",
+      "subcounty_id": "166",
+      "constituency_name": "njoro",
+      "ward_name": "njoro"
+    },
+    {
+      "ward_id": "836",
+      "subcounty_id": "167",
+      "constituency_name": "naivasha",
+      "ward_name": "biashara"
+    },
+    {
+      "ward_id": "837",
+      "subcounty_id": "167",
+      "constituency_name": "naivasha",
+      "ward_name": "hells gate"
+    },
+    {
+      "ward_id": "838",
+      "subcounty_id": "167",
+      "constituency_name": "naivasha",
+      "ward_name": "lakeview"
+    },
+    {
+      "ward_id": "839",
+      "subcounty_id": "167",
+      "constituency_name": "naivasha",
+      "ward_name": "maai-mahiu"
+    },
+    {
+      "ward_id": "840",
+      "subcounty_id": "167",
+      "constituency_name": "naivasha",
+      "ward_name": "maiella"
+    },
+    {
+      "ward_id": "841",
+      "subcounty_id": "167",
+      "constituency_name": "naivasha",
+      "ward_name": "olkaria"
+    },
+    {
+      "ward_id": "842",
+      "subcounty_id": "167",
+      "constituency_name": "naivasha",
+      "ward_name": "naivasha east"
+    },
+    {
+      "ward_id": "843",
+      "subcounty_id": "167",
+      "constituency_name": "naivasha",
+      "ward_name": "viwandani"
+    },
+    {
+      "ward_id": "844",
+      "subcounty_id": "168",
+      "constituency_name": "gilgil",
+      "ward_name": "gilgil"
+    },
+    {
+      "ward_id": "845",
+      "subcounty_id": "168",
+      "constituency_name": "gilgil",
+      "ward_name": "elementaita"
+    },
+    {
+      "ward_id": "846",
+      "subcounty_id": "168",
+      "constituency_name": "gilgil",
+      "ward_name": "mbaruk\/eburu"
+    },
+    {
+      "ward_id": "847",
+      "subcounty_id": "168",
+      "constituency_name": "gilgil",
+      "ward_name": "malewa west"
+    },
+    {
+      "ward_id": "848",
+      "subcounty_id": "168",
+      "constituency_name": "gilgil",
+      "ward_name": "murindati"
+    },
+    {
+      "ward_id": "849",
+      "subcounty_id": "169",
+      "constituency_name": "kuresoi south",
+      "ward_name": "amalo"
+    },
+    {
+      "ward_id": "850",
+      "subcounty_id": "169",
+      "constituency_name": "kuresoi south",
+      "ward_name": "keringet"
+    },
+    {
+      "ward_id": "851",
+      "subcounty_id": "169",
+      "constituency_name": "kuresoi south",
+      "ward_name": "kiptagich"
+    },
+    {
+      "ward_id": "852",
+      "subcounty_id": "169",
+      "constituency_name": "kuresoi south",
+      "ward_name": "tinet"
+    },
+    {
+      "ward_id": "853",
+      "subcounty_id": "0",
+      "constituency_name": "kuresoi north",
+      "ward_name": "kiptororo"
+    },
+    {
+      "ward_id": "854",
+      "subcounty_id": "0",
+      "constituency_name": "kuresoi north",
+      "ward_name": "nyota"
+    },
+    {
+      "ward_id": "855",
+      "subcounty_id": "0",
+      "constituency_name": "kuresoi north",
+      "ward_name": "sirikwa"
+    },
+    {
+      "ward_id": "856",
+      "subcounty_id": "0",
+      "constituency_name": "kuresoi north",
+      "ward_name": "kamara"
+    },
+    {
+      "ward_id": "857",
+      "subcounty_id": "171",
+      "constituency_name": "subukia",
+      "ward_name": "subukia"
+    },
+    {
+      "ward_id": "858",
+      "subcounty_id": "171",
+      "constituency_name": "subukia",
+      "ward_name": "waseges"
+    },
+    {
+      "ward_id": "859",
+      "subcounty_id": "171",
+      "constituency_name": "subukia",
+      "ward_name": "kabazi"
+    },
+    {
+      "ward_id": "860",
+      "subcounty_id": "172",
+      "constituency_name": "rongai",
+      "ward_name": "menengai west"
+    },
+    {
+      "ward_id": "861",
+      "subcounty_id": "172",
+      "constituency_name": "rongai",
+      "ward_name": "soin"
+    },
+    {
+      "ward_id": "862",
+      "subcounty_id": "172",
+      "constituency_name": "rongai",
+      "ward_name": "visoi"
+    },
+    {
+      "ward_id": "863",
+      "subcounty_id": "172",
+      "constituency_name": "rongai",
+      "ward_name": "mosop"
+    },
+    {
+      "ward_id": "864",
+      "subcounty_id": "172",
+      "constituency_name": "rongai",
+      "ward_name": "solai"
+    },
+    {
+      "ward_id": "865",
+      "subcounty_id": "173",
+      "constituency_name": "bahati",
+      "ward_name": "dundori"
+    },
+    {
+      "ward_id": "866",
+      "subcounty_id": "173",
+      "constituency_name": "bahati",
+      "ward_name": "kabatini"
+    },
+    {
+      "ward_id": "867",
+      "subcounty_id": "173",
+      "constituency_name": "bahati",
+      "ward_name": "kiamaina"
+    },
+    {
+      "ward_id": "868",
+      "subcounty_id": "173",
+      "constituency_name": "bahati",
+      "ward_name": "lanet\/umoja"
+    },
+    {
+      "ward_id": "869",
+      "subcounty_id": "173",
+      "constituency_name": "bahati",
+      "ward_name": "bahati"
+    },
+    {
+      "ward_id": "870",
+      "subcounty_id": "174",
+      "constituency_name": "nakuru town west",
+      "ward_name": "barut"
+    },
+    {
+      "ward_id": "871",
+      "subcounty_id": "174",
+      "constituency_name": "nakuru town west",
+      "ward_name": "london"
+    },
+    {
+      "ward_id": "872",
+      "subcounty_id": "174",
+      "constituency_name": "nakuru town west",
+      "ward_name": "kaptembwo"
+    },
+    {
+      "ward_id": "873",
+      "subcounty_id": "174",
+      "constituency_name": "nakuru town west",
+      "ward_name": "kapkures"
+    },
+    {
+      "ward_id": "874",
+      "subcounty_id": "174",
+      "constituency_name": "nakuru town west",
+      "ward_name": "rhoda"
+    },
+    {
+      "ward_id": "875",
+      "subcounty_id": "174",
+      "constituency_name": "nakuru town west",
+      "ward_name": "shaabab"
+    },
+    {
+      "ward_id": "876",
+      "subcounty_id": "175",
+      "constituency_name": "nakuru town east",
+      "ward_name": "biashara"
+    },
+    {
+      "ward_id": "877",
+      "subcounty_id": "175",
+      "constituency_name": "nakuru town east",
+      "ward_name": "kivumbini"
+    },
+    {
+      "ward_id": "878",
+      "subcounty_id": "175",
+      "constituency_name": "nakuru town east",
+      "ward_name": "flamingo"
+    },
+    {
+      "ward_id": "879",
+      "subcounty_id": "175",
+      "constituency_name": "nakuru town east",
+      "ward_name": "menengai"
+    },
+    {
+      "ward_id": "880",
+      "subcounty_id": "175",
+      "constituency_name": "nakuru town east",
+      "ward_name": "nakuru east"
+    },
+    {
+      "ward_id": "881",
+      "subcounty_id": "176",
+      "constituency_name": "kilgoris",
+      "ward_name": "kilgoris central"
+    },
+    {
+      "ward_id": "882",
+      "subcounty_id": "176",
+      "constituency_name": "kilgoris",
+      "ward_name": "keyian"
+    },
+    {
+      "ward_id": "883",
+      "subcounty_id": "176",
+      "constituency_name": "kilgoris",
+      "ward_name": "angata barikoi"
+    },
+    {
+      "ward_id": "884",
+      "subcounty_id": "176",
+      "constituency_name": "kilgoris",
+      "ward_name": "shankoe"
+    },
+    {
+      "ward_id": "885",
+      "subcounty_id": "176",
+      "constituency_name": "kilgoris",
+      "ward_name": "kimintet"
+    },
+    {
+      "ward_id": "886",
+      "subcounty_id": "176",
+      "constituency_name": "kilgoris",
+      "ward_name": "lolgorian"
+    },
+    {
+      "ward_id": "887",
+      "subcounty_id": "177",
+      "constituency_name": "emurua dikirr",
+      "ward_name": "ilkerin"
+    },
+    {
+      "ward_id": "888",
+      "subcounty_id": "177",
+      "constituency_name": "emurua dikirr",
+      "ward_name": "ololmasani"
+    },
+    {
+      "ward_id": "889",
+      "subcounty_id": "177",
+      "constituency_name": "emurua dikirr",
+      "ward_name": "mogondo"
+    },
+    {
+      "ward_id": "890",
+      "subcounty_id": "177",
+      "constituency_name": "emurua dikirr",
+      "ward_name": "kapsasian"
+    },
+    {
+      "ward_id": "891",
+      "subcounty_id": "178",
+      "constituency_name": "narok north",
+      "ward_name": "olpusimoru"
+    },
+    {
+      "ward_id": "892",
+      "subcounty_id": "178",
+      "constituency_name": "narok north",
+      "ward_name": "olokurto"
+    },
+    {
+      "ward_id": "893",
+      "subcounty_id": "178",
+      "constituency_name": "narok north",
+      "ward_name": "narok town"
+    },
+    {
+      "ward_id": "894",
+      "subcounty_id": "178",
+      "constituency_name": "narok north",
+      "ward_name": "nkareta"
+    },
+    {
+      "ward_id": "895",
+      "subcounty_id": "178",
+      "constituency_name": "narok north",
+      "ward_name": "olorropil"
+    },
+    {
+      "ward_id": "896",
+      "subcounty_id": "178",
+      "constituency_name": "narok north",
+      "ward_name": "melili"
+    },
+    {
+      "ward_id": "897",
+      "subcounty_id": "179",
+      "constituency_name": "narok east",
+      "ward_name": "mosiro"
+    },
+    {
+      "ward_id": "898",
+      "subcounty_id": "179",
+      "constituency_name": "narok east",
+      "ward_name": "ildamat"
+    },
+    {
+      "ward_id": "899",
+      "subcounty_id": "179",
+      "constituency_name": "narok east",
+      "ward_name": "keekonyokie"
+    },
+    {
+      "ward_id": "900",
+      "subcounty_id": "179",
+      "constituency_name": "narok east",
+      "ward_name": "suswa"
+    },
+    {
+      "ward_id": "901",
+      "subcounty_id": "180",
+      "constituency_name": "narok south",
+      "ward_name": "majimoto\/naroosura"
+    },
+    {
+      "ward_id": "902",
+      "subcounty_id": "180",
+      "constituency_name": "narok south",
+      "ward_name": "ololulung'a"
+    },
+    {
+      "ward_id": "903",
+      "subcounty_id": "180",
+      "constituency_name": "narok south",
+      "ward_name": "melelo"
+    },
+    {
+      "ward_id": "904",
+      "subcounty_id": "180",
+      "constituency_name": "narok south",
+      "ward_name": "loita"
+    },
+    {
+      "ward_id": "905",
+      "subcounty_id": "180",
+      "constituency_name": "narok south",
+      "ward_name": "sogoo"
+    },
+    {
+      "ward_id": "906",
+      "subcounty_id": "180",
+      "constituency_name": "narok south",
+      "ward_name": "sagamian"
+    },
+    {
+      "ward_id": "907",
+      "subcounty_id": "181",
+      "constituency_name": "narok west",
+      "ward_name": "ilmotiok"
+    },
+    {
+      "ward_id": "908",
+      "subcounty_id": "181",
+      "constituency_name": "narok west",
+      "ward_name": "mara"
+    },
+    {
+      "ward_id": "909",
+      "subcounty_id": "181",
+      "constituency_name": "narok west",
+      "ward_name": "siana"
+    },
+    {
+      "ward_id": "910",
+      "subcounty_id": "181",
+      "constituency_name": "narok west",
+      "ward_name": "naikarra"
+    },
+    {
+      "ward_id": "911",
+      "subcounty_id": "182",
+      "constituency_name": "kajiado north",
+      "ward_name": "olkeri"
+    },
+    {
+      "ward_id": "912",
+      "subcounty_id": "182",
+      "constituency_name": "kajiado north",
+      "ward_name": "ongata rongai"
+    },
+    {
+      "ward_id": "913",
+      "subcounty_id": "182",
+      "constituency_name": "kajiado north",
+      "ward_name": "nkaimurunya"
+    },
+    {
+      "ward_id": "914",
+      "subcounty_id": "182",
+      "constituency_name": "kajiado north",
+      "ward_name": "oloolua"
+    },
+    {
+      "ward_id": "915",
+      "subcounty_id": "182",
+      "constituency_name": "kajiado north",
+      "ward_name": "ngong"
+    },
+    {
+      "ward_id": "916",
+      "subcounty_id": "183",
+      "constituency_name": "kajiado central",
+      "ward_name": "purko"
+    },
+    {
+      "ward_id": "917",
+      "subcounty_id": "183",
+      "constituency_name": "kajiado central",
+      "ward_name": "ildamat"
+    },
+    {
+      "ward_id": "918",
+      "subcounty_id": "183",
+      "constituency_name": "kajiado central",
+      "ward_name": "dalalekutuk"
+    },
+    {
+      "ward_id": "919",
+      "subcounty_id": "183",
+      "constituency_name": "kajiado central",
+      "ward_name": "matapato north"
+    },
+    {
+      "ward_id": "920",
+      "subcounty_id": "183",
+      "constituency_name": "kajiado central",
+      "ward_name": "matapato south"
+    },
+    {
+      "ward_id": "921",
+      "subcounty_id": "184",
+      "constituency_name": "kajiado east",
+      "ward_name": "kaputiei north"
+    },
+    {
+      "ward_id": "922",
+      "subcounty_id": "184",
+      "constituency_name": "kajiado east",
+      "ward_name": "kitengela"
+    },
+    {
+      "ward_id": "923",
+      "subcounty_id": "184",
+      "constituency_name": "kajiado east",
+      "ward_name": "oloosirkon\/sholinke"
+    },
+    {
+      "ward_id": "924",
+      "subcounty_id": "184",
+      "constituency_name": "kajiado east",
+      "ward_name": "kenyawa-poka"
+    },
+    {
+      "ward_id": "925",
+      "subcounty_id": "184",
+      "constituency_name": "kajiado east",
+      "ward_name": "imaroro"
+    },
+    {
+      "ward_id": "926",
+      "subcounty_id": "185",
+      "constituency_name": "kajiado west",
+      "ward_name": "keekonyokie"
+    },
+    {
+      "ward_id": "927",
+      "subcounty_id": "185",
+      "constituency_name": "kajiado west",
+      "ward_name": "iloodokilani"
+    },
+    {
+      "ward_id": "928",
+      "subcounty_id": "185",
+      "constituency_name": "kajiado west",
+      "ward_name": "magadi"
+    },
+    {
+      "ward_id": "929",
+      "subcounty_id": "185",
+      "constituency_name": "kajiado west",
+      "ward_name": "ewuaso oonkidong'i"
+    },
+    {
+      "ward_id": "930",
+      "subcounty_id": "185",
+      "constituency_name": "kajiado west",
+      "ward_name": "mosiro"
+    },
+    {
+      "ward_id": "931",
+      "subcounty_id": "186",
+      "constituency_name": "kajiado south",
+      "ward_name": "entonet\/lenkisim"
+    },
+    {
+      "ward_id": "932",
+      "subcounty_id": "186",
+      "constituency_name": "kajiado south",
+      "ward_name": "mbirikani\/eselenkei"
+    },
+    {
+      "ward_id": "933",
+      "subcounty_id": "186",
+      "constituency_name": "kajiado south",
+      "ward_name": "kuku"
+    },
+    {
+      "ward_id": "934",
+      "subcounty_id": "186",
+      "constituency_name": "kajiado south",
+      "ward_name": "rombo"
+    },
+    {
+      "ward_id": "935",
+      "subcounty_id": "186",
+      "constituency_name": "kajiado south",
+      "ward_name": "kimana"
+    },
+    {
+      "ward_id": "936",
+      "subcounty_id": "187",
+      "constituency_name": "kipkelion east",
+      "ward_name": "londiani"
+    },
+    {
+      "ward_id": "937",
+      "subcounty_id": "187",
+      "constituency_name": "kipkelion east",
+      "ward_name": "kedowa\/kimugul"
+    },
+    {
+      "ward_id": "938",
+      "subcounty_id": "187",
+      "constituency_name": "kipkelion east",
+      "ward_name": "chepseon"
+    },
+    {
+      "ward_id": "939",
+      "subcounty_id": "187",
+      "constituency_name": "kipkelion east",
+      "ward_name": "tendeno\/sorget"
+    },
+    {
+      "ward_id": "940",
+      "subcounty_id": "188",
+      "constituency_name": "kipkelion west",
+      "ward_name": "kunyak"
+    },
+    {
+      "ward_id": "941",
+      "subcounty_id": "188",
+      "constituency_name": "kipkelion west",
+      "ward_name": "kamasian"
+    },
+    {
+      "ward_id": "942",
+      "subcounty_id": "188",
+      "constituency_name": "kipkelion west",
+      "ward_name": "kipkelion"
+    },
+    {
+      "ward_id": "943",
+      "subcounty_id": "188",
+      "constituency_name": "kipkelion west",
+      "ward_name": "chilchila"
+    },
+    {
+      "ward_id": "944",
+      "subcounty_id": "189",
+      "constituency_name": "ainamoi",
+      "ward_name": "kapsoit"
+    },
+    {
+      "ward_id": "945",
+      "subcounty_id": "189",
+      "constituency_name": "ainamoi",
+      "ward_name": "ainamoi"
+    },
+    {
+      "ward_id": "946",
+      "subcounty_id": "189",
+      "constituency_name": "ainamoi",
+      "ward_name": "kapkugerwet"
+    },
+    {
+      "ward_id": "947",
+      "subcounty_id": "189",
+      "constituency_name": "ainamoi",
+      "ward_name": "kipchebor"
+    },
+    {
+      "ward_id": "948",
+      "subcounty_id": "189",
+      "constituency_name": "ainamoi",
+      "ward_name": "kipchimchim"
+    },
+    {
+      "ward_id": "949",
+      "subcounty_id": "189",
+      "constituency_name": "ainamoi",
+      "ward_name": "kapsaos"
+    },
+    {
+      "ward_id": "950",
+      "subcounty_id": "190",
+      "constituency_name": "bureti",
+      "ward_name": "kisiara"
+    },
+    {
+      "ward_id": "951",
+      "subcounty_id": "190",
+      "constituency_name": "bureti",
+      "ward_name": "tebesonik"
+    },
+    {
+      "ward_id": "952",
+      "subcounty_id": "190",
+      "constituency_name": "bureti",
+      "ward_name": "cheboin"
+    },
+    {
+      "ward_id": "953",
+      "subcounty_id": "190",
+      "constituency_name": "bureti",
+      "ward_name": "chemosot"
+    },
+    {
+      "ward_id": "954",
+      "subcounty_id": "190",
+      "constituency_name": "bureti",
+      "ward_name": "litein"
+    },
+    {
+      "ward_id": "955",
+      "subcounty_id": "190",
+      "constituency_name": "bureti",
+      "ward_name": "cheplanget"
+    },
+    {
+      "ward_id": "956",
+      "subcounty_id": "190",
+      "constituency_name": "bureti",
+      "ward_name": "kapkatet"
+    },
+    {
+      "ward_id": "957",
+      "subcounty_id": "191",
+      "constituency_name": "belgut",
+      "ward_name": "waldai"
+    },
+    {
+      "ward_id": "958",
+      "subcounty_id": "191",
+      "constituency_name": "belgut",
+      "ward_name": "kabianga"
+    },
+    {
+      "ward_id": "959",
+      "subcounty_id": "191",
+      "constituency_name": "belgut",
+      "ward_name": "cheptororiet\/seretut"
+    },
+    {
+      "ward_id": "960",
+      "subcounty_id": "191",
+      "constituency_name": "belgut",
+      "ward_name": "chaik"
+    },
+    {
+      "ward_id": "961",
+      "subcounty_id": "191",
+      "constituency_name": "belgut",
+      "ward_name": "kapsuser"
+    },
+    {
+      "ward_id": "962",
+      "subcounty_id": "192",
+      "constituency_name": "sigowet\/soin",
+      "ward_name": "sigowet"
+    },
+    {
+      "ward_id": "963",
+      "subcounty_id": "192",
+      "constituency_name": "sigowet\/soin",
+      "ward_name": "kaplelartet"
+    },
+    {
+      "ward_id": "964",
+      "subcounty_id": "192",
+      "constituency_name": "sigowet\/soin",
+      "ward_name": "soliat"
+    },
+    {
+      "ward_id": "965",
+      "subcounty_id": "192",
+      "constituency_name": "sigowet\/soin",
+      "ward_name": "soin"
+    },
+    {
+      "ward_id": "966",
+      "subcounty_id": "193",
+      "constituency_name": "sotik",
+      "ward_name": "ndanai\/abosi"
+    },
+    {
+      "ward_id": "967",
+      "subcounty_id": "193",
+      "constituency_name": "sotik",
+      "ward_name": "chemagel"
+    },
+    {
+      "ward_id": "968",
+      "subcounty_id": "193",
+      "constituency_name": "sotik",
+      "ward_name": "kipsonoi"
+    },
+    {
+      "ward_id": "969",
+      "subcounty_id": "193",
+      "constituency_name": "sotik",
+      "ward_name": "kapletundo"
+    },
+    {
+      "ward_id": "970",
+      "subcounty_id": "193",
+      "constituency_name": "sotik",
+      "ward_name": "rongena\/manaret"
+    },
+    {
+      "ward_id": "971",
+      "subcounty_id": "194",
+      "constituency_name": "chepalungu",
+      "ward_name": "kong'asis"
+    },
+    {
+      "ward_id": "972",
+      "subcounty_id": "194",
+      "constituency_name": "chepalungu",
+      "ward_name": "nyangores"
+    },
+    {
+      "ward_id": "973",
+      "subcounty_id": "194",
+      "constituency_name": "chepalungu",
+      "ward_name": "sigor"
+    },
+    {
+      "ward_id": "974",
+      "subcounty_id": "194",
+      "constituency_name": "chepalungu",
+      "ward_name": "chebunyo"
+    },
+    {
+      "ward_id": "975",
+      "subcounty_id": "194",
+      "constituency_name": "chepalungu",
+      "ward_name": "siongiroi"
+    },
+    {
+      "ward_id": "976",
+      "subcounty_id": "195",
+      "constituency_name": "bomet east",
+      "ward_name": "merigi"
+    },
+    {
+      "ward_id": "977",
+      "subcounty_id": "195",
+      "constituency_name": "bomet east",
+      "ward_name": "kembu"
+    },
+    {
+      "ward_id": "978",
+      "subcounty_id": "195",
+      "constituency_name": "bomet east",
+      "ward_name": "longisa"
+    },
+    {
+      "ward_id": "979",
+      "subcounty_id": "195",
+      "constituency_name": "bomet east",
+      "ward_name": "kipreres"
+    },
+    {
+      "ward_id": "980",
+      "subcounty_id": "195",
+      "constituency_name": "bomet east",
+      "ward_name": "chemaner"
+    },
+    {
+      "ward_id": "981",
+      "subcounty_id": "196",
+      "constituency_name": "bomet central",
+      "ward_name": "silibwet township"
+    },
+    {
+      "ward_id": "982",
+      "subcounty_id": "196",
+      "constituency_name": "bomet central",
+      "ward_name": "ndaraweta"
+    },
+    {
+      "ward_id": "983",
+      "subcounty_id": "196",
+      "constituency_name": "bomet central",
+      "ward_name": "singorwet"
+    },
+    {
+      "ward_id": "984",
+      "subcounty_id": "196",
+      "constituency_name": "bomet central",
+      "ward_name": "chesoen"
+    },
+    {
+      "ward_id": "985",
+      "subcounty_id": "196",
+      "constituency_name": "bomet central",
+      "ward_name": "mutarakwa"
+    },
+    {
+      "ward_id": "986",
+      "subcounty_id": "197",
+      "constituency_name": "konoin",
+      "ward_name": "chepchabas"
+    },
+    {
+      "ward_id": "987",
+      "subcounty_id": "197",
+      "constituency_name": "konoin",
+      "ward_name": "kimulot"
+    },
+    {
+      "ward_id": "988",
+      "subcounty_id": "197",
+      "constituency_name": "konoin",
+      "ward_name": "mogogosiek"
+    },
+    {
+      "ward_id": "989",
+      "subcounty_id": "197",
+      "constituency_name": "konoin",
+      "ward_name": "boito"
+    },
+    {
+      "ward_id": "990",
+      "subcounty_id": "197",
+      "constituency_name": "konoin",
+      "ward_name": "embomos"
+    },
+    {
+      "ward_id": "991",
+      "subcounty_id": "198",
+      "constituency_name": "lugari",
+      "ward_name": "mautuma"
+    },
+    {
+      "ward_id": "992",
+      "subcounty_id": "198",
+      "constituency_name": "lugari",
+      "ward_name": "lugari"
+    },
+    {
+      "ward_id": "993",
+      "subcounty_id": "198",
+      "constituency_name": "lugari",
+      "ward_name": "lumakanda"
+    },
+    {
+      "ward_id": "994",
+      "subcounty_id": "198",
+      "constituency_name": "lugari",
+      "ward_name": "chekalini"
+    },
+    {
+      "ward_id": "995",
+      "subcounty_id": "198",
+      "constituency_name": "lugari",
+      "ward_name": "chevaywa"
+    },
+    {
+      "ward_id": "996",
+      "subcounty_id": "198",
+      "constituency_name": "lugari",
+      "ward_name": "lwandeti"
+    },
+    {
+      "ward_id": "997",
+      "subcounty_id": "199",
+      "constituency_name": "likuyani",
+      "ward_name": "likuyani"
+    },
+    {
+      "ward_id": "998",
+      "subcounty_id": "199",
+      "constituency_name": "likuyani",
+      "ward_name": "sango"
+    },
+    {
+      "ward_id": "999",
+      "subcounty_id": "199",
+      "constituency_name": "likuyani",
+      "ward_name": "kongoni"
+    },
+    {
+      "ward_id": "1000",
+      "subcounty_id": "199",
+      "constituency_name": "likuyani",
+      "ward_name": "nzoia"
+    },
+    {
+      "ward_id": "1001",
+      "subcounty_id": "199",
+      "constituency_name": "likuyani",
+      "ward_name": "sinoko"
+    },
+    {
+      "ward_id": "1002",
+      "subcounty_id": "200",
+      "constituency_name": "malava",
+      "ward_name": "west kabras"
+    },
+    {
+      "ward_id": "1003",
+      "subcounty_id": "200",
+      "constituency_name": "malava",
+      "ward_name": "chemuche"
+    },
+    {
+      "ward_id": "1004",
+      "subcounty_id": "200",
+      "constituency_name": "malava",
+      "ward_name": "east kabras"
+    },
+    {
+      "ward_id": "1005",
+      "subcounty_id": "200",
+      "constituency_name": "malava",
+      "ward_name": "butali\/chegulo"
+    },
+    {
+      "ward_id": "1006",
+      "subcounty_id": "200",
+      "constituency_name": "malava",
+      "ward_name": "manda-shivanga"
+    },
+    {
+      "ward_id": "1007",
+      "subcounty_id": "200",
+      "constituency_name": "malava",
+      "ward_name": "shirugu-mugai"
+    },
+    {
+      "ward_id": "1008",
+      "subcounty_id": "200",
+      "constituency_name": "malava",
+      "ward_name": "south kabras"
+    },
+    {
+      "ward_id": "1009",
+      "subcounty_id": "201",
+      "constituency_name": "lurambi",
+      "ward_name": "butsotso east"
+    },
+    {
+      "ward_id": "1010",
+      "subcounty_id": "201",
+      "constituency_name": "lurambi",
+      "ward_name": "butsotso south"
+    },
+    {
+      "ward_id": "1011",
+      "subcounty_id": "201",
+      "constituency_name": "lurambi",
+      "ward_name": "butsotso central"
+    },
+    {
+      "ward_id": "1012",
+      "subcounty_id": "201",
+      "constituency_name": "lurambi",
+      "ward_name": "sheywe"
+    },
+    {
+      "ward_id": "1013",
+      "subcounty_id": "201",
+      "constituency_name": "lurambi",
+      "ward_name": "mahiakalo"
+    },
+    {
+      "ward_id": "1014",
+      "subcounty_id": "201",
+      "constituency_name": "lurambi",
+      "ward_name": "shirere"
+    },
+    {
+      "ward_id": "1015",
+      "subcounty_id": "202",
+      "constituency_name": "navakholo",
+      "ward_name": "ingostse-mathia"
+    },
+    {
+      "ward_id": "1016",
+      "subcounty_id": "202",
+      "constituency_name": "navakholo",
+      "ward_name": "shinoyi-shikomari-"
+    },
+    {
+      "ward_id": "1017",
+      "subcounty_id": "202",
+      "constituency_name": "navakholo",
+      "ward_name": "bunyala west"
+    },
+    {
+      "ward_id": "1018",
+      "subcounty_id": "202",
+      "constituency_name": "navakholo",
+      "ward_name": "bunyala east"
+    },
+    {
+      "ward_id": "1019",
+      "subcounty_id": "202",
+      "constituency_name": "navakholo",
+      "ward_name": "bunyala central"
+    },
+    {
+      "ward_id": "1020",
+      "subcounty_id": "204",
+      "constituency_name": "mumias west",
+      "ward_name": "mumias central"
+    },
+    {
+      "ward_id": "1021",
+      "subcounty_id": "204",
+      "constituency_name": "mumias west",
+      "ward_name": "mumias north"
+    },
+    {
+      "ward_id": "1022",
+      "subcounty_id": "204",
+      "constituency_name": "mumias west",
+      "ward_name": "etenje"
+    },
+    {
+      "ward_id": "1023",
+      "subcounty_id": "204",
+      "constituency_name": "mumias west",
+      "ward_name": "musanda"
+    },
+    {
+      "ward_id": "1024",
+      "subcounty_id": "0",
+      "constituency_name": "mumias east",
+      "ward_name": "lubinu\/lusheya"
+    },
+    {
+      "ward_id": "1025",
+      "subcounty_id": "0",
+      "constituency_name": "mumias east",
+      "ward_name": "isongo\/makunga\/malaha"
+    },
+    {
+      "ward_id": "1026",
+      "subcounty_id": "0",
+      "constituency_name": "mumias east",
+      "ward_name": "east wanga"
+    },
+    {
+      "ward_id": "1027",
+      "subcounty_id": "205",
+      "constituency_name": "matungu",
+      "ward_name": "koyonzo"
+    },
+    {
+      "ward_id": "1028",
+      "subcounty_id": "205",
+      "constituency_name": "matungu",
+      "ward_name": "kholera"
+    },
+    {
+      "ward_id": "1029",
+      "subcounty_id": "205",
+      "constituency_name": "matungu",
+      "ward_name": "khalaba"
+    },
+    {
+      "ward_id": "1030",
+      "subcounty_id": "205",
+      "constituency_name": "matungu",
+      "ward_name": "mayoni"
+    },
+    {
+      "ward_id": "1031",
+      "subcounty_id": "205",
+      "constituency_name": "matungu",
+      "ward_name": "namamali"
+    },
+    {
+      "ward_id": "1032",
+      "subcounty_id": "206",
+      "constituency_name": "butere",
+      "ward_name": "marama west"
+    },
+    {
+      "ward_id": "1033",
+      "subcounty_id": "206",
+      "constituency_name": "butere",
+      "ward_name": "marama central"
+    },
+    {
+      "ward_id": "1034",
+      "subcounty_id": "206",
+      "constituency_name": "butere",
+      "ward_name": "marenyo - shianda"
+    },
+    {
+      "ward_id": "1035",
+      "subcounty_id": "206",
+      "constituency_name": "butere",
+      "ward_name": "marama north"
+    },
+    {
+      "ward_id": "1036",
+      "subcounty_id": "206",
+      "constituency_name": "butere",
+      "ward_name": "marama south"
+    },
+    {
+      "ward_id": "1037",
+      "subcounty_id": "207",
+      "constituency_name": "khwisero",
+      "ward_name": "kisa north"
+    },
+    {
+      "ward_id": "1038",
+      "subcounty_id": "207",
+      "constituency_name": "khwisero",
+      "ward_name": "kisa east"
+    },
+    {
+      "ward_id": "1039",
+      "subcounty_id": "207",
+      "constituency_name": "khwisero",
+      "ward_name": "kisa west"
+    },
+    {
+      "ward_id": "1040",
+      "subcounty_id": "207",
+      "constituency_name": "khwisero",
+      "ward_name": "kisa central"
+    },
+    {
+      "ward_id": "1041",
+      "subcounty_id": "208",
+      "constituency_name": "shinyalu",
+      "ward_name": "isukha north"
+    },
+    {
+      "ward_id": "1042",
+      "subcounty_id": "208",
+      "constituency_name": "shinyalu",
+      "ward_name": "murhanda"
+    },
+    {
+      "ward_id": "1043",
+      "subcounty_id": "208",
+      "constituency_name": "shinyalu",
+      "ward_name": "isukha central"
+    },
+    {
+      "ward_id": "1044",
+      "subcounty_id": "208",
+      "constituency_name": "shinyalu",
+      "ward_name": "isukha south"
+    },
+    {
+      "ward_id": "1045",
+      "subcounty_id": "208",
+      "constituency_name": "shinyalu",
+      "ward_name": "isukha east"
+    },
+    {
+      "ward_id": "1046",
+      "subcounty_id": "208",
+      "constituency_name": "shinyalu",
+      "ward_name": "isukha west"
+    },
+    {
+      "ward_id": "1047",
+      "subcounty_id": "209",
+      "constituency_name": "ikolomani",
+      "ward_name": "idakho south"
+    },
+    {
+      "ward_id": "1048",
+      "subcounty_id": "209",
+      "constituency_name": "ikolomani",
+      "ward_name": "idakho east"
+    },
+    {
+      "ward_id": "1049",
+      "subcounty_id": "209",
+      "constituency_name": "ikolomani",
+      "ward_name": "idakho north"
+    },
+    {
+      "ward_id": "1050",
+      "subcounty_id": "209",
+      "constituency_name": "ikolomani",
+      "ward_name": "idakho central"
+    },
+    {
+      "ward_id": "1051",
+      "subcounty_id": "210",
+      "constituency_name": "vihiga",
+      "ward_name": "lugaga-wamuluma"
+    },
+    {
+      "ward_id": "1052",
+      "subcounty_id": "210",
+      "constituency_name": "vihiga",
+      "ward_name": "south maragoli"
+    },
+    {
+      "ward_id": "1053",
+      "subcounty_id": "210",
+      "constituency_name": "vihiga",
+      "ward_name": "central maragoli"
+    },
+    {
+      "ward_id": "1054",
+      "subcounty_id": "210",
+      "constituency_name": "vihiga",
+      "ward_name": "mungoma"
+    },
+    {
+      "ward_id": "1055",
+      "subcounty_id": "211",
+      "constituency_name": "sabatia",
+      "ward_name": "lyaduywa\/izava"
+    },
+    {
+      "ward_id": "1056",
+      "subcounty_id": "211",
+      "constituency_name": "sabatia",
+      "ward_name": "west sabatia"
+    },
+    {
+      "ward_id": "1057",
+      "subcounty_id": "211",
+      "constituency_name": "sabatia",
+      "ward_name": "chavakali"
+    },
+    {
+      "ward_id": "1058",
+      "subcounty_id": "211",
+      "constituency_name": "sabatia",
+      "ward_name": "north maragoli"
+    },
+    {
+      "ward_id": "1059",
+      "subcounty_id": "211",
+      "constituency_name": "sabatia",
+      "ward_name": "wodanga"
+    },
+    {
+      "ward_id": "1060",
+      "subcounty_id": "211",
+      "constituency_name": "sabatia",
+      "ward_name": "busali"
+    },
+    {
+      "ward_id": "1061",
+      "subcounty_id": "212",
+      "constituency_name": "hamisi",
+      "ward_name": "shiru"
+    },
+    {
+      "ward_id": "1062",
+      "subcounty_id": "212",
+      "constituency_name": "hamisi",
+      "ward_name": "muhudu"
+    },
+    {
+      "ward_id": "1063",
+      "subcounty_id": "212",
+      "constituency_name": "hamisi",
+      "ward_name": "shamakhokho"
+    },
+    {
+      "ward_id": "1064",
+      "subcounty_id": "212",
+      "constituency_name": "hamisi",
+      "ward_name": "gisambai"
+    },
+    {
+      "ward_id": "1065",
+      "subcounty_id": "212",
+      "constituency_name": "hamisi",
+      "ward_name": "banja"
+    },
+    {
+      "ward_id": "1066",
+      "subcounty_id": "212",
+      "constituency_name": "hamisi",
+      "ward_name": "tambua"
+    },
+    {
+      "ward_id": "1067",
+      "subcounty_id": "212",
+      "constituency_name": "hamisi",
+      "ward_name": "jepkoyai"
+    },
+    {
+      "ward_id": "1068",
+      "subcounty_id": "213",
+      "constituency_name": "luanda",
+      "ward_name": "luanda township"
+    },
+    {
+      "ward_id": "1069",
+      "subcounty_id": "213",
+      "constituency_name": "luanda",
+      "ward_name": "wemilabi"
+    },
+    {
+      "ward_id": "1070",
+      "subcounty_id": "213",
+      "constituency_name": "luanda",
+      "ward_name": "mwibona"
+    },
+    {
+      "ward_id": "1071",
+      "subcounty_id": "213",
+      "constituency_name": "luanda",
+      "ward_name": "luanda south"
+    },
+    {
+      "ward_id": "1072",
+      "subcounty_id": "213",
+      "constituency_name": "luanda",
+      "ward_name": "emabungo"
+    },
+    {
+      "ward_id": "1073",
+      "subcounty_id": "214",
+      "constituency_name": "emuhaya",
+      "ward_name": "north east bunyore"
+    },
+    {
+      "ward_id": "1074",
+      "subcounty_id": "214",
+      "constituency_name": "emuhaya",
+      "ward_name": "central bunyore"
+    },
+    {
+      "ward_id": "1075",
+      "subcounty_id": "214",
+      "constituency_name": "emuhaya",
+      "ward_name": "west bunyore"
+    },
+    {
+      "ward_id": "1076",
+      "subcounty_id": "215",
+      "constituency_name": "mt.elgon",
+      "ward_name": "cheptais"
+    },
+    {
+      "ward_id": "1077",
+      "subcounty_id": "215",
+      "constituency_name": "mt.elgon",
+      "ward_name": "chesikaki"
+    },
+    {
+      "ward_id": "1078",
+      "subcounty_id": "215",
+      "constituency_name": "mt.elgon",
+      "ward_name": "chepyuk"
+    },
+    {
+      "ward_id": "1079",
+      "subcounty_id": "215",
+      "constituency_name": "mt.elgon",
+      "ward_name": "kapkateny"
+    },
+    {
+      "ward_id": "1080",
+      "subcounty_id": "215",
+      "constituency_name": "mt.elgon",
+      "ward_name": "kaptama"
+    },
+    {
+      "ward_id": "1081",
+      "subcounty_id": "215",
+      "constituency_name": "mt.elgon",
+      "ward_name": "elgon"
+    },
+    {
+      "ward_id": "1082",
+      "subcounty_id": "216",
+      "constituency_name": "sirisia",
+      "ward_name": "namwela"
+    },
+    {
+      "ward_id": "1083",
+      "subcounty_id": "216",
+      "constituency_name": "sirisia",
+      "ward_name": "malakisi\/south kulisiru"
+    },
+    {
+      "ward_id": "1084",
+      "subcounty_id": "216",
+      "constituency_name": "sirisia",
+      "ward_name": "lwandanyi"
+    },
+    {
+      "ward_id": "1085",
+      "subcounty_id": "217",
+      "constituency_name": "kabuchai",
+      "ward_name": "kabuchai\/chwele"
+    },
+    {
+      "ward_id": "1086",
+      "subcounty_id": "217",
+      "constituency_name": "kabuchai",
+      "ward_name": "west nalondo"
+    },
+    {
+      "ward_id": "1087",
+      "subcounty_id": "217",
+      "constituency_name": "kabuchai",
+      "ward_name": "bwake\/luuya"
+    },
+    {
+      "ward_id": "1088",
+      "subcounty_id": "217",
+      "constituency_name": "kabuchai",
+      "ward_name": "mukuyuni"
+    },
+    {
+      "ward_id": "1089",
+      "subcounty_id": "218",
+      "constituency_name": "bumula",
+      "ward_name": "south bukusu"
+    },
+    {
+      "ward_id": "1090",
+      "subcounty_id": "218",
+      "constituency_name": "bumula",
+      "ward_name": "bumula"
+    },
+    {
+      "ward_id": "1091",
+      "subcounty_id": "218",
+      "constituency_name": "bumula",
+      "ward_name": "khasoko"
+    },
+    {
+      "ward_id": "1092",
+      "subcounty_id": "218",
+      "constituency_name": "bumula",
+      "ward_name": "kabula"
+    },
+    {
+      "ward_id": "1093",
+      "subcounty_id": "218",
+      "constituency_name": "bumula",
+      "ward_name": "kimaeti"
+    },
+    {
+      "ward_id": "1094",
+      "subcounty_id": "218",
+      "constituency_name": "bumula",
+      "ward_name": "west bukusu"
+    },
+    {
+      "ward_id": "1095",
+      "subcounty_id": "218",
+      "constituency_name": "bumula",
+      "ward_name": "siboti"
+    },
+    {
+      "ward_id": "1096",
+      "subcounty_id": "0",
+      "constituency_name": "kanduyi",
+      "ward_name": "bukembe west"
+    },
+    {
+      "ward_id": "1097",
+      "subcounty_id": "0",
+      "constituency_name": "kanduyi",
+      "ward_name": "bukembe east"
+    },
+    {
+      "ward_id": "1098",
+      "subcounty_id": "0",
+      "constituency_name": "kanduyi",
+      "ward_name": "township"
+    },
+    {
+      "ward_id": "1099",
+      "subcounty_id": "0",
+      "constituency_name": "kanduyi",
+      "ward_name": "khalaba"
+    },
+    {
+      "ward_id": "1100",
+      "subcounty_id": "0",
+      "constituency_name": "kanduyi",
+      "ward_name": "musikoma"
+    },
+    {
+      "ward_id": "1101",
+      "subcounty_id": "0",
+      "constituency_name": "kanduyi",
+      "ward_name": "east sang'alo"
+    },
+    {
+      "ward_id": "1102",
+      "subcounty_id": "0",
+      "constituency_name": "kanduyi",
+      "ward_name": "marakaru\/tuuti"
+    },
+    {
+      "ward_id": "1103",
+      "subcounty_id": "0",
+      "constituency_name": "kanduyi",
+      "ward_name": "sang'alo west"
+    },
+    {
+      "ward_id": "1104",
+      "subcounty_id": "220",
+      "constituency_name": "webuye east",
+      "ward_name": "mihuu"
+    },
+    {
+      "ward_id": "1105",
+      "subcounty_id": "220",
+      "constituency_name": "webuye east",
+      "ward_name": "ndivisi"
+    },
+    {
+      "ward_id": "1106",
+      "subcounty_id": "220",
+      "constituency_name": "webuye east",
+      "ward_name": "maraka"
+    },
+    {
+      "ward_id": "1107",
+      "subcounty_id": "221",
+      "constituency_name": "webuye west",
+      "ward_name": "misikhu"
+    },
+    {
+      "ward_id": "1108",
+      "subcounty_id": "221",
+      "constituency_name": "webuye west",
+      "ward_name": "sitikho"
+    },
+    {
+      "ward_id": "1109",
+      "subcounty_id": "221",
+      "constituency_name": "webuye west",
+      "ward_name": "matulo"
+    },
+    {
+      "ward_id": "1110",
+      "subcounty_id": "221",
+      "constituency_name": "webuye west",
+      "ward_name": "bokoli"
+    },
+    {
+      "ward_id": "1111",
+      "subcounty_id": "222",
+      "constituency_name": "kimilili",
+      "ward_name": "kimilili"
+    },
+    {
+      "ward_id": "1112",
+      "subcounty_id": "222",
+      "constituency_name": "kimilili",
+      "ward_name": "kibingei"
+    },
+    {
+      "ward_id": "1113",
+      "subcounty_id": "222",
+      "constituency_name": "kimilili",
+      "ward_name": "maeni"
+    },
+    {
+      "ward_id": "1114",
+      "subcounty_id": "222",
+      "constituency_name": "kimilili",
+      "ward_name": "kamukuywa"
+    },
+    {
+      "ward_id": "1115",
+      "subcounty_id": "223",
+      "constituency_name": "tongaren",
+      "ward_name": "mbakalo"
+    },
+    {
+      "ward_id": "1116",
+      "subcounty_id": "223",
+      "constituency_name": "tongaren",
+      "ward_name": "naitiri\/kabuyefwe"
+    },
+    {
+      "ward_id": "1117",
+      "subcounty_id": "223",
+      "constituency_name": "tongaren",
+      "ward_name": "milima"
+    },
+    {
+      "ward_id": "1118",
+      "subcounty_id": "223",
+      "constituency_name": "tongaren",
+      "ward_name": "ndalu\/ tabani"
+    },
+    {
+      "ward_id": "1119",
+      "subcounty_id": "223",
+      "constituency_name": "tongaren",
+      "ward_name": "tongaren"
+    },
+    {
+      "ward_id": "1120",
+      "subcounty_id": "223",
+      "constituency_name": "tongaren",
+      "ward_name": "soysambu\/ mitua"
+    },
+    {
+      "ward_id": "1121",
+      "subcounty_id": "224",
+      "constituency_name": "teso north",
+      "ward_name": "malaba central"
+    },
+    {
+      "ward_id": "1122",
+      "subcounty_id": "224",
+      "constituency_name": "teso north",
+      "ward_name": "malaba north"
+    },
+    {
+      "ward_id": "1123",
+      "subcounty_id": "224",
+      "constituency_name": "teso north",
+      "ward_name": "ang'urai south"
+    },
+    {
+      "ward_id": "1124",
+      "subcounty_id": "224",
+      "constituency_name": "teso north",
+      "ward_name": "ang'urai north"
+    },
+    {
+      "ward_id": "1125",
+      "subcounty_id": "224",
+      "constituency_name": "teso north",
+      "ward_name": "ang'urai east"
+    },
+    {
+      "ward_id": "1126",
+      "subcounty_id": "224",
+      "constituency_name": "teso north",
+      "ward_name": "malaba south"
+    },
+    {
+      "ward_id": "1127",
+      "subcounty_id": "225",
+      "constituency_name": "teso south",
+      "ward_name": "ang'orom"
+    },
+    {
+      "ward_id": "1128",
+      "subcounty_id": "225",
+      "constituency_name": "teso south",
+      "ward_name": "chakol south"
+    },
+    {
+      "ward_id": "1129",
+      "subcounty_id": "225",
+      "constituency_name": "teso south",
+      "ward_name": "chakol north"
+    },
+    {
+      "ward_id": "1130",
+      "subcounty_id": "225",
+      "constituency_name": "teso south",
+      "ward_name": "amukura west"
+    },
+    {
+      "ward_id": "1131",
+      "subcounty_id": "225",
+      "constituency_name": "teso south",
+      "ward_name": "amukura east"
+    },
+    {
+      "ward_id": "1132",
+      "subcounty_id": "225",
+      "constituency_name": "teso south",
+      "ward_name": "amukura central"
+    },
+    {
+      "ward_id": "1133",
+      "subcounty_id": "226",
+      "constituency_name": "nambale",
+      "ward_name": "nambale township"
+    },
+    {
+      "ward_id": "1134",
+      "subcounty_id": "226",
+      "constituency_name": "nambale",
+      "ward_name": "bukhayo north\/waltsi"
+    },
+    {
+      "ward_id": "1135",
+      "subcounty_id": "226",
+      "constituency_name": "nambale",
+      "ward_name": "bukhayo east"
+    },
+    {
+      "ward_id": "1136",
+      "subcounty_id": "226",
+      "constituency_name": "nambale",
+      "ward_name": "bukhayo central"
+    },
+    {
+      "ward_id": "1137",
+      "subcounty_id": "227",
+      "constituency_name": "matayos",
+      "ward_name": "bukhayo west"
+    },
+    {
+      "ward_id": "1138",
+      "subcounty_id": "227",
+      "constituency_name": "matayos",
+      "ward_name": "mayenje"
+    },
+    {
+      "ward_id": "1139",
+      "subcounty_id": "227",
+      "constituency_name": "matayos",
+      "ward_name": "matayos south"
+    },
+    {
+      "ward_id": "1140",
+      "subcounty_id": "227",
+      "constituency_name": "matayos",
+      "ward_name": "busibwabo"
+    },
+    {
+      "ward_id": "1141",
+      "subcounty_id": "227",
+      "constituency_name": "matayos",
+      "ward_name": "burumba"
+    },
+    {
+      "ward_id": "1142",
+      "subcounty_id": "228",
+      "constituency_name": "butula",
+      "ward_name": "marachi west"
+    },
+    {
+      "ward_id": "1143",
+      "subcounty_id": "228",
+      "constituency_name": "butula",
+      "ward_name": "kingandole"
+    },
+    {
+      "ward_id": "1144",
+      "subcounty_id": "228",
+      "constituency_name": "butula",
+      "ward_name": "marachi central"
+    },
+    {
+      "ward_id": "1145",
+      "subcounty_id": "228",
+      "constituency_name": "butula",
+      "ward_name": "marachi east"
+    },
+    {
+      "ward_id": "1146",
+      "subcounty_id": "228",
+      "constituency_name": "butula",
+      "ward_name": "marachi north"
+    },
+    {
+      "ward_id": "1147",
+      "subcounty_id": "228",
+      "constituency_name": "butula",
+      "ward_name": "elugulu"
+    },
+    {
+      "ward_id": "1148",
+      "subcounty_id": "229",
+      "constituency_name": "funyula",
+      "ward_name": "namboboto nambuku"
+    },
+    {
+      "ward_id": "1149",
+      "subcounty_id": "229",
+      "constituency_name": "funyula",
+      "ward_name": "nangina"
+    },
+    {
+      "ward_id": "1150",
+      "subcounty_id": "229",
+      "constituency_name": "funyula",
+      "ward_name": "ageng'a nanguba"
+    },
+    {
+      "ward_id": "1151",
+      "subcounty_id": "229",
+      "constituency_name": "funyula",
+      "ward_name": "bwiri"
+    },
+    {
+      "ward_id": "1152",
+      "subcounty_id": "230",
+      "constituency_name": "budalangi",
+      "ward_name": "bunyala central"
+    },
+    {
+      "ward_id": "1153",
+      "subcounty_id": "230",
+      "constituency_name": "budalangi",
+      "ward_name": "bunyala north"
+    },
+    {
+      "ward_id": "1154",
+      "subcounty_id": "230",
+      "constituency_name": "budalangi",
+      "ward_name": "bunyala west"
+    },
+    {
+      "ward_id": "1155",
+      "subcounty_id": "230",
+      "constituency_name": "budalangi",
+      "ward_name": "bunyala south"
+    },
+    {
+      "ward_id": "1156",
+      "subcounty_id": "231",
+      "constituency_name": "ugenya",
+      "ward_name": "west ugenya"
+    },
+    {
+      "ward_id": "1157",
+      "subcounty_id": "231",
+      "constituency_name": "ugenya",
+      "ward_name": "ukwala"
+    },
+    {
+      "ward_id": "1158",
+      "subcounty_id": "231",
+      "constituency_name": "ugenya",
+      "ward_name": "north ugenya"
+    },
+    {
+      "ward_id": "1159",
+      "subcounty_id": "231",
+      "constituency_name": "ugenya",
+      "ward_name": "east ugenya"
+    },
+    {
+      "ward_id": "1160",
+      "subcounty_id": "0",
+      "constituency_name": "ugunja",
+      "ward_name": "sidindi"
+    },
+    {
+      "ward_id": "1161",
+      "subcounty_id": "0",
+      "constituency_name": "ugunja",
+      "ward_name": "sigomere"
+    },
+    {
+      "ward_id": "1162",
+      "subcounty_id": "0",
+      "constituency_name": "ugunja",
+      "ward_name": "ugunja"
+    },
+    {
+      "ward_id": "1163",
+      "subcounty_id": "232",
+      "constituency_name": "alego usonga",
+      "ward_name": "usonga"
+    },
+    {
+      "ward_id": "1164",
+      "subcounty_id": "232",
+      "constituency_name": "alego usonga",
+      "ward_name": "west alego"
+    },
+    {
+      "ward_id": "1165",
+      "subcounty_id": "232",
+      "constituency_name": "alego usonga",
+      "ward_name": "central alego"
+    },
+    {
+      "ward_id": "1166",
+      "subcounty_id": "232",
+      "constituency_name": "alego usonga",
+      "ward_name": "siaya township"
+    },
+    {
+      "ward_id": "1167",
+      "subcounty_id": "232",
+      "constituency_name": "alego usonga",
+      "ward_name": "north alego"
+    },
+    {
+      "ward_id": "1168",
+      "subcounty_id": "232",
+      "constituency_name": "alego usonga",
+      "ward_name": "south east alego"
+    },
+    {
+      "ward_id": "1169",
+      "subcounty_id": "233",
+      "constituency_name": "gem",
+      "ward_name": "north gem"
+    },
+    {
+      "ward_id": "1170",
+      "subcounty_id": "233",
+      "constituency_name": "gem",
+      "ward_name": "west gem"
+    },
+    {
+      "ward_id": "1171",
+      "subcounty_id": "233",
+      "constituency_name": "gem",
+      "ward_name": "central gem"
+    },
+    {
+      "ward_id": "1172",
+      "subcounty_id": "233",
+      "constituency_name": "gem",
+      "ward_name": "yala township"
+    },
+    {
+      "ward_id": "1173",
+      "subcounty_id": "233",
+      "constituency_name": "gem",
+      "ward_name": "east gem"
+    },
+    {
+      "ward_id": "1174",
+      "subcounty_id": "233",
+      "constituency_name": "gem",
+      "ward_name": "south gem"
+    },
+    {
+      "ward_id": "1175",
+      "subcounty_id": "234",
+      "constituency_name": "bondo",
+      "ward_name": "west yimbo"
+    },
+    {
+      "ward_id": "1176",
+      "subcounty_id": "234",
+      "constituency_name": "bondo",
+      "ward_name": "central sakwa"
+    },
+    {
+      "ward_id": "1177",
+      "subcounty_id": "234",
+      "constituency_name": "bondo",
+      "ward_name": "south sakwa"
+    },
+    {
+      "ward_id": "1178",
+      "subcounty_id": "234",
+      "constituency_name": "bondo",
+      "ward_name": "yimbo east"
+    },
+    {
+      "ward_id": "1179",
+      "subcounty_id": "234",
+      "constituency_name": "bondo",
+      "ward_name": "west sakwa"
+    },
+    {
+      "ward_id": "1180",
+      "subcounty_id": "234",
+      "constituency_name": "bondo",
+      "ward_name": "north sakwa"
+    },
+    {
+      "ward_id": "1181",
+      "subcounty_id": "0",
+      "constituency_name": "rarieda",
+      "ward_name": "east asembo"
+    },
+    {
+      "ward_id": "1182",
+      "subcounty_id": "0",
+      "constituency_name": "rarieda",
+      "ward_name": "west asembo"
+    },
+    {
+      "ward_id": "1183",
+      "subcounty_id": "0",
+      "constituency_name": "rarieda",
+      "ward_name": "north uyoma"
+    },
+    {
+      "ward_id": "1184",
+      "subcounty_id": "0",
+      "constituency_name": "rarieda",
+      "ward_name": "south uyoma"
+    },
+    {
+      "ward_id": "1185",
+      "subcounty_id": "0",
+      "constituency_name": "rarieda",
+      "ward_name": "west uyoma"
+    },
+    {
+      "ward_id": "1186",
+      "subcounty_id": "236",
+      "constituency_name": "kisumu east",
+      "ward_name": "kajulu"
+    },
+    {
+      "ward_id": "1187",
+      "subcounty_id": "236",
+      "constituency_name": "kisumu east",
+      "ward_name": "kolwa east"
+    },
+    {
+      "ward_id": "1188",
+      "subcounty_id": "236",
+      "constituency_name": "kisumu east",
+      "ward_name": "manyatta 'b'"
+    },
+    {
+      "ward_id": "1189",
+      "subcounty_id": "236",
+      "constituency_name": "kisumu east",
+      "ward_name": "nyalenda 'a'"
+    },
+    {
+      "ward_id": "1190",
+      "subcounty_id": "236",
+      "constituency_name": "kisumu east",
+      "ward_name": "kolwa central"
+    },
+    {
+      "ward_id": "1191",
+      "subcounty_id": "237",
+      "constituency_name": "kisumu west",
+      "ward_name": "south west kisumu"
+    },
+    {
+      "ward_id": "1192",
+      "subcounty_id": "237",
+      "constituency_name": "kisumu west",
+      "ward_name": "central kisumu"
+    },
+    {
+      "ward_id": "1193",
+      "subcounty_id": "237",
+      "constituency_name": "kisumu west",
+      "ward_name": "kisumu north"
+    },
+    {
+      "ward_id": "1194",
+      "subcounty_id": "237",
+      "constituency_name": "kisumu west",
+      "ward_name": "west kisumu"
+    },
+    {
+      "ward_id": "1195",
+      "subcounty_id": "237",
+      "constituency_name": "kisumu west",
+      "ward_name": "north west kisumu"
+    },
+    {
+      "ward_id": "1196",
+      "subcounty_id": "238",
+      "constituency_name": "kisumu central",
+      "ward_name": "railways"
+    },
+    {
+      "ward_id": "1197",
+      "subcounty_id": "238",
+      "constituency_name": "kisumu central",
+      "ward_name": "migosi"
+    },
+    {
+      "ward_id": "1198",
+      "subcounty_id": "238",
+      "constituency_name": "kisumu central",
+      "ward_name": "shaurimoyo kaloleni"
+    },
+    {
+      "ward_id": "1199",
+      "subcounty_id": "238",
+      "constituency_name": "kisumu central",
+      "ward_name": "market milimani"
+    },
+    {
+      "ward_id": "1200",
+      "subcounty_id": "238",
+      "constituency_name": "kisumu central",
+      "ward_name": "kondele"
+    },
+    {
+      "ward_id": "1201",
+      "subcounty_id": "238",
+      "constituency_name": "kisumu central",
+      "ward_name": "nyalenda b"
+    },
+    {
+      "ward_id": "1202",
+      "subcounty_id": "239",
+      "constituency_name": "seme",
+      "ward_name": "west seme"
+    },
+    {
+      "ward_id": "1203",
+      "subcounty_id": "239",
+      "constituency_name": "seme",
+      "ward_name": "central seme"
+    },
+    {
+      "ward_id": "1204",
+      "subcounty_id": "239",
+      "constituency_name": "seme",
+      "ward_name": "east seme"
+    },
+    {
+      "ward_id": "1205",
+      "subcounty_id": "239",
+      "constituency_name": "seme",
+      "ward_name": "north seme"
+    },
+    {
+      "ward_id": "1206",
+      "subcounty_id": "240",
+      "constituency_name": "nyando",
+      "ward_name": "east kano\/wawidhi"
+    },
+    {
+      "ward_id": "1207",
+      "subcounty_id": "240",
+      "constituency_name": "nyando",
+      "ward_name": "awasi\/onjiko"
+    },
+    {
+      "ward_id": "1208",
+      "subcounty_id": "240",
+      "constituency_name": "nyando",
+      "ward_name": "ahero"
+    },
+    {
+      "ward_id": "1209",
+      "subcounty_id": "240",
+      "constituency_name": "nyando",
+      "ward_name": "kabonyo\/kanyagwal"
+    },
+    {
+      "ward_id": "1210",
+      "subcounty_id": "240",
+      "constituency_name": "nyando",
+      "ward_name": "kobura"
+    },
+    {
+      "ward_id": "1211",
+      "subcounty_id": "241",
+      "constituency_name": "muhoroni",
+      "ward_name": "miwani"
+    },
+    {
+      "ward_id": "1212",
+      "subcounty_id": "241",
+      "constituency_name": "muhoroni",
+      "ward_name": "ombeyi"
+    },
+    {
+      "ward_id": "1213",
+      "subcounty_id": "241",
+      "constituency_name": "muhoroni",
+      "ward_name": "masogo\/nyang'oma"
+    },
+    {
+      "ward_id": "1214",
+      "subcounty_id": "241",
+      "constituency_name": "muhoroni",
+      "ward_name": "chemelil"
+    },
+    {
+      "ward_id": "1215",
+      "subcounty_id": "241",
+      "constituency_name": "muhoroni",
+      "ward_name": "muhoroni\/koru"
+    },
+    {
+      "ward_id": "1216",
+      "subcounty_id": "242",
+      "constituency_name": "nyakach",
+      "ward_name": "south west nyakach"
+    },
+    {
+      "ward_id": "1217",
+      "subcounty_id": "242",
+      "constituency_name": "nyakach",
+      "ward_name": "north nyakach"
+    },
+    {
+      "ward_id": "1218",
+      "subcounty_id": "242",
+      "constituency_name": "nyakach",
+      "ward_name": "central nyakach"
+    },
+    {
+      "ward_id": "1219",
+      "subcounty_id": "242",
+      "constituency_name": "nyakach",
+      "ward_name": "west nyakach"
+    },
+    {
+      "ward_id": "1220",
+      "subcounty_id": "242",
+      "constituency_name": "nyakach",
+      "ward_name": "south east nyakach"
+    },
+    {
+      "ward_id": "1221",
+      "subcounty_id": "243",
+      "constituency_name": "kasipul",
+      "ward_name": "west kasipul"
+    },
+    {
+      "ward_id": "1222",
+      "subcounty_id": "243",
+      "constituency_name": "kasipul",
+      "ward_name": "south kasipul"
+    },
+    {
+      "ward_id": "1223",
+      "subcounty_id": "243",
+      "constituency_name": "kasipul",
+      "ward_name": "central kasipul"
+    },
+    {
+      "ward_id": "1224",
+      "subcounty_id": "243",
+      "constituency_name": "kasipul",
+      "ward_name": "east kamagak"
+    },
+    {
+      "ward_id": "1225",
+      "subcounty_id": "243",
+      "constituency_name": "kasipul",
+      "ward_name": "west kamagak"
+    },
+    {
+      "ward_id": "1226",
+      "subcounty_id": "244",
+      "constituency_name": "kabondo kasipul",
+      "ward_name": "kabondo east"
+    },
+    {
+      "ward_id": "1227",
+      "subcounty_id": "244",
+      "constituency_name": "kabondo kasipul",
+      "ward_name": "kabondo west"
+    },
+    {
+      "ward_id": "1228",
+      "subcounty_id": "244",
+      "constituency_name": "kabondo kasipul",
+      "ward_name": "kokwanyo\/kakelo"
+    },
+    {
+      "ward_id": "1229",
+      "subcounty_id": "244",
+      "constituency_name": "kabondo kasipul",
+      "ward_name": "kojwach"
+    },
+    {
+      "ward_id": "1230",
+      "subcounty_id": "245",
+      "constituency_name": "karachuonyo",
+      "ward_name": "west karachuonyo"
+    },
+    {
+      "ward_id": "1231",
+      "subcounty_id": "245",
+      "constituency_name": "karachuonyo",
+      "ward_name": "north karachuonyo"
+    },
+    {
+      "ward_id": "1232",
+      "subcounty_id": "245",
+      "constituency_name": "karachuonyo",
+      "ward_name": "central"
+    },
+    {
+      "ward_id": "1233",
+      "subcounty_id": "245",
+      "constituency_name": "karachuonyo",
+      "ward_name": "kanyaluo"
+    },
+    {
+      "ward_id": "1234",
+      "subcounty_id": "245",
+      "constituency_name": "karachuonyo",
+      "ward_name": "kibiri"
+    },
+    {
+      "ward_id": "1235",
+      "subcounty_id": "245",
+      "constituency_name": "karachuonyo",
+      "ward_name": "wangchieng"
+    },
+    {
+      "ward_id": "1236",
+      "subcounty_id": "245",
+      "constituency_name": "karachuonyo",
+      "ward_name": "kendu bay town"
+    },
+    {
+      "ward_id": "1237",
+      "subcounty_id": "246",
+      "constituency_name": "rangwe",
+      "ward_name": "west gem"
+    },
+    {
+      "ward_id": "1238",
+      "subcounty_id": "246",
+      "constituency_name": "rangwe",
+      "ward_name": "east gem"
+    },
+    {
+      "ward_id": "1239",
+      "subcounty_id": "246",
+      "constituency_name": "rangwe",
+      "ward_name": "kagan"
+    },
+    {
+      "ward_id": "1240",
+      "subcounty_id": "246",
+      "constituency_name": "rangwe",
+      "ward_name": "kochia"
+    },
+    {
+      "ward_id": "1241",
+      "subcounty_id": "247",
+      "constituency_name": "homa bay town",
+      "ward_name": "homa bay central"
+    },
+    {
+      "ward_id": "1242",
+      "subcounty_id": "247",
+      "constituency_name": "homa bay town",
+      "ward_name": "homa bay arujo"
+    },
+    {
+      "ward_id": "1243",
+      "subcounty_id": "247",
+      "constituency_name": "homa bay town",
+      "ward_name": "homa bay west"
+    },
+    {
+      "ward_id": "1244",
+      "subcounty_id": "247",
+      "constituency_name": "homa bay town",
+      "ward_name": "homa bay east"
+    },
+    {
+      "ward_id": "1245",
+      "subcounty_id": "248",
+      "constituency_name": "ndhiwa",
+      "ward_name": "kwabwai"
+    },
+    {
+      "ward_id": "1246",
+      "subcounty_id": "248",
+      "constituency_name": "ndhiwa",
+      "ward_name": "kanyadoto"
+    },
+    {
+      "ward_id": "1247",
+      "subcounty_id": "248",
+      "constituency_name": "ndhiwa",
+      "ward_name": "kanyikela"
+    },
+    {
+      "ward_id": "1248",
+      "subcounty_id": "248",
+      "constituency_name": "ndhiwa",
+      "ward_name": "north kabuoch"
+    },
+    {
+      "ward_id": "1249",
+      "subcounty_id": "248",
+      "constituency_name": "ndhiwa",
+      "ward_name": "kabuoch south\/pala"
+    },
+    {
+      "ward_id": "1250",
+      "subcounty_id": "248",
+      "constituency_name": "ndhiwa",
+      "ward_name": "kanyamwa kologi"
+    },
+    {
+      "ward_id": "1251",
+      "subcounty_id": "248",
+      "constituency_name": "ndhiwa",
+      "ward_name": "kanyamwa kosewe"
+    },
+    {
+      "ward_id": "1252",
+      "subcounty_id": "249",
+      "constituency_name": "mbita",
+      "ward_name": "mfangano island"
+    },
+    {
+      "ward_id": "1253",
+      "subcounty_id": "249",
+      "constituency_name": "mbita",
+      "ward_name": "rusinga island"
+    },
+    {
+      "ward_id": "1254",
+      "subcounty_id": "249",
+      "constituency_name": "mbita",
+      "ward_name": "kasgunga"
+    },
+    {
+      "ward_id": "1255",
+      "subcounty_id": "249",
+      "constituency_name": "mbita",
+      "ward_name": "gembe"
+    },
+    {
+      "ward_id": "1256",
+      "subcounty_id": "249",
+      "constituency_name": "mbita",
+      "ward_name": "lambwe"
+    },
+    {
+      "ward_id": "1257",
+      "subcounty_id": "250",
+      "constituency_name": "suba",
+      "ward_name": "gwassi south"
+    },
+    {
+      "ward_id": "1258",
+      "subcounty_id": "250",
+      "constituency_name": "suba",
+      "ward_name": "gwassi north"
+    },
+    {
+      "ward_id": "1259",
+      "subcounty_id": "250",
+      "constituency_name": "suba",
+      "ward_name": "kaksingri west"
+    },
+    {
+      "ward_id": "1260",
+      "subcounty_id": "250",
+      "constituency_name": "suba",
+      "ward_name": "ruma kaksingri east"
+    },
+    {
+      "ward_id": "1261",
+      "subcounty_id": "251",
+      "constituency_name": "rongo",
+      "ward_name": "north kamagambo"
+    },
+    {
+      "ward_id": "1262",
+      "subcounty_id": "251",
+      "constituency_name": "rongo",
+      "ward_name": "central kamagambo"
+    },
+    {
+      "ward_id": "1263",
+      "subcounty_id": "251",
+      "constituency_name": "rongo",
+      "ward_name": "east kamagambo"
+    },
+    {
+      "ward_id": "1264",
+      "subcounty_id": "251",
+      "constituency_name": "rongo",
+      "ward_name": "south kamagambo"
+    },
+    {
+      "ward_id": "1265",
+      "subcounty_id": "252",
+      "constituency_name": "awendo",
+      "ward_name": "north sakwa"
+    },
+    {
+      "ward_id": "1266",
+      "subcounty_id": "252",
+      "constituency_name": "awendo",
+      "ward_name": "south sakwa"
+    },
+    {
+      "ward_id": "1267",
+      "subcounty_id": "252",
+      "constituency_name": "awendo",
+      "ward_name": "west sakwa"
+    },
+    {
+      "ward_id": "1268",
+      "subcounty_id": "252",
+      "constituency_name": "awendo",
+      "ward_name": "central sakwa"
+    },
+    {
+      "ward_id": "1269",
+      "subcounty_id": "253",
+      "constituency_name": "suna east",
+      "ward_name": "god jope"
+    },
+    {
+      "ward_id": "1270",
+      "subcounty_id": "253",
+      "constituency_name": "suna east",
+      "ward_name": "suna central"
+    },
+    {
+      "ward_id": "1271",
+      "subcounty_id": "253",
+      "constituency_name": "suna east",
+      "ward_name": "kakrao"
+    },
+    {
+      "ward_id": "1272",
+      "subcounty_id": "253",
+      "constituency_name": "suna east",
+      "ward_name": "kwa"
+    },
+    {
+      "ward_id": "1273",
+      "subcounty_id": "254",
+      "constituency_name": "suna west",
+      "ward_name": "wiga"
+    },
+    {
+      "ward_id": "1274",
+      "subcounty_id": "254",
+      "constituency_name": "suna west",
+      "ward_name": "wasweta ii"
+    },
+    {
+      "ward_id": "1275",
+      "subcounty_id": "254",
+      "constituency_name": "suna west",
+      "ward_name": "ragana-oruba"
+    },
+    {
+      "ward_id": "1276",
+      "subcounty_id": "254",
+      "constituency_name": "suna west",
+      "ward_name": "wasimbete"
+    },
+    {
+      "ward_id": "1277",
+      "subcounty_id": "255",
+      "constituency_name": "uriri",
+      "ward_name": "west kanyamkago"
+    },
+    {
+      "ward_id": "1278",
+      "subcounty_id": "255",
+      "constituency_name": "uriri",
+      "ward_name": "north kanyamkago"
+    },
+    {
+      "ward_id": "1279",
+      "subcounty_id": "255",
+      "constituency_name": "uriri",
+      "ward_name": "central kanyamkago"
+    },
+    {
+      "ward_id": "1280",
+      "subcounty_id": "255",
+      "constituency_name": "uriri",
+      "ward_name": "south kanyamkago"
+    },
+    {
+      "ward_id": "1281",
+      "subcounty_id": "255",
+      "constituency_name": "uriri",
+      "ward_name": "east kanyamkago"
+    },
+    {
+      "ward_id": "1282",
+      "subcounty_id": "256",
+      "constituency_name": "nyatike",
+      "ward_name": "kachien'g"
+    },
+    {
+      "ward_id": "1283",
+      "subcounty_id": "256",
+      "constituency_name": "nyatike",
+      "ward_name": "kanyasa"
+    },
+    {
+      "ward_id": "1284",
+      "subcounty_id": "256",
+      "constituency_name": "nyatike",
+      "ward_name": "north kadem"
+    },
+    {
+      "ward_id": "1285",
+      "subcounty_id": "256",
+      "constituency_name": "nyatike",
+      "ward_name": "macalder\/kanyarwanda"
+    },
+    {
+      "ward_id": "1286",
+      "subcounty_id": "256",
+      "constituency_name": "nyatike",
+      "ward_name": "kaler"
+    },
+    {
+      "ward_id": "1287",
+      "subcounty_id": "256",
+      "constituency_name": "nyatike",
+      "ward_name": "got kachola"
+    },
+    {
+      "ward_id": "1288",
+      "subcounty_id": "256",
+      "constituency_name": "nyatike",
+      "ward_name": "muhuru"
+    },
+    {
+      "ward_id": "1289",
+      "subcounty_id": "257",
+      "constituency_name": "kuria west",
+      "ward_name": "bukira east"
+    },
+    {
+      "ward_id": "1290",
+      "subcounty_id": "257",
+      "constituency_name": "kuria west",
+      "ward_name": "bukira centrl\/ikerege"
+    },
+    {
+      "ward_id": "1291",
+      "subcounty_id": "257",
+      "constituency_name": "kuria west",
+      "ward_name": "isibania"
+    },
+    {
+      "ward_id": "1292",
+      "subcounty_id": "257",
+      "constituency_name": "kuria west",
+      "ward_name": "makerero"
+    },
+    {
+      "ward_id": "1293",
+      "subcounty_id": "257",
+      "constituency_name": "kuria west",
+      "ward_name": "masaba"
+    },
+    {
+      "ward_id": "1294",
+      "subcounty_id": "257",
+      "constituency_name": "kuria west",
+      "ward_name": "tagare"
+    },
+    {
+      "ward_id": "1295",
+      "subcounty_id": "257",
+      "constituency_name": "kuria west",
+      "ward_name": "nyamosense\/komosoko"
+    },
+    {
+      "ward_id": "1296",
+      "subcounty_id": "258",
+      "constituency_name": "kuria east",
+      "ward_name": "gokeharaka\/getambwega"
+    },
+    {
+      "ward_id": "1297",
+      "subcounty_id": "258",
+      "constituency_name": "kuria east",
+      "ward_name": "ntimaru west"
+    },
+    {
+      "ward_id": "1298",
+      "subcounty_id": "258",
+      "constituency_name": "kuria east",
+      "ward_name": "ntimaru east"
+    },
+    {
+      "ward_id": "1299",
+      "subcounty_id": "258",
+      "constituency_name": "kuria east",
+      "ward_name": "nyabasi east"
+    },
+    {
+      "ward_id": "1300",
+      "subcounty_id": "258",
+      "constituency_name": "kuria east",
+      "ward_name": "nyabasi west"
+    },
+    {
+      "ward_id": "1301",
+      "subcounty_id": "259",
+      "constituency_name": "bonchari",
+      "ward_name": "bomariba"
+    },
+    {
+      "ward_id": "1302",
+      "subcounty_id": "259",
+      "constituency_name": "bonchari",
+      "ward_name": "bogiakumu"
+    },
+    {
+      "ward_id": "1303",
+      "subcounty_id": "259",
+      "constituency_name": "bonchari",
+      "ward_name": "bomorenda"
+    },
+    {
+      "ward_id": "1304",
+      "subcounty_id": "259",
+      "constituency_name": "bonchari",
+      "ward_name": "riana"
+    },
+    {
+      "ward_id": "1305",
+      "subcounty_id": "260",
+      "constituency_name": "south mugirango",
+      "ward_name": "tabaka"
+    },
+    {
+      "ward_id": "1306",
+      "subcounty_id": "260",
+      "constituency_name": "south mugirango",
+      "ward_name": "boikang'a"
+    },
+    {
+      "ward_id": "1307",
+      "subcounty_id": "260",
+      "constituency_name": "south mugirango",
+      "ward_name": "bogetenga"
+    },
+    {
+      "ward_id": "1308",
+      "subcounty_id": "260",
+      "constituency_name": "south mugirango",
+      "ward_name": "borabu \/ chitago"
+    },
+    {
+      "ward_id": "1309",
+      "subcounty_id": "260",
+      "constituency_name": "south mugirango",
+      "ward_name": "moticho"
+    },
+    {
+      "ward_id": "1310",
+      "subcounty_id": "260",
+      "constituency_name": "south mugirango",
+      "ward_name": "getenga"
+    },
+    {
+      "ward_id": "1311",
+      "subcounty_id": "0",
+      "constituency_name": "bomachoge borabu",
+      "ward_name": "bombaba borabu"
+    },
+    {
+      "ward_id": "1312",
+      "subcounty_id": "0",
+      "constituency_name": "bomachoge borabu",
+      "ward_name": "boochi borabu"
+    },
+    {
+      "ward_id": "1313",
+      "subcounty_id": "0",
+      "constituency_name": "bomachoge borabu",
+      "ward_name": "bokimonge"
+    },
+    {
+      "ward_id": "1314",
+      "subcounty_id": "0",
+      "constituency_name": "bomachoge borabu",
+      "ward_name": "magenche"
+    },
+    {
+      "ward_id": "1315",
+      "subcounty_id": "262",
+      "constituency_name": "bobasi",
+      "ward_name": "masige west"
+    },
+    {
+      "ward_id": "1316",
+      "subcounty_id": "262",
+      "constituency_name": "bobasi",
+      "ward_name": "masige east"
+    },
+    {
+      "ward_id": "1317",
+      "subcounty_id": "262",
+      "constituency_name": "bobasi",
+      "ward_name": "bobasi central"
+    },
+    {
+      "ward_id": "1318",
+      "subcounty_id": "262",
+      "constituency_name": "bobasi",
+      "ward_name": "nyacheki"
+    },
+    {
+      "ward_id": "1319",
+      "subcounty_id": "262",
+      "constituency_name": "bobasi",
+      "ward_name": "bobasi bogetaorio"
+    },
+    {
+      "ward_id": "1320",
+      "subcounty_id": "262",
+      "constituency_name": "bobasi",
+      "ward_name": "bobasi chache"
+    },
+    {
+      "ward_id": "1321",
+      "subcounty_id": "262",
+      "constituency_name": "bobasi",
+      "ward_name": "sameta\/mokwerero"
+    },
+    {
+      "ward_id": "1322",
+      "subcounty_id": "262",
+      "constituency_name": "bobasi",
+      "ward_name": "bobasi boitangare"
+    },
+    {
+      "ward_id": "1323",
+      "subcounty_id": "0",
+      "constituency_name": "bomachoge chache",
+      "ward_name": "majoge"
+    },
+    {
+      "ward_id": "1324",
+      "subcounty_id": "0",
+      "constituency_name": "bomachoge chache",
+      "ward_name": "boochi\/tendere"
+    },
+    {
+      "ward_id": "1325",
+      "subcounty_id": "0",
+      "constituency_name": "bomachoge chache",
+      "ward_name": "bosoti\/sengera"
+    },
+    {
+      "ward_id": "1326",
+      "subcounty_id": "264",
+      "constituency_name": "nyaribari masaba",
+      "ward_name": "ichuni"
+    },
+    {
+      "ward_id": "1327",
+      "subcounty_id": "264",
+      "constituency_name": "nyaribari masaba",
+      "ward_name": "nyamasibi"
+    },
+    {
+      "ward_id": "1328",
+      "subcounty_id": "264",
+      "constituency_name": "nyaribari masaba",
+      "ward_name": "masimba"
+    },
+    {
+      "ward_id": "1329",
+      "subcounty_id": "264",
+      "constituency_name": "nyaribari masaba",
+      "ward_name": "gesusu"
+    },
+    {
+      "ward_id": "1330",
+      "subcounty_id": "264",
+      "constituency_name": "nyaribari masaba",
+      "ward_name": "kiamokama"
+    },
+    {
+      "ward_id": "1331",
+      "subcounty_id": "265",
+      "constituency_name": "nyaribari chache",
+      "ward_name": "bobaracho"
+    },
+    {
+      "ward_id": "1332",
+      "subcounty_id": "265",
+      "constituency_name": "nyaribari chache",
+      "ward_name": "kisii central"
+    },
+    {
+      "ward_id": "1333",
+      "subcounty_id": "265",
+      "constituency_name": "nyaribari chache",
+      "ward_name": "keumbu"
+    },
+    {
+      "ward_id": "1334",
+      "subcounty_id": "265",
+      "constituency_name": "nyaribari chache",
+      "ward_name": "kiogoro"
+    },
+    {
+      "ward_id": "1335",
+      "subcounty_id": "265",
+      "constituency_name": "nyaribari chache",
+      "ward_name": "birongo"
+    },
+    {
+      "ward_id": "1336",
+      "subcounty_id": "265",
+      "constituency_name": "nyaribari chache",
+      "ward_name": "ibeno"
+    },
+    {
+      "ward_id": "1337",
+      "subcounty_id": "266",
+      "constituency_name": "kitutu chache north",
+      "ward_name": "monyerero"
+    },
+    {
+      "ward_id": "1338",
+      "subcounty_id": "266",
+      "constituency_name": "kitutu chache north",
+      "ward_name": "sensi"
+    },
+    {
+      "ward_id": "1339",
+      "subcounty_id": "266",
+      "constituency_name": "kitutu chache north",
+      "ward_name": "marani"
+    },
+    {
+      "ward_id": "1340",
+      "subcounty_id": "266",
+      "constituency_name": "kitutu chache north",
+      "ward_name": "kegogi"
+    },
+    {
+      "ward_id": "1341",
+      "subcounty_id": "267",
+      "constituency_name": "kitutu chache south",
+      "ward_name": "bogusero"
+    },
+    {
+      "ward_id": "1342",
+      "subcounty_id": "267",
+      "constituency_name": "kitutu chache south",
+      "ward_name": "bogeka"
+    },
+    {
+      "ward_id": "1343",
+      "subcounty_id": "267",
+      "constituency_name": "kitutu chache south",
+      "ward_name": "nyakoe"
+    },
+    {
+      "ward_id": "1344",
+      "subcounty_id": "267",
+      "constituency_name": "kitutu chache south",
+      "ward_name": "kitutu   central"
+    },
+    {
+      "ward_id": "1345",
+      "subcounty_id": "267",
+      "constituency_name": "kitutu chache south",
+      "ward_name": "nyatieko"
+    },
+    {
+      "ward_id": "1346",
+      "subcounty_id": "268",
+      "constituency_name": "kitutu masaba",
+      "ward_name": "rigoma"
+    },
+    {
+      "ward_id": "1347",
+      "subcounty_id": "268",
+      "constituency_name": "kitutu masaba",
+      "ward_name": "gachuba"
+    },
+    {
+      "ward_id": "1348",
+      "subcounty_id": "268",
+      "constituency_name": "kitutu masaba",
+      "ward_name": "kemera"
+    },
+    {
+      "ward_id": "1349",
+      "subcounty_id": "268",
+      "constituency_name": "kitutu masaba",
+      "ward_name": "magombo"
+    },
+    {
+      "ward_id": "1350",
+      "subcounty_id": "268",
+      "constituency_name": "kitutu masaba",
+      "ward_name": "manga"
+    },
+    {
+      "ward_id": "1351",
+      "subcounty_id": "268",
+      "constituency_name": "kitutu masaba",
+      "ward_name": "gesima"
+    },
+    {
+      "ward_id": "1352",
+      "subcounty_id": "269",
+      "constituency_name": "west mugirango",
+      "ward_name": "nyamaiya"
+    },
+    {
+      "ward_id": "1353",
+      "subcounty_id": "269",
+      "constituency_name": "west mugirango",
+      "ward_name": "bogichora"
+    },
+    {
+      "ward_id": "1354",
+      "subcounty_id": "269",
+      "constituency_name": "west mugirango",
+      "ward_name": "bosamaro"
+    },
+    {
+      "ward_id": "1355",
+      "subcounty_id": "269",
+      "constituency_name": "west mugirango",
+      "ward_name": "bonyamatuta"
+    },
+    {
+      "ward_id": "1356",
+      "subcounty_id": "269",
+      "constituency_name": "west mugirango",
+      "ward_name": "township"
+    },
+    {
+      "ward_id": "1357",
+      "subcounty_id": "270",
+      "constituency_name": "north mugirango",
+      "ward_name": "itibo"
+    },
+    {
+      "ward_id": "1358",
+      "subcounty_id": "270",
+      "constituency_name": "north mugirango",
+      "ward_name": "bomwagamo"
+    },
+    {
+      "ward_id": "1359",
+      "subcounty_id": "270",
+      "constituency_name": "north mugirango",
+      "ward_name": "bokeira"
+    },
+    {
+      "ward_id": "1360",
+      "subcounty_id": "270",
+      "constituency_name": "north mugirango",
+      "ward_name": "magwagwa"
+    },
+    {
+      "ward_id": "1361",
+      "subcounty_id": "270",
+      "constituency_name": "north mugirango",
+      "ward_name": "ekerenyo"
+    },
+    {
+      "ward_id": "1362",
+      "subcounty_id": "271",
+      "constituency_name": "borabu",
+      "ward_name": "mekenene"
+    },
+    {
+      "ward_id": "1363",
+      "subcounty_id": "271",
+      "constituency_name": "borabu",
+      "ward_name": "kiabonyoru"
+    },
+    {
+      "ward_id": "1364",
+      "subcounty_id": "271",
+      "constituency_name": "borabu",
+      "ward_name": "nyansiongo"
+    },
+    {
+      "ward_id": "1365",
+      "subcounty_id": "271",
+      "constituency_name": "borabu",
+      "ward_name": "esise"
+    },
+    {
+      "ward_id": "1366",
+      "subcounty_id": "272",
+      "constituency_name": "westlands",
+      "ward_name": "kitisuru"
+    },
+    {
+      "ward_id": "1367",
+      "subcounty_id": "272",
+      "constituency_name": "westlands",
+      "ward_name": "parklands\/highridge"
+    },
+    {
+      "ward_id": "1368",
+      "subcounty_id": "272",
+      "constituency_name": "westlands",
+      "ward_name": "karura"
+    },
+    {
+      "ward_id": "1369",
+      "subcounty_id": "272",
+      "constituency_name": "westlands",
+      "ward_name": "kangemi"
+    },
+    {
+      "ward_id": "1370",
+      "subcounty_id": "272",
+      "constituency_name": "westlands",
+      "ward_name": "mountain view"
+    },
+    {
+      "ward_id": "1371",
+      "subcounty_id": "273",
+      "constituency_name": "dagoretti north",
+      "ward_name": "kilimani"
+    },
+    {
+      "ward_id": "1372",
+      "subcounty_id": "273",
+      "constituency_name": "dagoretti north",
+      "ward_name": "kawangware"
+    },
+    {
+      "ward_id": "1373",
+      "subcounty_id": "273",
+      "constituency_name": "dagoretti north",
+      "ward_name": "gatina"
+    },
+    {
+      "ward_id": "1374",
+      "subcounty_id": "273",
+      "constituency_name": "dagoretti north",
+      "ward_name": "kileleshwa"
+    },
+    {
+      "ward_id": "1375",
+      "subcounty_id": "273",
+      "constituency_name": "dagoretti north",
+      "ward_name": "kabiro"
+    },
+    {
+      "ward_id": "1376",
+      "subcounty_id": "274",
+      "constituency_name": "dagoretti south",
+      "ward_name": "mutuini"
+    },
+    {
+      "ward_id": "1377",
+      "subcounty_id": "274",
+      "constituency_name": "dagoretti south",
+      "ward_name": "ngando"
+    },
+    {
+      "ward_id": "1378",
+      "subcounty_id": "274",
+      "constituency_name": "dagoretti south",
+      "ward_name": "riruta"
+    },
+    {
+      "ward_id": "1379",
+      "subcounty_id": "274",
+      "constituency_name": "dagoretti south",
+      "ward_name": "uthiru\/ruthimitu"
+    },
+    {
+      "ward_id": "1380",
+      "subcounty_id": "274",
+      "constituency_name": "dagoretti south",
+      "ward_name": "waithaka"
+    },
+    {
+      "ward_id": "1381",
+      "subcounty_id": "275",
+      "constituency_name": "langata",
+      "ward_name": "karen"
+    },
+    {
+      "ward_id": "1382",
+      "subcounty_id": "275",
+      "constituency_name": "langata",
+      "ward_name": "nairobi west"
+    },
+    {
+      "ward_id": "1383",
+      "subcounty_id": "275",
+      "constituency_name": "langata",
+      "ward_name": "mugumo-ini"
+    },
+    {
+      "ward_id": "1384",
+      "subcounty_id": "275",
+      "constituency_name": "langata",
+      "ward_name": "south-c"
+    },
+    {
+      "ward_id": "1385",
+      "subcounty_id": "275",
+      "constituency_name": "langata",
+      "ward_name": "nyayo highrise"
+    },
+    {
+      "ward_id": "1386",
+      "subcounty_id": "276",
+      "constituency_name": "kibra",
+      "ward_name": "laini saba"
+    },
+    {
+      "ward_id": "1387",
+      "subcounty_id": "276",
+      "constituency_name": "kibra",
+      "ward_name": "lindi"
+    },
+    {
+      "ward_id": "1388",
+      "subcounty_id": "276",
+      "constituency_name": "kibra",
+      "ward_name": "makina"
+    },
+    {
+      "ward_id": "1389",
+      "subcounty_id": "276",
+      "constituency_name": "kibra",
+      "ward_name": "woodley\/kenyatta golf"
+    },
+    {
+      "ward_id": "1390",
+      "subcounty_id": "276",
+      "constituency_name": "kibra",
+      "ward_name": "sarangombe"
+    },
+    {
+      "ward_id": "1391",
+      "subcounty_id": "277",
+      "constituency_name": "roysambu",
+      "ward_name": "githurai"
+    },
+    {
+      "ward_id": "1392",
+      "subcounty_id": "277",
+      "constituency_name": "roysambu",
+      "ward_name": "kahawa west"
+    },
+    {
+      "ward_id": "1393",
+      "subcounty_id": "277",
+      "constituency_name": "roysambu",
+      "ward_name": "zimmerman"
+    },
+    {
+      "ward_id": "1394",
+      "subcounty_id": "277",
+      "constituency_name": "roysambu",
+      "ward_name": "roysambu"
+    },
+    {
+      "ward_id": "1395",
+      "subcounty_id": "277",
+      "constituency_name": "roysambu",
+      "ward_name": "kahawa"
+    },
+    {
+      "ward_id": "1396",
+      "subcounty_id": "278",
+      "constituency_name": "kasarani",
+      "ward_name": "claycity"
+    },
+    {
+      "ward_id": "1397",
+      "subcounty_id": "278",
+      "constituency_name": "kasarani",
+      "ward_name": "mwiki"
+    },
+    {
+      "ward_id": "1398",
+      "subcounty_id": "278",
+      "constituency_name": "kasarani",
+      "ward_name": "kasarani"
+    },
+    {
+      "ward_id": "1399",
+      "subcounty_id": "278",
+      "constituency_name": "kasarani",
+      "ward_name": "njiru"
+    },
+    {
+      "ward_id": "1400",
+      "subcounty_id": "278",
+      "constituency_name": "kasarani",
+      "ward_name": "ruai"
+    },
+    {
+      "ward_id": "1401",
+      "subcounty_id": "279",
+      "constituency_name": "ruaraka",
+      "ward_name": "baba dogo"
+    },
+    {
+      "ward_id": "1402",
+      "subcounty_id": "279",
+      "constituency_name": "ruaraka",
+      "ward_name": "utalii"
+    },
+    {
+      "ward_id": "1403",
+      "subcounty_id": "279",
+      "constituency_name": "ruaraka",
+      "ward_name": "mathare north"
+    },
+    {
+      "ward_id": "1404",
+      "subcounty_id": "279",
+      "constituency_name": "ruaraka",
+      "ward_name": "lucky summer"
+    },
+    {
+      "ward_id": "1405",
+      "subcounty_id": "279",
+      "constituency_name": "ruaraka",
+      "ward_name": "korogocho"
+    },
+    {
+      "ward_id": "1406",
+      "subcounty_id": "280",
+      "constituency_name": "embakasi south",
+      "ward_name": "imara daima"
+    },
+    {
+      "ward_id": "1407",
+      "subcounty_id": "280",
+      "constituency_name": "embakasi south",
+      "ward_name": "kwa njenga"
+    },
+    {
+      "ward_id": "1408",
+      "subcounty_id": "280",
+      "constituency_name": "embakasi south",
+      "ward_name": "kwa reuben"
+    },
+    {
+      "ward_id": "1409",
+      "subcounty_id": "280",
+      "constituency_name": "embakasi south",
+      "ward_name": "pipeline"
+    },
+    {
+      "ward_id": "1410",
+      "subcounty_id": "280",
+      "constituency_name": "embakasi south",
+      "ward_name": "kware"
+    },
+    {
+      "ward_id": "1411",
+      "subcounty_id": "281",
+      "constituency_name": "embakasi north",
+      "ward_name": "kariobangi north"
+    },
+    {
+      "ward_id": "1412",
+      "subcounty_id": "281",
+      "constituency_name": "embakasi north",
+      "ward_name": "dandora area i"
+    },
+    {
+      "ward_id": "1413",
+      "subcounty_id": "281",
+      "constituency_name": "embakasi north",
+      "ward_name": "dandora area ii"
+    },
+    {
+      "ward_id": "1414",
+      "subcounty_id": "281",
+      "constituency_name": "embakasi north",
+      "ward_name": "dandora area iii"
+    },
+    {
+      "ward_id": "1415",
+      "subcounty_id": "281",
+      "constituency_name": "embakasi north",
+      "ward_name": "dandora area iv"
+    },
+    {
+      "ward_id": "1416",
+      "subcounty_id": "282",
+      "constituency_name": "embakasi central",
+      "ward_name": "kayole north"
+    },
+    {
+      "ward_id": "1417",
+      "subcounty_id": "282",
+      "constituency_name": "embakasi central",
+      "ward_name": "kayole central"
+    },
+    {
+      "ward_id": "1418",
+      "subcounty_id": "282",
+      "constituency_name": "embakasi central",
+      "ward_name": "kayole south"
+    },
+    {
+      "ward_id": "1419",
+      "subcounty_id": "282",
+      "constituency_name": "embakasi central",
+      "ward_name": "komarock"
+    },
+    {
+      "ward_id": "1420",
+      "subcounty_id": "282",
+      "constituency_name": "embakasi central",
+      "ward_name": "matopeni"
+    },
+    {
+      "ward_id": "1421",
+      "subcounty_id": "283",
+      "constituency_name": "embakasi east",
+      "ward_name": "upper savannah"
+    },
+    {
+      "ward_id": "1422",
+      "subcounty_id": "283",
+      "constituency_name": "embakasi east",
+      "ward_name": "lower savannah"
+    },
+    {
+      "ward_id": "1423",
+      "subcounty_id": "283",
+      "constituency_name": "embakasi east",
+      "ward_name": "embakasi"
+    },
+    {
+      "ward_id": "1424",
+      "subcounty_id": "283",
+      "constituency_name": "embakasi east",
+      "ward_name": "utawala"
+    },
+    {
+      "ward_id": "1425",
+      "subcounty_id": "283",
+      "constituency_name": "embakasi east",
+      "ward_name": "mihango"
+    },
+    {
+      "ward_id": "1426",
+      "subcounty_id": "284",
+      "constituency_name": "embakasi west",
+      "ward_name": "umoja i"
+    },
+    {
+      "ward_id": "1427",
+      "subcounty_id": "284",
+      "constituency_name": "embakasi west",
+      "ward_name": "umoja ii"
+    },
+    {
+      "ward_id": "1428",
+      "subcounty_id": "284",
+      "constituency_name": "embakasi west",
+      "ward_name": "mowlem"
+    },
+    {
+      "ward_id": "1429",
+      "subcounty_id": "284",
+      "constituency_name": "embakasi west",
+      "ward_name": "kariobangi south"
+    },
+    {
+      "ward_id": "1430",
+      "subcounty_id": "285",
+      "constituency_name": "makadara",
+      "ward_name": "makongeni"
+    },
+    {
+      "ward_id": "1431",
+      "subcounty_id": "285",
+      "constituency_name": "makadara",
+      "ward_name": "maringo\/hamza"
+    },
+    {
+      "ward_id": "1432",
+      "subcounty_id": "285",
+      "constituency_name": "makadara",
+      "ward_name": "harambee"
+    },
+    {
+      "ward_id": "1433",
+      "subcounty_id": "285",
+      "constituency_name": "makadara",
+      "ward_name": "viwandani"
+    },
+    {
+      "ward_id": "1434",
+      "subcounty_id": "286",
+      "constituency_name": "kamukunji",
+      "ward_name": "pumwani"
+    },
+    {
+      "ward_id": "1435",
+      "subcounty_id": "286",
+      "constituency_name": "kamukunji",
+      "ward_name": "eastleigh north"
+    },
+    {
+      "ward_id": "1436",
+      "subcounty_id": "286",
+      "constituency_name": "kamukunji",
+      "ward_name": "eastleigh south"
+    },
+    {
+      "ward_id": "1437",
+      "subcounty_id": "286",
+      "constituency_name": "kamukunji",
+      "ward_name": "airbase"
+    },
+    {
+      "ward_id": "1438",
+      "subcounty_id": "286",
+      "constituency_name": "kamukunji",
+      "ward_name": "california"
+    },
+    {
+      "ward_id": "1439",
+      "subcounty_id": "287",
+      "constituency_name": "starehe",
+      "ward_name": "nairobi central"
+    },
+    {
+      "ward_id": "1440",
+      "subcounty_id": "287",
+      "constituency_name": "starehe",
+      "ward_name": "ngara"
+    },
+    {
+      "ward_id": "1441",
+      "subcounty_id": "287",
+      "constituency_name": "starehe",
+      "ward_name": "ziwani\/kariokor"
+    },
+    {
+      "ward_id": "1442",
+      "subcounty_id": "287",
+      "constituency_name": "starehe",
+      "ward_name": "pangani"
+    },
+    {
+      "ward_id": "1443",
+      "subcounty_id": "287",
+      "constituency_name": "starehe",
+      "ward_name": "landimawe"
+    },
+    {
+      "ward_id": "1444",
+      "subcounty_id": "287",
+      "constituency_name": "starehe",
+      "ward_name": "nairobi south"
+    },
+    {
+      "ward_id": "1445",
+      "subcounty_id": "288",
+      "constituency_name": "mathare",
+      "ward_name": "hospital"
+    },
+    {
+      "ward_id": "1446",
+      "subcounty_id": "288",
+      "constituency_name": "mathare",
+      "ward_name": "mabatini"
+    },
+    {
+      "ward_id": "1447",
+      "subcounty_id": "288",
+      "constituency_name": "mathare",
+      "ward_name": "huruma"
+    },
+    {
+      "ward_id": "1448",
+      "subcounty_id": "288",
+      "constituency_name": "mathare",
+      "ward_name": "ngei"
+    },
+    {
+      "ward_id": "1449",
+      "subcounty_id": "288",
+      "constituency_name": "mathare",
+      "ward_name": "mlango kubwa"
+    },
+    {
+      "ward_id": "1450",
+      "subcounty_id": "288",
+      "constituency_name": "mathare",
+      "ward_name": "kiamaiko"
+    }
+  ]
+};
+
+export default kenyaAdministrativeData;
